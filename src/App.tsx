@@ -6,6 +6,7 @@ import Newsletter from './components/Newsletter';
 import Merch from './components/Merch';
 import Footer from './components/Footer';
 import Navbar from './components/Navbar';
+import NewsTicker from './components/NewsTicker';
 
 function App() {
   useEffect(() => {
@@ -38,6 +39,7 @@ function App() {
       <StorySubmission />
       <Newsletter />
       <Merch />
+      <NewsTicker />
       <Footer />
     </div>
   );
