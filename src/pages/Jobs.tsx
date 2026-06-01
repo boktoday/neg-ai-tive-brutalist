@@ -1,5 +1,6 @@
 import { ExternalLink, Briefcase, TrendingDown, DollarSign, Users, ArrowLeft, BarChart3, GraduationCap } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: Briefcase, value: "300M", label: "jobs globally exposed to AI automation (Goldman Sachs 2026)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -100,6 +101,11 @@ export default function Jobs() {
             who can work with AI and those who can't is growing at a 
             <strong className="text-black"> staggering pace</strong>.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/jobs-full.mp3" label="My Job Was Automated — Full Page Audio" />
+          </div>
         </div>
       </section>
 
