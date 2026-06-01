@@ -1,5 +1,6 @@
 import { ExternalLink, BookOpen, FileText, Scale, Palette, ArrowLeft, Image, Music } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: Scale, value: "4B+", label: "images at stake in Andersen v. Stability class action (2026)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -99,6 +100,11 @@ export default function Copyright() {
             <strong className="text-black">elevates human creativity</strong> or 
             <strong className="text-black">destroys the economic incentive to create</strong>.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/copyright-full.mp3" label="AI Made This Design — Full Page Audio" />
+          </div>
         </div>
       </section>
 

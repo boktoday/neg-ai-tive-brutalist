@@ -1,5 +1,6 @@
 import { ExternalLink, TrendingUp, Cpu, Heart, Smartphone, ArrowLeft, BarChart3, Footprints } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: Cpu, value: "$92.5B", label: "gamification market by 2030 — AI-powered (AmplifAI 2026)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -98,6 +99,11 @@ export default function Engagement() {
             <strong className="text-black"> turbocharged by AI</strong> — personalized to your specific 
             vulnerabilities at a scale and precision never before possible.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/engage-attach-full.mp3" label="Designed to Hook You — Full Page Audio" />
+          </div>
         </div>
       </section>
 

@@ -1,5 +1,6 @@
 import { ExternalLink, TrendingDown, DollarSign, BarChart3, Target, ArrowLeft, FlaskConical, Lightbulb } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: TrendingDown, value: "95%", label: "of genAI pilots delivered zero financial return (MIT 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -90,6 +91,11 @@ export default function ActualIntelligence() {
             <strong className="text-black">no clothes</strong>. The real intelligence gap isn't between 
             humans and AI — it's between the <strong className="text-black">hype and the reality</strong>.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/actual-intelligence-full.mp3" label="Actual Intelligence — Full Page Audio" />
+          </div>
         </div>
       </section>
 
