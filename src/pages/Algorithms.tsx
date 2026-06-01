@@ -2,15 +2,6 @@ import { ExternalLink, Filter, BarChart3, Heart, Globe, ArrowLeft, Users, Layers
 import Navbar from '../components/Navbar';
 import AudioPlayer from '../components/AudioPlayer';
 
-const audioTracks = [
-  { label: 'Introduction', file: 'algorithms-00-intro.mp3' },
-  { label: 'The Algorithmic Takeover', file: 'algorithms-01-takeover.mp3' },
-  { label: 'Filter Bubbles', file: 'algorithms-02-filter-bubbles.mp3' },
-  { label: 'Mental Health Toll', file: 'algorithms-03-mental-health.mp3' },
-  { label: 'Transparency Problem', file: 'algorithms-04-transparency.mp3' },
-  { label: 'Conclusion', file: 'algorithms-05-outro.mp3' },
-];
-
 const stats = [
   { icon: Filter, value: "23%", label: "of policy reports call for algorithmic transparency (PMC 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
   { icon: BarChart3, value: "75%", label: "of what you see is chosen by algorithm, not you (MIT Tech Review)", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
@@ -113,6 +104,11 @@ export default function Algorithms() {
             <strong className="text-black"> engagement is profit</strong>. Your mental health 
             is just a metric in its optimization function.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/algorithms-full.mp3" label="AI Algorithmic Angst — Full Page Audio" />
+          </div>
         </div>
       </section>
 
@@ -246,26 +242,6 @@ export default function Algorithms() {
           </div>
         </div>
       </section>
-
-      <footer className="border-t-2 border-black py-8 px-4">
-        <div className="max-w-4xl mx-auto text-center text-sm text-gray-600">
-          <p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
-          <p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
-        </div>
-      </footer>
-
-      {/* Floating audio player */}
-      <div className="fixed bottom-0 left-0 right-0 z-50 border-t-2 border-black bg-white">
-        <div className="max-w-6xl mx-auto px-4 py-2 flex items-center gap-4">
-          <div className="hidden sm:flex items-center gap-2 shrink-0">
-            <Headphones className="w-4 h-4" />
-            <span className="text-[10px] font-bold uppercase tracking-[0.15em]">Listen</span>
-          </div>
-          <div className="flex-1 max-w-xs">
-            <AudioPlayer tracks={audioTracks} />
-          </div>
-        </div>
-      </div>
     </div>
   );
 }
