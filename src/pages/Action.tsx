@@ -1,4 +1,4 @@
-import { ExternalLink, Globe, FileText, Shield, Flag, Users, AlertTriangle, ArrowLeft } from 'lucide-react';
+import { ExternalLink, Globe, FileText, Shield, Flag, Users, AlertTriangle, ArrowLeft, MapPin, Sun } from 'lucide-react';
 import Navbar from '../components/Navbar';
 
 const regions = [
@@ -73,6 +73,43 @@ const regions = [
       { title: 'Parliament of Australia — Petitions', url: 'https://www.aph.gov.au/Parliamentary_Business/Petitions', desc: 'Submit petitions to the Australian Parliament on AI regulation and digital rights.' },
       { title: 'CSIRO — AI Roadmap Consultation', url: 'https://www.csiro.au/en/research/technology-space/ai/AI-Roadmap', desc: 'Australia\'s national science agency. Public submissions on AI policy and research priorities.' },
       { title: 'Human Rights Commission — AI & Rights', url: 'https://humanrights.gov.au/our-work/rights-and-freedoms/artificial-intelligence', desc: 'Submit concerns about AI systems impacting human rights in Australia.' },
+    ],
+  },
+  {
+    id: 'south-pacific',
+    label: 'South Pacific',
+    icon: Sun,
+    items: [
+      { title: 'NZ Privacy Commissioner — AI Complaints', url: 'https://www.privacy.org.nz/your-rights/making-a-complaint/', desc: 'Report AI systems misusing personal data in New Zealand.' },
+      { title: 'NZ AI Forum — Policy Submissions', url: 'https://aiforum.org.nz/', desc: 'New Zealand\'s AI leadership group. Public policy submissions and industry guidelines.' },
+      { title: 'Pacific Islands Forum — Digital Strategy', url: 'https://www.forumsec.org/2050-strategy/', desc: 'Regional digital strategy for Pacific Island nations including AI governance.' },
+      { title: 'Fiji — Digital Transformation Office', url: 'https://dto.gov.fj/', desc: 'Fiji\'s digital governance body handling AI and data protection matters.' },
+    ],
+  },
+  {
+    id: 'south-america',
+    label: 'South America',
+    icon: MapPin,
+    items: [
+      { title: 'Brazil — ANPD Data Protection', url: 'https://www.gov.br/anpd/', desc: 'Brazilian Data Protection Authority. Submit complaints about AI data misuse.' },
+      { title: 'Argentina — AAIP Data Protection', url: 'https://www.argentina.gob.ar/aaip', desc: 'Agency for Access to Public Information. Handles AI-related privacy complaints.' },
+      { title: 'Chile — AI Policy & Consultation', url: 'https://www.minciencia.gob.cl/politica-nacional-inteligencia-artificial/', desc: 'Chile\'s National AI Policy. Public comments on AI regulation and ethics.' },
+      { title: 'Colombia — AI Ethics Guidelines', url: 'https://www.mintic.gov.co/', desc: 'Colombia\'s Ministry of ICT. AI ethics framework and public consultation.' },
+      { title: 'Derechos Digitales', url: 'https://www.derechosdigitales.org/', desc: 'Latin American digital rights organisation. Advocacy on AI and surveillance.' },
+    ],
+  },
+  {
+    id: 'middle-east-africa',
+    label: 'Middle East & Africa',
+    icon: Globe,
+    items: [
+      { title: 'South Africa — Information Regulator', url: 'https://www.justice.gov.za/inforeg/', desc: 'Report AI data protection violations in South Africa.' },
+      { title: 'Kenya — Data Protection Office', url: 'https://www.odpc.go.ke/', desc: 'Office of the Data Protection Commissioner. AI and data privacy complaints.' },
+      { title: 'Nigeria — NITDA AI Strategy', url: 'https://nitda.gov.ng/', desc: 'National Information Technology Development Agency. AI policy submissions.' },
+      { title: 'UAE — AI Ethics Guidelines', url: 'https://ai.gov.ae/', desc: 'UAE\'s Artificial Intelligence Office. Ethics guidelines and regulatory framework.' },
+      { title: 'Israel — Innovation Authority AI', url: 'https://innovationisrael.org.il/', desc: 'Israel Innovation Authority. AI regulation and ethics policy submissions.' },
+      { title: 'Smart Africa — Digital Governance', url: 'https://smartafrica.org/', desc: '30+ African nations alliance. AI governance framework for the continent.' },
+      { title: 'Paradigm Initiative', url: 'https://paradigmhq.org/', desc: 'Pan-African digital rights organisation. AI accountability and human rights.' },
     ],
   },
 ];
