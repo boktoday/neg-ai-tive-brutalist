@@ -1,5 +1,6 @@
-import { ExternalLink, DollarSign, Vote, UserX, ShieldOff, ArrowLeft, Phone, Building2 } from 'lucide-react';
+import { ExternalLink, DollarSign, Vote, UserX, ShieldOff, ArrowLeft, Phone, Building2, Headphones } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: DollarSign, value: "$40B", label: "projected annual AI fraud losses by 2027 (Deloitte)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -91,6 +92,11 @@ export default function Deepfakes() {
             <strong className="text-black"> seeing is no longer believing</strong> — and 
             the fraudsters are winning.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/deepfakes-full.mp3" label="Scammed by Deepfake — Full Page Audio" />
+          </div>
         </div>
       </section>
 
