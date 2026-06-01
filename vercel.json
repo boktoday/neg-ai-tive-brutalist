@@ -12,6 +12,7 @@
     { "source": "/engage-attach", "destination": "/index.html" },
     { "source": "/legal", "destination": "/index.html" },
     { "source": "/scorecard", "destination": "/index.html" },
-    { "source": "/screwed", "destination": "/index.html" }
+    { "source": "/screwed", "destination": "/index.html" },
+    { "source": "/action", "destination": "/index.html" }
   ]
 }

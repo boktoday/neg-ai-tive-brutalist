@@ -68,6 +68,9 @@ export default function Navbar() {
           <a href="/scorecard" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
             Scorecard
           </a>
+          <a href="/action" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
+            Act
+          </a>
           <a href="/screwed" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
             Quiz
           </a>
