@@ -13,6 +13,7 @@ import Copyright from './pages/Copyright.tsx';
 import Engagement from './pages/Engagement.tsx';
 import Legal from './pages/Legal.tsx';
 import Scorecard from './pages/Scorecard.tsx';
+import HowScrewed from './pages/HowScrewed.tsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -31,6 +32,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/engage-attach" element={<Engagement />} />
         <Route path="/legal" element={<Legal />} />
         <Route path="/scorecard" element={<Scorecard />} />
+        <Route path="/screwed" element={<HowScrewed />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
