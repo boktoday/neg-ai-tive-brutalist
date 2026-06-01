@@ -11,19 +11,19 @@ export default function Hero() {
 
       {/* Continents — pure CSS black shapes */}
       <div className="absolute inset-0 overflow-hidden pointer-events-none flex items-center justify-center">
-        <svg className="w-full h-full max-w-[900px] max-h-[500px] opacity-[0.06]" viewBox="0 0 900 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg className="w-full h-full max-w-[900px] max-h-[500px] opacity-[0.12]" viewBox="0 0 900 500" fill="black" xmlns="http://www.w3.org/2000/svg">
           {/* North America */}
-          <path d="M80 120 L120 100 L160 105 L200 90 L220 95 L240 110 L260 130 L270 160 L260 190 L240 210 L220 230 L200 240 L180 245 L160 240 L140 230 L130 210 L120 190 L100 170 L90 150 Z" stroke="black" strokeWidth="0.5" />
+          <path d="M80 120 L120 100 L160 105 L200 90 L220 95 L240 110 L260 130 L270 160 L260 190 L240 210 L220 230 L200 240 L180 245 L160 240 L140 230 L130 210 L120 190 L100 170 L90 150 Z" />
           {/* South America */}
-          <path d="M200 260 L220 255 L240 260 L250 280 L255 310 L250 340 L240 370 L230 390 L220 400 L210 395 L205 370 L200 340 L195 310 L195 280 Z" stroke="black" strokeWidth="0.5" />
+          <path d="M200 260 L220 255 L240 260 L250 280 L255 310 L250 340 L240 370 L230 390 L220 400 L210 395 L205 370 L200 340 L195 310 L195 280 Z" />
           {/* Europe */}
-          <path d="M380 90 L400 80 L420 85 L440 95 L450 110 L455 130 L450 150 L440 165 L420 170 L400 168 L390 160 L380 140 L375 120 Z" stroke="black" strokeWidth="0.5" />
+          <path d="M380 90 L400 80 L420 85 L440 95 L450 110 L455 130 L450 150 L440 165 L420 170 L400 168 L390 160 L380 140 L375 120 Z" />
           {/* Africa */}
-          <path d="M380 180 L400 175 L420 180 L430 200 L435 230 L430 260 L420 290 L410 310 L400 320 L390 315 L385 290 L380 260 L375 230 L375 200 Z" stroke="black" strokeWidth="0.5" />
+          <path d="M380 180 L400 175 L420 180 L430 200 L435 230 L430 260 L420 290 L410 310 L400 320 L390 315 L385 290 L380 260 L375 230 L375 200 Z" />
           {/* Asia */}
-          <path d="M460 85 L500 75 L540 80 L580 90 L620 100 L660 110 L680 130 L690 160 L685 190 L670 210 L650 220 L620 225 L590 220 L560 215 L530 210 L500 205 L480 195 L465 175 L460 150 L460 120 Z" stroke="black" strokeWidth="0.5" />
+          <path d="M460 85 L500 75 L540 80 L580 90 L620 100 L660 110 L680 130 L690 160 L685 190 L670 210 L650 220 L620 225 L590 220 L560 215 L530 210 L500 205 L480 195 L465 175 L460 150 L460 120 Z" />
           {/* Australia */}
-          <path d="M650 300 L680 290 L710 295 L730 310 L740 330 L730 350 L710 360 L690 365 L670 360 L655 345 L648 325 Z" stroke="black" strokeWidth="0.5" />
+          <path d="M650 300 L680 290 L710 295 L730 310 L740 330 L730 350 L710 360 L690 365 L670 360 L655 345 L648 325 Z" />
 
           {/* Data centre dots — pulsing nodes on each continent */}
           {[
@@ -44,10 +44,10 @@ export default function Hero() {
               key={i}
               cx={dot.cx}
               cy={dot.cy}
-              r="3"
+              r="4"
               fill="black"
               className="animate-ping"
-              style={{ animationDuration: `${2 + Math.random() * 3}s`, animationDelay: `${Math.random() * 2}s`, opacity: 0.7 }}
+              style={{ animationDuration: `${2 + Math.random() * 3}s`, animationDelay: `${Math.random() * 2}s`, opacity: 0.9 }}
             />
           ))}
         </svg>
