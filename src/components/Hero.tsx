@@ -7,14 +7,6 @@ export default function Hero() {
       {/* Full-height bold stripe on the left */}
       <div className="absolute top-0 left-0 w-2 h-full bg-black" />
 
-      {/* B&W World map background */}
-      <img
-        src="/designs/world-map-bw.png"
-        alt=""
-        className="absolute inset-0 w-full h-full object-contain opacity-[0.08] pointer-events-none select-none"
-        style={{ objectPosition: '50% 40%' }}
-      />
-
       {/* Large "NEG-AI-TIVE" as raw background watermark */}
       <div className="absolute top-8 left-8 text-[200px] md:text-[400px] font-black text-black/[0.03] leading-none pointer-events-none select-none">
         NEG-AI-TIVE
