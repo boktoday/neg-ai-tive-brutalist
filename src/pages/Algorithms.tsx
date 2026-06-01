@@ -1,5 +1,15 @@
-import { ExternalLink, Filter, BarChart3, Heart, Globe, ArrowLeft, Users, Layers } from 'lucide-react';
+import { ExternalLink, Filter, BarChart3, Heart, Globe, ArrowLeft, Users, Layers, Headphones } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
+
+const audioTracks = [
+  { label: 'Introduction', file: 'algorithms-00-intro.mp3' },
+  { label: 'The Algorithmic Takeover', file: 'algorithms-01-takeover.mp3' },
+  { label: 'Filter Bubbles', file: 'algorithms-02-filter-bubbles.mp3' },
+  { label: 'Mental Health Toll', file: 'algorithms-03-mental-health.mp3' },
+  { label: 'Transparency Problem', file: 'algorithms-04-transparency.mp3' },
+  { label: 'Conclusion', file: 'algorithms-05-outro.mp3' },
+];
 
 const stats = [
   { icon: Filter, value: "23%", label: "of policy reports call for algorithmic transparency (PMC 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -82,9 +92,15 @@ export default function Algorithms() {
 
       <section className="pt-32 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
-            <Filter className="w-4 h-4 text-red-400" />
-            <span className="text-black/60">Issue Brief</span>
+          <div className="flex items-center gap-2 mb-6">
+            <div className="flex items-center gap-2">
+              <Filter className="w-4 h-4" />
+              <span className="text-xs font-bold uppercase tracking-[0.2em] text-black/60">Issue Brief</span>
+            </div>
+            <div className="flex items-center gap-2 ml-auto">
+              <Headphones className="w-3 h-3 text-black/40" />
+              <span className="text-[10px] font-mono text-black/40">Listen</span>
+            </div>
           </div>
           <h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
             AI Algorithmic<br />
@@ -237,6 +253,19 @@ export default function Algorithms() {
           <p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
         </div>
       </footer>
+
+      {/* Floating audio player */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 border-t-2 border-black bg-white">
+        <div className="max-w-6xl mx-auto px-4 py-2 flex items-center gap-4">
+          <div className="hidden sm:flex items-center gap-2 shrink-0">
+            <Headphones className="w-4 h-4" />
+            <span className="text-[10px] font-bold uppercase tracking-[0.15em]">Listen</span>
+          </div>
+          <div className="flex-1 max-w-xs">
+            <AudioPlayer tracks={audioTracks} />
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
