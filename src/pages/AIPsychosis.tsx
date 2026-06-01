@@ -1,5 +1,6 @@
 import { ExternalLink, Brain, AlertTriangle, MessageCircle, UserX, ArrowLeft, Shield, Syringe } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: Brain, value: "94%", label: "of students say AI accuracy varies by subject (Duke 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -93,6 +94,11 @@ export default function AIPsychosis() {
             <strong className="text-black"> mental health advice, medical diagnoses, and life decisions</strong>.
             This isn't science fiction. It's your ChatGPT session.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/ai-psychosis-full.mp3" label="I Have AI Psychosis — Full Page Audio" />
+          </div>
         </div>
       </section>
 
