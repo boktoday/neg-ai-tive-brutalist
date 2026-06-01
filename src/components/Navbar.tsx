@@ -65,6 +65,9 @@ export default function Navbar() {
           <a href="/legal" className="text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black transition-colors no-underline">
             Legal
           </a>
+          <a href="/scorecard" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
+            Scorecard
+          </a>
         </div>
 
         {/* Hamburger (mobile) */}
