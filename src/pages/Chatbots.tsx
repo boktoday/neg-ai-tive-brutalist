@@ -1,5 +1,6 @@
 import { ExternalLink, Heart, Brain, Bell, Scale, ArrowLeft, MessageCircle, Users } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: MessageCircle, value: "64%", label: "of US teens have used AI chatbots (Pew Research 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -98,6 +99,11 @@ export default function Chatbots() {
             systems designed for engagement — not safety. And in too many cases, 
             <strong className="text-black"> the consequences have been fatal</strong>.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/chatbots-full.mp3" label="Chatbot Stole My Child — Full Page Audio" />
+          </div>
         </div>
       </section>
 
