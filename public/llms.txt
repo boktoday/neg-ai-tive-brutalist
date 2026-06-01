@@ -1,0 +1,36 @@
+﻿# NEG-AI-TIVE
+> A satirical monument to the negative impacts of AI, outdated, or just generally annoyed by artificial intelligence. Part awareness project, part merch store, part support group — entirely AI-generated.
+
+## About
+NEG-AI-TIVE is a satirical landing page exploring the real harms of AI through dark humour. Each issue brief is backed by validated research from academic institutions, government agencies, and news organisations.
+
+## Pages
+
+### Landing Page
+- **/** — Main landing page with merch store, victim stories, newsletter signup, and story submission form.
+
+### Issue Briefs (Research-Backed)
+
+- **/datacentres** — AI Data Centres: Energy consumption (1.5-2% of global electricity), water usage (40% in stressed areas, 700M+ litres/year), lack of community consultation. Sources: IEA, Bloomberg, UC Riverside, Consumer Reports, CSIRO.
+
+- **/deepfakes** — Deepfake Harms: Financial fraud ($40B projected by 2027, $1.1B US losses 2025), electoral disinformation (453 global incidents 2025), non-consensual deepfakes, detection impossibility (CSIRO: 0 of 16 detectors worked). Sources: FBI, Deloitte, CSIRO, Keepnet, NSW Parliament, ABC.
+
+- **/chatbots** — AI Chatbots & Children: Teen suicides linked to Character.AI (Sewell Setzer 14, Juliana Peralta 13, Natalie Rupnow 15), parasocial relationships (64% of teens use AI chatbots, 1 in 5 students had AI romantic relationships), regulatory response (AU eSafety $49.5M fines). Sources: Pew, Stanford, Drexel, APA, eSafety Commissioner.
+
+- **/jobs** — Job Automation: 300M jobs globally exposed (Goldman Sachs), 40% of hours automatable (McKinsey), 16% employment decline for young workers in AI-exposed roles (Stanford), AU needs 161K AI workers by 2030 (CSIRO). Sources: Goldman Sachs, McKinsey, OECD, CSIRO, MIT, Parliament of Australia.
+
+- **/ai-psychosis** — AI Hallucinations & Psychosis: Hallucination structurally unfixable (OpenAI/Microsoft research), sycophancy (all LLMs agree with wrong users), therapy bots causing harm (Nature study, Sophie Rottenberg suicide). Sources: Nature, The Guardian, King's College London, Stanford HAI, Duke University.
+
+- **/algorithms** — Algorithmic Bias & Mental Health: Instagram algorithmic feed caused measurable mental health decline (CESifo 2026), filter bubbles reinforce ideological homogeneity, 5.2hrs/day algorithmically curated for teens. Sources: Georgia Tech, NIH, CESifo, PMC, ACM, ACP.
+
+- **/actual-intelligence** — AI Hype vs Reality: 95% of genAI pilots delivered zero return (MIT 2025), 30% abandoned after POC (Gartner), $1.5T spent, 42% of companies abandoned AI initiatives (S&P Global). Sources: MIT, Gartner, S&P Global, IBM, McKinsey, Forbes.
+
+- **/copyright** — AI Training Data & Copyright: 50+ active lawsuits globally, NYT v. OpenAI (decision 2027), Getty v. Stability AI (UK model weights ruling), Andersen class action (4B images). Sources: Manuscript Report, LawFold, Kluwer, GEMA, Disney/Universal.
+
+- **/engage-attach** — AI Engagement & Attachment Design: $92.5B gamification market, personalized dark patterns (AI shows different interfaces to different users), variable reward schedules creating dopamine loops, 47% more interaction from AI-powered gamification. Sources: Think Design, IRIHS, Stanford HAI, AmplifAI, UX Magazine.
+
+## Merch Store
+Physical products (t-shirts, hoodies, mugs) available via Printful. Designs feature satirical AI-themed slogans. Visit the landing page for store links.
+
+## Data & Attribution
+All issue briefs cite primary sources. Research landscape evolves rapidly — verify sources directly. Last updated: June 2026.

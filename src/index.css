@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased bg-white text-black;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  }
+}
+
+/* Brutalist scrollbar */
+::-webkit-scrollbar { width: 12px; }
+::-webkit-scrollbar-track { background: white; }
+::-webkit-scrollbar-thumb { background: black; border: 2px solid white; }
+::-webkit-scrollbar-thumb:hover { background: #333; }
+
+/* Selection */
+::selection { background: black; color: white; }
