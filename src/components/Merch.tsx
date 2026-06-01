@@ -29,7 +29,7 @@ export default function Merch() {
             <span className="text-xs font-bold uppercase tracking-[0.25em] text-black/60">Merch Store</span>
           </div>
           <h2 className="text-5xl md:text-7xl font-black leading-[0.9] tracking-[-0.03em] mb-4">
-            Monetize Your<br />
+            Your<br />
             <span className="text-black">Misery</span>
           </h2>
           <div className="w-16 h-1 bg-black" />
