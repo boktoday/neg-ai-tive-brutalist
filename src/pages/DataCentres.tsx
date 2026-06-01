@@ -1,5 +1,6 @@
 import { ExternalLink, Server, Droplets, Zap, Users, ArrowLeft } from 'lucide-react';
 import Navbar from '../components/Navbar';
+import AudioPlayer from '../components/AudioPlayer';
 
 const stats = [
   { icon: Zap, value: "1.5-2%", label: "of global electricity by data centres (IEA 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -88,8 +89,13 @@ export default function DataCentres() {
           <p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
             Every ChatGPT query, every MidJourney image, every AI-generated email — it all runs on 
             massive data centres consuming staggering amounts of energy and water, 
-            often with minimal community consultation.
+            often with minimal <strong className="text-black"> community consultation</strong>.
           </p>
+
+          {/* Audio player */}
+          <div className="mt-8 max-w-xl">
+            <AudioPlayer src="/audio/datacentres-full.mp3" label="AI Data Centres — Full Page Audio" />
+          </div>
         </div>
       </section>
 
