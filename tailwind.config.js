@@ -4,7 +4,7 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        heading: ['Inter', 'Helvetica Neue', 'Arial', 'sans-serif'],
+        heading: ['Bevan', 'Inter', 'serif'],
         body: ['Inter', 'Helvetica Neue', 'Arial', 'sans-serif'],
         mono: ['JetBrains Mono', 'monospace'],
       },
