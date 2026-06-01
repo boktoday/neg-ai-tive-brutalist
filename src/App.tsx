@@ -5,6 +5,7 @@ import StorySubmission from './components/StorySubmission';
 import Newsletter from './components/Newsletter';
 import Merch from './components/Merch';
 import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   useEffect(() => {
@@ -31,6 +32,7 @@ function App() {
 
   return (
     <div className="min-h-screen bg-white text-black selection:bg-black selection:text-white">
+      <Navbar />
       <Hero />
       <VictimStories />
       <StorySubmission />

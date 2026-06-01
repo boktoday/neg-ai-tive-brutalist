@@ -2,7 +2,7 @@ import { ArrowDown } from 'lucide-react';
 
 export default function Hero() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center bg-white text-black overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center bg-white text-black overflow-hidden pt-16">
 
       {/* Full-height bold stripe on the left */}
       <div className="absolute top-0 left-0 w-2 h-full bg-black" />

@@ -1,4 +1,5 @@
 import { ExternalLink, Heart, Brain, Bell, Scale, ArrowLeft, MessageCircle, Users } from 'lucide-react';
+import Navbar from '../components/Navbar';
 
 const stats = [
   { icon: MessageCircle, value: "64%", label: "of US teens have used AI chatbots (Pew Research 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
@@ -76,17 +77,9 @@ const sources = [
 export default function Chatbots() {
   return (
     <div className="min-h-screen bg-white text-black">
+      <Navbar />
       {/* Nav */}
-      <nav className="fixed top-0 w-full z-50 bg-white border-b-2 border-black">
-        <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-xs font-mono text-black/40 hover:text-gray-300 transition-colors">
-            <ArrowLeft className="w-4 h-4" />
-            <span className="font-black">
-              <span className="font-heading text-2xl font-bold">NEG-AI-TIVE</span>
-            </span>
-          </a>
-        </div>
-      </nav>
+      
 
       {/* Hero */}
       <section className="pt-32 pb-16 px-4">
