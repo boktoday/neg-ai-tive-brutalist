@@ -47,7 +47,7 @@ export default function Merch() {
             return (
               <div key={index} className="border-b border-r border-black/10 p-6 flex flex-col hover:bg-black/[0.02] transition-colors">
                 {/* Mockup */}
-                <div className="h-60 bg-black/[0.02] flex items-center justify-center mb-4 border border-black/5 overflow-hidden">
+                <div className="bg-black/[0.02] flex items-center justify-center mb-4 border border-black/5 overflow-hidden" style={{height:'336px'}}>
                   {mockupSrc ? (
                     <img src={mockupSrc} alt={product.name} className="w-full h-full object-cover" loading={index < 3 ? "eager" : "lazy"} />
                   ) : (
