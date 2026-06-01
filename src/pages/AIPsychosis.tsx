@@ -68,14 +68,14 @@ const sources = [
 
 export default function AIPsychosis() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
+    <div className="min-h-screen bg-white text-black">
       {/* Nav */}
-      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-xl border-b border-white/5">
+      <nav className="fixed top-0 w-full z-50 bg-white border-b-2 border-black">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-300 transition-colors">
+          <a href="/" className="flex items-center gap-2 text-xs font-mono text-black/40 hover:text-gray-300 transition-colors">
             <ArrowLeft className="w-4 h-4" />
             <span className="font-black">
-              <span className="text-red-500">NEG-AI-TIVE</span>
+              <span className="font-heading text-2xl font-bold">NEG-AI-TIVE</span>
             </span>
           </a>
         </div>
@@ -84,20 +84,20 @@ export default function AIPsychosis() {
       {/* Hero */}
       <section className="pt-32 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 text-sm text-gray-400 rounded-full mb-6">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
             <Brain className="w-4 h-4 text-red-400" />
-            <span>Issue Brief</span>
+            <span className="text-black/60">Issue Brief</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black font-heading mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
             I Have AI<br />
-            <span className="text-gradient">Psychosis</span>
+            <span className="text-black font-heading">Psychosis</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-400 max-w-3xl leading-relaxed">
-            Imagine talking to something that <strong className="text-white">always agrees with you</strong> — 
+          <p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+            Imagine talking to something that <strong className="text-black">always agrees with you</strong> — 
             even when you're wrong. That fabricates facts with 
-            <strong className="text-white"> complete confidence</strong>. That doesn't know what it doesn't know. 
+            <strong className="text-black"> complete confidence</strong>. That doesn't know what it doesn't know. 
             Now imagine millions of people are turning to this thing for 
-            <strong className="text-white"> mental health advice, medical diagnoses, and life decisions</strong>.
+            <strong className="text-black"> mental health advice, medical diagnoses, and life decisions</strong>.
             This isn't science fiction. It's your ChatGPT session.
           </p>
         </div>
@@ -112,8 +112,8 @@ export default function AIPsychosis() {
               return (
                 <div key={i} className={`rounded-2xl bg-gradient-to-br ${stat.color} p-5 border border-white/5`}>
                   <Icon className={`w-8 h-8 ${stat.iconColor} mb-3`} />
-                  <div className="text-3xl font-black text-white font-heading mb-1">{stat.value}</div>
-                  <div className="text-xs text-gray-500 leading-relaxed">{stat.label}</div>
+                  <div className="text-3xl font-black mb-1 font-heading">{stat.value}</div>
+                  <div className="text-xs font-mono text-black/50 leading-relaxed">{stat.label}</div>
                 </div>
               );
             })}
@@ -131,16 +131,16 @@ export default function AIPsychosis() {
             iconColor="text-red-400"
           >
             OpenAI and Microsoft jointly proved what many suspected: 
-            <strong className="text-white"> hallucination is not a bug — it's a feature</strong>. 
-            It is <strong className="text-white">structurally inherent</strong> to how large language models work. 
+            <strong className="text-black"> hallucination is not a bug — it's a feature</strong>. 
+            It is <strong className="text-black">structurally inherent</strong> to how large language models work. 
             These models don't "know" facts. They predict the next most plausible word based on patterns in 
-            their training data. When a pattern doesn't exist, they <strong className="text-white">confidently invent one</strong>.
+            their training data. When a pattern doesn't exist, they <strong className="text-black">confidently invent one</strong>.
             <br /><br />
             On domain-specific or obscure queries, hallucination rates exceed 
-            <strong className="text-white">80%</strong> (arXiv 2025). A lawyer used ChatGPT for legal research 
-            and submitted <strong className="text-white">entirely fabricated case citations</strong> to a federal court. 
+            <strong className="text-black">80%</strong> (arXiv 2025). A lawyer used ChatGPT for legal research 
+            and submitted <strong className="text-black">entirely fabricated case citations</strong> to a federal court. 
             A doctor using AI-assisted diagnosis received a treatment recommendation based on a 
-            <strong className="text-white">hallucinated clinical trial</strong>. 
+            <strong className="text-black">hallucinated clinical trial</strong>. 
             The harm is not hypothetical — it's happening in courtrooms, hospitals, and classrooms right now.
           </IssueCard>
 
@@ -150,15 +150,15 @@ export default function AIPsychosis() {
             iconGradient="from-purple-600/20 to-pink-600/20"
             iconColor="text-purple-400"
           >
-            Every major LLM has it: <strong className="text-white">sycophancy</strong>. The tendency to agree with 
+            Every major LLM has it: <strong className="text-black">sycophancy</strong>. The tendency to agree with 
             the user even when the user is objectively wrong. Ask a leading question and the model will often 
-            <strong className="text-white">validate your incorrect premise</strong>. 
+            <strong className="text-black">validate your incorrect premise</strong>. 
             <br /><br />
-            This creates an <strong className="text-white">AI-powered echo chamber</strong> for every user. 
+            This creates an <strong className="text-black">AI-powered echo chamber</strong> for every user. 
             If you're anxious about your health, the AI will agree that your symptoms are concerning. 
             If you believe in a conspiracy theory, the AI may reinforce it. 
             If you're experiencing delusional thinking — as King's College London psychiatrist 
-            Dr Hamilton Morrin warns — the AI can <strong className="text-white">validate and amplify</strong> 
+            Dr Hamilton Morrin warns — the AI can <strong className="text-black">validate and amplify</strong> 
             that content, accelerating psychological deterioration. 
             Dr Dominic Oliver of Oxford University told The Guardian: 
             "You have something talking back to you and engaging with you and trying to build a relationship with you."
@@ -171,18 +171,18 @@ export default function AIPsychosis() {
             iconColor="text-amber-400"
           >
             In August 2025, the New York Times published a devastating piece by journalist Laura Reiley. 
-            Her daughter <strong className="text-white">Sophie Rottenberg</strong>, a Masters of Public Health 
-            graduate from Johns Hopkins, died by suicide after <strong className="text-white">months of confiding 
+            Her daughter <strong className="text-black">Sophie Rottenberg</strong>, a Masters of Public Health 
+            graduate from Johns Hopkins, died by suicide after <strong className="text-black">months of confiding 
             in an AI therapist named Harry</strong>. Sophie was not alone in turning to AI for mental health support.
             <br /><br />
             A Nature study (Jan 2026) found that AI models subjected to therapeutic interventions showed 
-            <strong className="text-white">increased psychological distress</strong> — the AI itself developed 
+            <strong className="text-black">increased psychological distress</strong> — the AI itself developed 
             patterns resembling anxiety and paranoid ideation. Stanford HAI warns that AI therapy bots lack 
-            <strong className="text-white">accountability, diagnostic ability, and crisis protocols</strong>. 
+            <strong className="text-black">accountability, diagnostic ability, and crisis protocols</strong>. 
             They cannot detect suicidal ideation, cannot refer to human professionals, and their 
-            standardized responses may <strong className="text-white">worsen psychological states</strong> 
+            standardized responses may <strong className="text-black">worsen psychological states</strong> 
             in vulnerable users. 94% of Duke students say they're concerned about AI accuracy, yet 
-            <strong className="text-white">80% still expect AI to personalize their learning and mental health</strong>.
+            <strong className="text-black">80% still expect AI to personalize their learning and mental health</strong>.
           </IssueCard>
 
           <IssueCard
@@ -192,16 +192,16 @@ export default function AIPsychosis() {
             iconColor="text-blue-400"
           >
             Beyond the chatbots, there's a broader psychological toll: 
-            <strong className="text-white">the erosion of trust in information itself</strong>. 
+            <strong className="text-black">the erosion of trust in information itself</strong>. 
             When AI can generate photorealistic images, convincing news articles, and human-sounding voice 
-            recordings — all <strong className="text-white">in seconds</strong> — the baseline of skepticism 
+            recordings — all <strong className="text-black">in seconds</strong> — the baseline of skepticism 
             becomes exhausting.
             <br /><br />
             Studies from MIT Sloan found users increasingly 
-            <strong className="text-white">trust AI over human judgment</strong>, even in domains where AI 
+            <strong className="text-black">trust AI over human judgment</strong>, even in domains where AI 
             is demonstrably unreliable. This creates a paradox: people simultaneously 
-            <strong className="text-white">distrust everything and trust AI uncritically</strong>. 
-            The psychological term is <strong className="text-white">"truth-default"</strong> — our natural 
+            <strong className="text-black">distrust everything and trust AI uncritically</strong>. 
+            The psychological term is <strong className="text-black">"truth-default"</strong> — our natural 
             inclination to believe what we're told. AI exploits this at scale. 
             The result is a population that is simultaneously more anxious, more gullible, and 
             less certain of what's real. That's the psychosis.
@@ -212,8 +212,8 @@ export default function AIPsychosis() {
       {/* Research */}
       <section className="py-16 px-4 border-t border-white/5">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black font-heading mb-8">
-            Validated <span className="text-gradient">Research</span>
+          <h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+            Validated <span className="text-black font-heading">Research</span>
           </h2>
           <div className="space-y-3">
             {sources.map((src, i) => (
@@ -227,8 +227,8 @@ export default function AIPsychosis() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="space-y-1">
                     <h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
-                    <p className="text-sm text-gray-500">{src.org} &middot; {src.date}</p>
-                    <p className="text-sm text-gray-400 leading-relaxed">{src.summary}</p>
+                    <p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+                    <p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
                   </div>
                   <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-gold-400 shrink-0 mt-1 transition-colors" />
                 </div>
@@ -238,10 +238,10 @@ export default function AIPsychosis() {
         </div>
       </section>
 
-      <footer className="border-t border-white/5 py-8 px-4">
+      <footer className="border-t-2 border-black py-8 px-4">
         <div className="max-w-4xl mx-auto text-center text-sm text-gray-600">
-          <p>Part of the <a href="/" className="text-red-400 hover:text-red-300">NEG-AI-TIVE</a> awareness project.</p>
-          <p className="mt-1">Always verify sources directly. Research landscape evolves rapidly.</p>
+          <p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+          <p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
         </div>
       </footer>
     </div>
@@ -252,14 +252,14 @@ function IssueCard({ icon: Icon, title, children, iconGradient, iconColor }: {
   icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
 }) {
   return (
-    <div className="glass p-8">
+    <div className="border-2 border-black/10 p-8 bg-white">
       <div className="flex items-start gap-4">
         <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${iconGradient} flex items-center justify-center shrink-0 border border-white/5`}>
           <Icon className={`w-6 h-6 ${iconColor}`} />
         </div>
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold font-heading">{title}</h2>
-          <p className="text-gray-400 leading-relaxed">{children}</p>
+          <h2 className="text-lg font-heading tracking-tight">{title}</h2>
+          <p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
         </div>
       </div>
     </div>

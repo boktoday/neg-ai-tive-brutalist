@@ -75,13 +75,13 @@ const sources = [
 
 export default function Copyright() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
-      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-xl border-b border-white/5">
+    <div className="min-h-screen bg-white text-black">
+      <nav className="fixed top-0 w-full z-50 bg-white border-b-2 border-black">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-300 transition-colors">
+          <a href="/" className="flex items-center gap-2 text-xs font-mono text-black/40 hover:text-gray-300 transition-colors">
             <ArrowLeft className="w-4 h-4" />
             <span className="font-black">
-              <span className="text-red-500">NEG-AI-TIVE</span>
+              <span className="font-heading text-2xl font-bold">NEG-AI-TIVE</span>
             </span>
           </a>
         </div>
@@ -89,22 +89,22 @@ export default function Copyright() {
 
       <section className="pt-32 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 text-sm text-gray-400 rounded-full mb-6">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
             <Palette className="w-4 h-4 text-red-400" />
-            <span>Issue Brief</span>
+            <span className="text-black/60">Issue Brief</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black font-heading mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
             AI Made This<br />
-            <span className="text-gradient">Design</span>
+            <span className="text-black font-heading">Design</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-400 max-w-3xl leading-relaxed">
+          <p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
             Every AI model you've used was built on the backs of 
-            <strong className="text-white"> millions of copyrighted works</strong> — books, articles, images, 
-            music — scraped from the internet <strong className="text-white">without permission or payment</strong>. 
+            <strong className="text-black"> millions of copyrighted works</strong> — books, articles, images, 
+            music — scraped from the internet <strong className="text-black">without permission or payment</strong>. 
             The creators of those works are now fighting back in courts around the world, 
             and the outcome will determine whether AI is a tool that 
-            <strong className="text-white">elevates human creativity</strong> or 
-            <strong className="text-white">destroys the economic incentive to create</strong>.
+            <strong className="text-black">elevates human creativity</strong> or 
+            <strong className="text-black">destroys the economic incentive to create</strong>.
           </p>
         </div>
       </section>
@@ -117,8 +117,8 @@ export default function Copyright() {
               return (
                 <div key={i} className={`rounded-2xl bg-gradient-to-br ${stat.color} p-5 border border-white/5`}>
                   <Icon className={`w-8 h-8 ${stat.iconColor} mb-3`} />
-                  <div className="text-3xl font-black text-white font-heading mb-1">{stat.value}</div>
-                  <div className="text-xs text-gray-500 leading-relaxed">{stat.label}</div>
+                  <div className="text-3xl font-black mb-1 font-heading">{stat.value}</div>
+                  <div className="text-xs font-mono text-black/50 leading-relaxed">{stat.label}</div>
                 </div>
               );
             })}
@@ -134,18 +134,18 @@ export default function Copyright() {
             iconGradient="from-red-600/20 to-orange-600/20"
             iconColor="text-red-400"
           >
-            The LAION-5B dataset contains <strong className="text-white">5.85 billion image-text pairs</strong> 
+            The LAION-5B dataset contains <strong className="text-black">5.85 billion image-text pairs</strong> 
             scraped from the internet. It's the training backbone of Stable Diffusion, Midjourney, and most 
             image-generation models. The dataset includes copyrighted artwork, photographs, and illustrations — 
-            used <strong className="text-white">without consent, credit, or compensation</strong>.
+            used <strong className="text-black">without consent, credit, or compensation</strong>.
             <br /><br />
-            In June 2025, a US District Judge ruled that <strong className="text-white">Anthropic's use of 
+            In June 2025, a US District Judge ruled that <strong className="text-black">Anthropic's use of 
             pirated copies</strong> of over 250,000 books (obtained from a dataset called The Pile) for AI 
-            training was <strong className="text-white">not fair use</strong>. This was a landmark ruling. 
-            But paradoxically, the same judge ruled that <strong className="text-white">lawfully acquired books</strong> 
-            used for the same purpose <strong className="text-white">were</strong> fair use. And another judge 
+            training was <strong className="text-black">not fair use</strong>. This was a landmark ruling. 
+            But paradoxically, the same judge ruled that <strong className="text-black">lawfully acquired books</strong> 
+            used for the same purpose <strong className="text-black">were</strong> fair use. And another judge 
             in the same district ruled the exact opposite for Meta. 
-            The law is <strong className="text-white">completely unsettled</strong>.
+            The law is <strong className="text-black">completely unsettled</strong>.
           </IssueCard>
 
           <IssueCard
@@ -154,19 +154,19 @@ export default function Copyright() {
             iconGradient="from-purple-600/20 to-pink-600/20"
             iconColor="text-purple-400"
           >
-            The <strong className="text-white">New York Times</strong> sued OpenAI and Microsoft in December 2023, 
+            The <strong className="text-black">New York Times</strong> sued OpenAI and Microsoft in December 2023, 
             alleging that millions of its articles were used to train ChatGPT — which now 
-            <strong className="text-white">competes directly with the Times</strong> as a source of information. 
-            The suit seeks <strong className="text-white">billions of dollars in damages</strong> and demands that 
+            <strong className="text-black">competes directly with the Times</strong> as a source of information. 
+            The suit seeks <strong className="text-black">billions of dollars in damages</strong> and demands that 
             OpenAI destroy any chatbot models and training data using NYT content.
             <br /><br />
-            The central question: <strong className="text-white">Is AI training on copyrighted works "fair use"?</strong> 
+            The central question: <strong className="text-black">Is AI training on copyrighted works "fair use"?</strong> 
             Google Books was ruled fair use because it didn't substitute for the originals. But AI training 
             is different — these models create competing products. If the NYT wins, it will force 
-            <strong className="text-white">mandatory licensing</strong> for all training data. If OpenAI wins, 
+            <strong className="text-black">mandatory licensing</strong> for all training data. If OpenAI wins, 
             fair use covers AI training and the creative industry shifts to 
-            <strong className="text-white">legislative strategy</strong>. Either way, the 
-            <strong className="text-white">outcome is expected by early 2027</strong>.
+            <strong className="text-black">legislative strategy</strong>. Either way, the 
+            <strong className="text-black">outcome is expected by early 2027</strong>.
           </IssueCard>
 
           <IssueCard
@@ -175,18 +175,18 @@ export default function Copyright() {
             iconGradient="from-amber-600/20 to-yellow-600/20"
             iconColor="text-amber-400"
           >
-            The <strong className="text-white">Andersen v. Stability AI</strong> case is the first AI copyright 
-            case to go to a <strong className="text-white">jury trial</strong>, scheduled for Q3 2026. 
+            The <strong className="text-black">Andersen v. Stability AI</strong> case is the first AI copyright 
+            case to go to a <strong className="text-black">jury trial</strong>, scheduled for Q3 2026. 
             Plaintiffs Sarah Andersen (comic artist), Kelly McKernan, and Karla Ortiz are seeking 
-            <strong className="text-white">class certification covering an estimated 4 billion images</strong> 
+            <strong className="text-black">class certification covering an estimated 4 billion images</strong> 
             scraped from the web. If they win class certification, the settlement pressure on Stability AI 
-            and any lab that trained on LAION-5B will be <strong className="text-white">enormous</strong>.
+            and any lab that trained on LAION-5B will be <strong className="text-black">enormous</strong>.
             <br /><br />
             In the UK, Getty Images sued Stability AI and won a partial victory in November 2025: the court 
             found that while the AI model weights themselves weren't "infringing copies," 
-            <strong className="text-white">Stable Diffusion did reproduce Getty's watermarks</strong> in 
+            <strong className="text-black">Stable Diffusion did reproduce Getty's watermarks</strong> in 
             outputs, constituting trademark infringement. Getty was granted leave to appeal the copyright 
-            finding. <strong className="text-white">Disney and Universal</strong> have also entered the fray, 
+            finding. <strong className="text-black">Disney and Universal</strong> have also entered the fray, 
             suing Midjourney for generating unlicensed likenesses of their copyrighted characters. 
             Hollywood is now watching.
           </IssueCard>
@@ -197,21 +197,21 @@ export default function Copyright() {
             iconGradient="from-blue-600/20 to-cyan-600/20"
             iconColor="text-blue-400"
           >
-            The legal landscape is a mess of <strong className="text-white">contradictory rulings</strong>:
+            The legal landscape is a mess of <strong className="text-black">contradictory rulings</strong>:
             <br /><br />
-            <strong className="text-white">Germany (Nov 2025)</strong>: GEMA v. OpenAI — court ruled AI training 
+            <strong className="text-black">Germany (Nov 2025)</strong>: GEMA v. OpenAI — court ruled AI training 
             on song lyrics infringed copyright. EU diverging from US.<br /><br />
-            <strong className="text-white">UK (Nov 2025)</strong>: Getty v. Stability AI — model weights not 
+            <strong className="text-black">UK (Nov 2025)</strong>: Getty v. Stability AI — model weights not 
             "copies" under UK law, but trademark infringement found. Appeal granted Dec 2025.<br /><br />
-            <strong className="text-white">US (Jun 2025)</strong>: Anthropic ruling — pirated books not fair use; 
+            <strong className="text-black">US (Jun 2025)</strong>: Anthropic ruling — pirated books not fair use; 
             lawfully acquired books were. Meta ruling in same district — opposite conclusion.<br /><br />
-            <strong className="text-white">Australia</strong>: Copyright law under review by the Australian 
+            <strong className="text-black">Australia</strong>: Copyright law under review by the Australian 
             Law Reform Commission. No AI-specific copyright legislation passed yet.
             <br /><br />
-            Meanwhile, <strong className="text-white">50+ active lawsuits</strong> are pending globally. 
+            Meanwhile, <strong className="text-black">50+ active lawsuits</strong> are pending globally. 
             Some companies (Axel Springer, AP, News Corp) have chosen to 
-            <strong className="text-white">license their content</strong> rather than sue. But most creators 
-            don't have that option. The fundamental question — <strong className="text-white">who owns the 
+            <strong className="text-black">license their content</strong> rather than sue. But most creators 
+            don't have that option. The fundamental question — <strong className="text-black">who owns the 
             right to train on your work?</strong> — remains unanswered.
           </IssueCard>
         </div>
@@ -219,8 +219,8 @@ export default function Copyright() {
 
       <section className="py-16 px-4 border-t border-white/5">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black font-heading mb-8">
-            Validated <span className="text-gradient">Research</span>
+          <h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+            Validated <span className="text-black font-heading">Research</span>
           </h2>
           <div className="space-y-3">
             {sources.map((src, i) => (
@@ -234,8 +234,8 @@ export default function Copyright() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="space-y-1">
                     <h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
-                    <p className="text-sm text-gray-500">{src.org} &middot; {src.date}</p>
-                    <p className="text-sm text-gray-400 leading-relaxed">{src.summary}</p>
+                    <p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+                    <p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
                   </div>
                   <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-gold-400 shrink-0 mt-1 transition-colors" />
                 </div>
@@ -245,10 +245,10 @@ export default function Copyright() {
         </div>
       </section>
 
-      <footer className="border-t border-white/5 py-8 px-4">
+      <footer className="border-t-2 border-black py-8 px-4">
         <div className="max-w-4xl mx-auto text-center text-sm text-gray-600">
-          <p>Part of the <a href="/" className="text-red-400 hover:text-red-300">NEG-AI-TIVE</a> awareness project.</p>
-          <p className="mt-1">Always verify sources directly. Research landscape evolves rapidly.</p>
+          <p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+          <p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
         </div>
       </footer>
     </div>
@@ -259,14 +259,14 @@ function IssueCard({ icon: Icon, title, children, iconGradient, iconColor }: {
   icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
 }) {
   return (
-    <div className="glass p-8">
+    <div className="border-2 border-black/10 p-8 bg-white">
       <div className="flex items-start gap-4">
         <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${iconGradient} flex items-center justify-center shrink-0 border border-white/5`}>
           <Icon className={`w-6 h-6 ${iconColor}`} />
         </div>
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold font-heading">{title}</h2>
-          <p className="text-gray-400 leading-relaxed">{children}</p>
+          <h2 className="text-lg font-heading tracking-tight">{title}</h2>
+          <p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
         </div>
       </div>
     </div>

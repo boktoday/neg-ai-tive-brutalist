@@ -75,13 +75,13 @@ const sources = [
 
 export default function Algorithms() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
-      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-xl border-b border-white/5">
+    <div className="min-h-screen bg-white text-black">
+      <nav className="fixed top-0 w-full z-50 bg-white border-b-2 border-black">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-300 transition-colors">
+          <a href="/" className="flex items-center gap-2 text-xs font-mono text-black/40 hover:text-gray-300 transition-colors">
             <ArrowLeft className="w-4 h-4" />
             <span className="font-black">
-              <span className="text-red-500">NEG-AI-TIVE</span>
+              <span className="font-heading text-2xl font-bold">NEG-AI-TIVE</span>
             </span>
           </a>
         </div>
@@ -89,19 +89,19 @@ export default function Algorithms() {
 
       <section className="pt-32 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 text-sm text-gray-400 rounded-full mb-6">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
             <Filter className="w-4 h-4 text-red-400" />
-            <span>Issue Brief</span>
+            <span className="text-black/60">Issue Brief</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black font-heading mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
             AI Algorithmic<br />
-            <span className="text-gradient">Angst</span>
+            <span className="text-black font-heading">Angst</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-400 max-w-3xl leading-relaxed">
+          <p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
             The algorithm decided you should see this. It decided your mood, your shopping cart, 
             your political views, and who you should date. It learned what makes you anxious, 
             angry, and addicted — and it serves you more of it because 
-            <strong className="text-white"> engagement is profit</strong>. Your mental health 
+            <strong className="text-black"> engagement is profit</strong>. Your mental health 
             is just a metric in its optimization function.
           </p>
         </div>
@@ -115,8 +115,8 @@ export default function Algorithms() {
               return (
                 <div key={i} className={`rounded-2xl bg-gradient-to-br ${stat.color} p-5 border border-white/5`}>
                   <Icon className={`w-8 h-8 ${stat.iconColor} mb-3`} />
-                  <div className="text-3xl font-black text-white font-heading mb-1">{stat.value}</div>
-                  <div className="text-xs text-gray-500 leading-relaxed">{stat.label}</div>
+                  <div className="text-3xl font-black mb-1 font-heading">{stat.value}</div>
+                  <div className="text-xs font-mono text-black/50 leading-relaxed">{stat.label}</div>
                 </div>
               );
             })}
@@ -135,14 +135,14 @@ export default function Algorithms() {
             When Instagram switched from a chronological feed to an algorithmic one in 2016, 
             it seemed like a convenience. But a 2026 CESifo working paper using Dutch LISS panel data 
             revealed something darker: the introduction of Instagram's algorithmic feed 
-            <strong className="text-white"> had a measurable negative impact on teen mental health</strong>.
+            <strong className="text-black"> had a measurable negative impact on teen mental health</strong>.
             <br /><br />
-            Today, <strong className="text-white">75% of what you see on any major platform</strong> is 
+            Today, <strong className="text-black">75% of what you see on any major platform</strong> is 
             chosen by algorithm, not by your conscious choice. These algorithms optimize for a single metric: 
-            <strong className="text-white">engagement</strong>. Not accuracy, not diversity, not your wellbeing. 
+            <strong className="text-black">engagement</strong>. Not accuracy, not diversity, not your wellbeing. 
             Engagement. And the most engaging content is reliably the most 
-            <strong className="text-white">emotional, extreme, and polarizing</strong>. 
-            Emotionally negative content gets <strong className="text-white">3x more engagement</strong> than neutral 
+            <strong className="text-black">emotional, extreme, and polarizing</strong>. 
+            Emotionally negative content gets <strong className="text-black">3x more engagement</strong> than neutral 
             content (CESifo 2026). You're not scrolling. You're being manipulated.
           </IssueCard>
 
@@ -153,17 +153,17 @@ export default function Algorithms() {
             iconColor="text-purple-400"
           >
             A 2025 systematic review by Ahmmad et al. in Societies Journal confirmed what many suspected: 
-            social media algorithms <strong className="text-white">consistently reinforce ideological homogeneity</strong>, 
+            social media algorithms <strong className="text-black">consistently reinforce ideological homogeneity</strong>, 
             limit viewpoint diversity, and intensify polarization among young users. 
             The algorithm shows you more of what you've already engaged with, creating a 
-            <strong className="text-white">self-reinforcing cycle</strong> of narrowing perspectives.
+            <strong className="text-black">self-reinforcing cycle</strong> of narrowing perspectives.
             <br /><br />
             This isn't accidental. The PMC study "Normalizing Toxicity" (2025) found that algorithmic processes 
-            create <strong className="text-white">"u-loops"</strong> — feedback cycles where users who engage with 
+            create <strong className="text-black">"u-loops"</strong> — feedback cycles where users who engage with 
             extreme content are fed progressively more extreme versions. 
-            A Georgia Tech study (Feb 2026), funded by a <strong className="text-white">$1.7 million grant</strong>, 
+            A Georgia Tech study (Feb 2026), funded by a <strong className="text-black">$1.7 million grant</strong>, 
             is now auditing TikTok's recommendation algorithm specifically because of concerns about 
-            its impact on <strong className="text-white">10,000+ adolescents</strong>. 
+            its impact on <strong className="text-black">10,000+ adolescents</strong>. 
             The algorithm doesn't just reflect your interests. It shapes them.
           </IssueCard>
 
@@ -174,17 +174,17 @@ export default function Algorithms() {
             iconColor="text-amber-400"
           >
             The mechanism is well-documented. Algorithms boost emotionally charged — especially 
-            <strong className="text-white">negative or sensational</strong> — content because it drives the 
-            highest engagement. This creates <strong className="text-white">"doomscrolling"</strong>: 
+            <strong className="text-black">negative or sensational</strong> — content because it drives the 
+            highest engagement. This creates <strong className="text-black">"doomscrolling"</strong>: 
             compulsive consumption of bad news that worsens anxiety and depression (ACP 2025).
             <br /><br />
             A TPM journal study of 250 respondents across age groups found young participants reported 
-            the <strong className="text-white">highest levels of anxiety and dependence on external validation</strong> 
+            the <strong className="text-black">highest levels of anxiety and dependence on external validation</strong> 
             from algorithmic content. Engagement-based ranking reinforces 
-            <strong className="text-white">anxiety, depression, and body image distress</strong>. 
+            <strong className="text-black">anxiety, depression, and body image distress</strong>. 
             Exposure to self-harm and diet content is algorithmically linked to 
-            <strong className="text-white">eating disorders and suicidal ideation</strong> (Bodewell Law 2025).
-            The average teen spends <strong className="text-white">5.2 hours per day</strong> on algorithmically 
+            <strong className="text-black">eating disorders and suicidal ideation</strong> (Bodewell Law 2025).
+            The average teen spends <strong className="text-black">5.2 hours per day</strong> on algorithmically 
             curated content. That's 5.2 hours of their brain being optimized for someone else's profit.
           </IssueCard>
 
@@ -194,14 +194,14 @@ export default function Algorithms() {
             iconGradient="from-blue-600/20 to-cyan-600/20"
             iconColor="text-blue-400"
           >
-            A scoping review published in PMC (2025) found that <strong className="text-white">23% of policy reports</strong> 
+            A scoping review published in PMC (2025) found that <strong className="text-black">23% of policy reports</strong> 
             recommended algorithmic transparency as a priority. The algorithms operate 
-            <strong className="text-white">"opaquely, with little transparency"</strong> — users have 
+            <strong className="text-black">"opaquely, with little transparency"</strong> — users have 
             no idea why they're seeing what they're seeing.
             <br /><br />
-            Calls for <strong className="text-white">algorithmic transparency</strong> — requiring platforms 
+            Calls for <strong className="text-black">algorithmic transparency</strong> — requiring platforms 
             to explain how and why content is prioritized — have been made by 
-            <strong className="text-white">70+ policy reports, non-profits, and research institutions</strong> 
+            <strong className="text-black">70+ policy reports, non-profits, and research institutions</strong> 
             worldwide. The EU's Digital Services Act (DSA) requires large platforms to provide algorithmic 
             transparency. Australia's eSafety Commissioner has recommended similar measures. The US has 
             no equivalent federal law. In the absence of regulation, the algorithms continue optimizing for 
@@ -212,8 +212,8 @@ export default function Algorithms() {
 
       <section className="py-16 px-4 border-t border-white/5">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black font-heading mb-8">
-            Validated <span className="text-gradient">Research</span>
+          <h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+            Validated <span className="text-black font-heading">Research</span>
           </h2>
           <div className="space-y-3">
             {sources.map((src, i) => (
@@ -227,8 +227,8 @@ export default function Algorithms() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="space-y-1">
                     <h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
-                    <p className="text-sm text-gray-500">{src.org} &middot; {src.date}</p>
-                    <p className="text-sm text-gray-400 leading-relaxed">{src.summary}</p>
+                    <p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+                    <p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
                   </div>
                   <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-gold-400 shrink-0 mt-1 transition-colors" />
                 </div>
@@ -238,10 +238,10 @@ export default function Algorithms() {
         </div>
       </section>
 
-      <footer className="border-t border-white/5 py-8 px-4">
+      <footer className="border-t-2 border-black py-8 px-4">
         <div className="max-w-4xl mx-auto text-center text-sm text-gray-600">
-          <p>Part of the <a href="/" className="text-red-400 hover:text-red-300">NEG-AI-TIVE</a> awareness project.</p>
-          <p className="mt-1">Always verify sources directly. Research landscape evolves rapidly.</p>
+          <p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+          <p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
         </div>
       </footer>
     </div>
@@ -252,14 +252,14 @@ function IssueCard({ icon: Icon, title, children, iconGradient, iconColor }: {
   icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
 }) {
   return (
-    <div className="glass p-8">
+    <div className="border-2 border-black/10 p-8 bg-white">
       <div className="flex items-start gap-4">
         <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${iconGradient} flex items-center justify-center shrink-0 border border-white/5`}>
           <Icon className={`w-6 h-6 ${iconColor}`} />
         </div>
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold font-heading">{title}</h2>
-          <p className="text-gray-400 leading-relaxed">{children}</p>
+          <h2 className="text-lg font-heading tracking-tight">{title}</h2>
+          <p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
         </div>
       </div>
     </div>

@@ -68,14 +68,14 @@ const sources = [
 
 export default function DataCentres() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
+    <div className="min-h-screen bg-white text-black">
       {/* Nav */}
-      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-xl border-b border-white/5">
+      <nav className="fixed top-0 w-full z-50 bg-white border-b-2 border-black">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-300 transition-colors">
+          <a href="/" className="flex items-center gap-2 text-xs font-mono text-black/40 hover:text-gray-300 transition-colors">
             <ArrowLeft className="w-4 h-4" />
             <span className="font-black">
-              <span className="text-red-500">NEG-AI-TIVE</span>
+              <span className="font-heading text-2xl font-bold">NEG-AI-TIVE</span>
             </span>
           </a>
         </div>
@@ -84,15 +84,15 @@ export default function DataCentres() {
       {/* Hero */}
       <section className="pt-32 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 text-sm text-gray-400 rounded-full mb-6">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
             <Server className="w-4 h-4 text-red-400" />
-            <span>Issue Brief</span>
+            <span className="text-black/60">Issue Brief</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black font-heading mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
             AI Data Centres<br />
-            <span className="text-gradient-gold">The Hidden Cost</span>
+            <span className="text-black font-heading">The Hidden Cost</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-400 max-w-3xl leading-relaxed">
+          <p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
             Every ChatGPT query, every MidJourney image, every AI-generated email — it all runs on 
             massive data centres consuming staggering amounts of energy and water, 
             often with minimal community consultation.
@@ -109,8 +109,8 @@ export default function DataCentres() {
               return (
                 <div key={i} className={`rounded-2xl bg-gradient-to-br ${stat.color} p-5 border border-white/5`}>
                   <Icon className={`w-8 h-8 ${stat.iconColor} mb-3`} />
-                  <div className="text-3xl font-black text-white font-heading mb-1">{stat.value}</div>
-                  <div className="text-xs text-gray-500 leading-relaxed">{stat.label}</div>
+                  <div className="text-3xl font-black mb-1 font-heading">{stat.value}</div>
+                  <div className="text-xs font-mono text-black/50 leading-relaxed">{stat.label}</div>
                 </div>
               );
             })}
@@ -127,10 +127,10 @@ export default function DataCentres() {
             iconGradient="from-red-600/20 to-orange-600/20"
             iconColor="text-red-400"
           >
-            AI data centres are projected to consume <strong className="text-white">1.5-2% of global electricity</strong> by 2027 — 
+            AI data centres are projected to consume <strong className="text-black">1.5-2% of global electricity</strong> by 2027 — 
             roughly the equivalent of Japan's entire annual power demand. The IEA estimates data centre energy demand 
-            could <strong className="text-white">double by 2027</strong>, straining already stretched grids. 
-            A single large AI training run can consume as much electricity as <strong className="text-white">100+ US homes</strong> use in a year.
+            could <strong className="text-black">double by 2027</strong>, straining already stretched grids. 
+            A single large AI training run can consume as much electricity as <strong className="text-black">100+ US homes</strong> use in a year.
           </IssueCard>
 
           <IssueCard
@@ -140,9 +140,9 @@ export default function DataCentres() {
             iconColor="text-blue-400"
           >
             Data centres rely on evaporative cooling consuming vast amounts of fresh water. 
-            Training GPT-3 consumed <strong className="text-white">700,000 litres</strong> of water. 
-            A typical ChatGPT conversation (20-50 queries) uses a <strong className="text-white">500ml bottle</strong>. 
-            Globally, <strong className="text-white">40%</strong> of data centres are in high water-stress areas, 
+            Training GPT-3 consumed <strong className="text-black">700,000 litres</strong> of water. 
+            A typical ChatGPT conversation (20-50 queries) uses a <strong className="text-black">500ml bottle</strong>. 
+            Globally, <strong className="text-black">40%</strong> of data centres are in high water-stress areas, 
             and two-thirds of new US data centres since 2022 are in regions already experiencing water shortages.
           </IssueCard>
 
@@ -152,11 +152,11 @@ export default function DataCentres() {
             iconGradient="from-amber-600/20 to-yellow-600/20"
             iconColor="text-amber-400"
           >
-            Data centre developments are often fast-tracked with <strong className="text-white">limited community input</strong>. 
+            Data centre developments are often fast-tracked with <strong className="text-black">limited community input</strong>. 
             In Australia, councils have raised concerns about water usage in drought-prone regions. 
-            Internationally, communities in <strong className="text-white">Virginia, Texas, Ireland, Netherlands, and Chile</strong> 
+            Internationally, communities in <strong className="text-black">Virginia, Texas, Ireland, Netherlands, and Chile</strong> 
             have pushed back over noise, grid strain, and environmental concerns. 
-            The rapid pace of AI infrastructure is <strong className="text-white">outpacing local planning laws</strong>.
+            The rapid pace of AI infrastructure is <strong className="text-black">outpacing local planning laws</strong>.
           </IssueCard>
         </div>
       </section>
@@ -164,8 +164,8 @@ export default function DataCentres() {
       {/* Research */}
       <section className="py-16 px-4 border-t border-white/5">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black font-heading mb-8">
-            Validated <span className="text-gradient">Research</span>
+          <h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+            Validated <span className="text-black font-heading">Research</span>
           </h2>
           <div className="space-y-3">
             {sources.map((src, i) => (
@@ -179,8 +179,8 @@ export default function DataCentres() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="space-y-1">
                     <h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
-                    <p className="text-sm text-gray-500">{src.org} &middot; {src.date}</p>
-                    <p className="text-sm text-gray-400 leading-relaxed">{src.summary}</p>
+                    <p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+                    <p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
                   </div>
                   <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-gold-400 shrink-0 mt-1 transition-colors" />
                 </div>
@@ -190,10 +190,10 @@ export default function DataCentres() {
         </div>
       </section>
 
-      <footer className="border-t border-white/5 py-8 px-4">
+      <footer className="border-t-2 border-black py-8 px-4">
         <div className="max-w-4xl mx-auto text-center text-sm text-gray-600">
-          <p>Part of the <a href="/" className="text-red-400 hover:text-red-300">NEG-AI-TIVE</a> awareness project.</p>
-          <p className="mt-1">Always verify sources directly. Research landscape evolves rapidly.</p>
+          <p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+          <p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
         </div>
       </footer>
     </div>
@@ -204,14 +204,14 @@ function IssueCard({ icon: Icon, title, children, iconGradient, iconColor }: {
   icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
 }) {
   return (
-    <div className="glass p-8">
+    <div className="border-2 border-black/10 p-8 bg-white">
       <div className="flex items-start gap-4">
         <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${iconGradient} flex items-center justify-center shrink-0 border border-white/5`}>
           <Icon className={`w-6 h-6 ${iconColor}`} />
         </div>
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold font-heading">{title}</h2>
-          <p className="text-gray-400 leading-relaxed">{children}</p>
+          <h2 className="text-lg font-heading tracking-tight">{title}</h2>
+          <p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
         </div>
       </div>
     </div>

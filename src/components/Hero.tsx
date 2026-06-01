@@ -27,7 +27,7 @@ export default function Hero() {
         </div>
 
         {/* Main headline */}
-        <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-black leading-[0.85] mb-8 tracking-[-0.04em]">
+        <h1 className="text-7xl md:text-9xl lg:text-[12rem] font-heading leading-[0.85] mb-8 tracking-[-0.04em]">
           <span className="block">NEG-</span>
           <span className="block">AI-</span>
           <span className="block">TIVE</span>

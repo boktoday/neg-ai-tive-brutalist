@@ -75,14 +75,14 @@ const sources = [
 
 export default function Jobs() {
   return (
-    <div className="min-h-screen bg-[#0a0a0a] text-white">
+    <div className="min-h-screen bg-white text-black">
       {/* Nav */}
-      <nav className="fixed top-0 w-full z-50 bg-[#0a0a0a]/80 backdrop-blur-xl border-b border-white/5">
+      <nav className="fixed top-0 w-full z-50 bg-white border-b-2 border-black">
         <div className="max-w-4xl mx-auto px-4 h-16 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2 text-sm text-gray-500 hover:text-gray-300 transition-colors">
+          <a href="/" className="flex items-center gap-2 text-xs font-mono text-black/40 hover:text-gray-300 transition-colors">
             <ArrowLeft className="w-4 h-4" />
             <span className="font-black">
-              <span className="text-red-500">NEG-AI-TIVE</span>
+              <span className="font-heading text-2xl font-bold">NEG-AI-TIVE</span>
             </span>
           </a>
         </div>
@@ -91,21 +91,21 @@ export default function Jobs() {
       {/* Hero */}
       <section className="pt-32 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <div className="inline-flex items-center gap-2 px-4 py-2 bg-white/5 border border-white/10 text-sm text-gray-400 rounded-full mb-6">
+          <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
             <Briefcase className="w-4 h-4 text-red-400" />
-            <span>Issue Brief</span>
+            <span className="text-black/60">Issue Brief</span>
           </div>
-          <h1 className="text-5xl md:text-7xl font-black font-heading mb-6 leading-tight">
+          <h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
             My Job Was<br />
-            <span className="text-gradient">Automated</span>
+            <span className="text-black font-heading">Automated</span>
           </h1>
-          <p className="text-lg md:text-xl text-gray-400 max-w-3xl leading-relaxed">
+          <p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
             For decades, automation threatened factory floors. Now it's coming for the 
-            <strong className="text-white"> white-collar desk job</strong>. 
+            <strong className="text-black"> white-collar desk job</strong>. 
             Whether you're a writer, coder, accountant, or lawyer — AI is restructuring 
             the labour market faster than workers can adapt. And the divide between those 
             who can work with AI and those who can't is growing at a 
-            <strong className="text-white"> staggering pace</strong>.
+            <strong className="text-black"> staggering pace</strong>.
           </p>
         </div>
       </section>
@@ -119,8 +119,8 @@ export default function Jobs() {
               return (
                 <div key={i} className={`rounded-2xl bg-gradient-to-br ${stat.color} p-5 border border-white/5`}>
                   <Icon className={`w-8 h-8 ${stat.iconColor} mb-3`} />
-                  <div className="text-3xl font-black text-white font-heading mb-1">{stat.value}</div>
-                  <div className="text-xs text-gray-500 leading-relaxed">{stat.label}</div>
+                  <div className="text-3xl font-black mb-1 font-heading">{stat.value}</div>
+                  <div className="text-xs font-mono text-black/50 leading-relaxed">{stat.label}</div>
                 </div>
               );
             })}
@@ -137,15 +137,15 @@ export default function Jobs() {
             iconGradient="from-red-600/20 to-orange-600/20"
             iconColor="text-red-400"
           >
-            Previous automation waves targeted <strong className="text-white">blue-collar</strong> work — 
+            Previous automation waves targeted <strong className="text-black">blue-collar</strong> work — 
             factory floors, assembly lines, repetitive physical tasks. This wave targets 
-            <strong className="text-white"> cognitive labour</strong>. Goldman Sachs estimates 
-            <strong className="text-white"> 300 million full-time jobs</strong> globally are exposed to 
+            <strong className="text-black"> cognitive labour</strong>. Goldman Sachs estimates 
+            <strong className="text-black"> 300 million full-time jobs</strong> globally are exposed to 
             generative AI automation. McKinsey raised their estimate from 30% to 
-            <strong className="text-white"> 40% of working hours automatable</strong> — the 
+            <strong className="text-black"> 40% of working hours automatable</strong> — the 
             timeline accelerated by AI. The IMF found ~60% of jobs in advanced economies are exposed.
             <br /><br />
-            What's different: AI now affects <strong className="text-white">analysis, summarisation, 
+            What's different: AI now affects <strong className="text-black">analysis, summarisation, 
             communication, and decision-support</strong> — the very tasks that defined white-collar 
             professional work. Administrative roles face 46% exposure, legal 44%, architecture and 
             engineering 37%. Construction: under 6%. The nature of work is being redefined at every level.
@@ -158,14 +158,14 @@ export default function Jobs() {
             iconColor="text-purple-400"
           >
             The data is stark. A Stanford University pre-print found that 
-            <strong className="text-white"> early-career workers (ages 22-25)</strong> in the most 
-            AI-exposed occupations experienced a <strong className="text-white">16% relative decline in employment</strong> 
+            <strong className="text-black"> early-career workers (ages 22-25)</strong> in the most 
+            AI-exposed occupations experienced a <strong className="text-black">16% relative decline in employment</strong> 
             since ChatGPT launched in late 2022. Goldman Sachs Research confirms that 
             unemployment among 20-30 year-olds in tech-exposed occupations has risen by almost 
-            <strong className="text-white">3 percentage points</strong> since the start of 2025.
+            <strong className="text-black">3 percentage points</strong> since the start of 2025.
             <br /><br />
             This corroborates widespread reports that entry-level hiring in knowledge sectors 
-            has <strong className="text-white">collapsed</strong>. Companies that used to hire junior 
+            has <strong className="text-black">collapsed</strong>. Companies that used to hire junior 
             writers, coders, and analysts are instead using AI tools and expecting more from fewer, 
             more senior staff. The career ladder's bottom rungs are being removed.
           </IssueCard>
@@ -176,19 +176,19 @@ export default function Jobs() {
             iconGradient="from-amber-600/20 to-yellow-600/20"
             iconColor="text-amber-400"
           >
-            Workers with AI skills now command a <strong className="text-white">56% wage premium</strong> 
+            Workers with AI skills now command a <strong className="text-black">56% wage premium</strong> 
             over peers in identical roles without those skills — up from 25% the previous year, 
-            <strong className="text-white">more than doubling in 12 months</strong> (PwC 2025).
+            <strong className="text-black">more than doubling in 12 months</strong> (PwC 2025).
             <br /><br />
             This creates a two-speed labour market. Those who can leverage AI are seeing their 
             value skyrocket. Those who can't — or whose entire role is automatable — face stagnant 
             wages, reduced hours, or outright displacement. 
-            <strong className="text-white">37% of business leaders</strong> anticipate replacing workers 
-            with AI by the end of 2026 (HRDive). Already, <strong className="text-white">13.7% of US workers</strong> 
+            <strong className="text-black">37% of business leaders</strong> anticipate replacing workers 
+            with AI by the end of 2026 (HRDive). Already, <strong className="text-black">13.7% of US workers</strong> 
             report losing a job to AI or automation (National University).
             <br /><br />
             The Dallas Federal Reserve found AI is simultaneously 
-            <strong className="text-white">aiding and replacing workers</strong> — raising wages for some 
+            <strong className="text-black">aiding and replacing workers</strong> — raising wages for some 
             while suppressing them for others, creating unprecedented labour market bifurcation.
           </IssueCard>
 
@@ -199,19 +199,19 @@ export default function Jobs() {
             iconColor="text-blue-400"
           >
             CSIRO research tells a nuanced story. Their study of 4,000+ Australian firms found that 
-            <strong className="text-white">AI-adopting companies actually hire more</strong>, not fewer, 
+            <strong className="text-black">AI-adopting companies actually hire more</strong>, not fewer, 
             workers. But the skills demanded are rapidly evolving. 
-            <strong className="text-white">68% of Australian businesses</strong> have adopted some form of AI 
-            (CSIRO), while approximately <strong className="text-white">37% of SMEs</strong> specifically use AI tools (National AI Centre).
+            <strong className="text-black">68% of Australian businesses</strong> have adopted some form of AI 
+            (CSIRO), while approximately <strong className="text-black">37% of SMEs</strong> specifically use AI tools (National AI Centre).
             <br /><br />
             The Australian Parliament's Inquiry into the Digital Transformation of Workplaces (2025) 
             recommended government-led campaigns on AI awareness, training, and upskilling. 
-            CSIRO estimates Australia needs <strong className="text-white">161,000 new AI-savvy workers by 2030</strong>.
+            CSIRO estimates Australia needs <strong className="text-black">161,000 new AI-savvy workers by 2030</strong>.
             <br /><br />
             But there's a warning too. The OECD found that while AI adoption in SMEs helps compensate 
-            for labour shortages, it also risks <strong className="text-white">wage polarisation</strong> — 
+            for labour shortages, it also risks <strong className="text-black">wage polarisation</strong> — 
             exactly the pattern playing out globally. And paradoxically, CSIRO itself cut ~100 AI research 
-            roles in 2025, highlighting that <strong className="text-white">no sector is immune</strong> from 
+            roles in 2025, highlighting that <strong className="text-black">no sector is immune</strong> from 
             AI-driven restructuring.
           </IssueCard>
         </div>
@@ -220,8 +220,8 @@ export default function Jobs() {
       {/* Research */}
       <section className="py-16 px-4 border-t border-white/5">
         <div className="max-w-4xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-black font-heading mb-8">
-            Validated <span className="text-gradient">Research</span>
+          <h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+            Validated <span className="text-black font-heading">Research</span>
           </h2>
           <div className="space-y-3">
             {sources.map((src, i) => (
@@ -235,8 +235,8 @@ export default function Jobs() {
                 <div className="flex items-start justify-between gap-4">
                   <div className="space-y-1">
                     <h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
-                    <p className="text-sm text-gray-500">{src.org} &middot; {src.date}</p>
-                    <p className="text-sm text-gray-400 leading-relaxed">{src.summary}</p>
+                    <p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+                    <p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
                   </div>
                   <ExternalLink className="w-5 h-5 text-gray-600 group-hover:text-gold-400 shrink-0 mt-1 transition-colors" />
                 </div>
@@ -246,10 +246,10 @@ export default function Jobs() {
         </div>
       </section>
 
-      <footer className="border-t border-white/5 py-8 px-4">
+      <footer className="border-t-2 border-black py-8 px-4">
         <div className="max-w-4xl mx-auto text-center text-sm text-gray-600">
-          <p>Part of the <a href="/" className="text-red-400 hover:text-red-300">NEG-AI-TIVE</a> awareness project.</p>
-          <p className="mt-1">Always verify sources directly. Research landscape evolves rapidly.</p>
+          <p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+          <p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
         </div>
       </footer>
     </div>
@@ -260,14 +260,14 @@ function IssueCard({ icon: Icon, title, children, iconGradient, iconColor }: {
   icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
 }) {
   return (
-    <div className="glass p-8">
+    <div className="border-2 border-black/10 p-8 bg-white">
       <div className="flex items-start gap-4">
         <div className={`w-12 h-12 rounded-xl bg-gradient-to-br ${iconGradient} flex items-center justify-center shrink-0 border border-white/5`}>
           <Icon className={`w-6 h-6 ${iconColor}`} />
         </div>
         <div className="space-y-3">
-          <h2 className="text-2xl font-bold font-heading">{title}</h2>
-          <p className="text-gray-400 leading-relaxed">{children}</p>
+          <h2 className="text-lg font-heading tracking-tight">{title}</h2>
+          <p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
         </div>
       </div>
     </div>

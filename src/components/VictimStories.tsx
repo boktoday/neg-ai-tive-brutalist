@@ -44,7 +44,7 @@ export default function VictimStories() {
             </div>
             <span className="text-xs font-bold uppercase tracking-[0.25em] text-black/60">Hall of Shame</span>
           </div>
-          <h2 className="text-5xl md:text-7xl font-black leading-[0.9] tracking-[-0.03em]">
+          <h2 className="text-5xl md:text-7xl font-heading leading-[0.9] tracking-[-0.03em]">
             Hall of<br />
             <span className="text-black">Shame</span>
           </h2>
