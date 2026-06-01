@@ -115,6 +115,27 @@ export default function Navbar() {
               >
                 Legal
               </a>
+              <a
+                href="/scorecard"
+                onClick={handleNavClick}
+                className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
+              >
+                AI Harm Scorecard
+              </a>
+              <a
+                href="/screwed"
+                onClick={handleNavClick}
+                className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
+              >
+                How Screwed Quiz
+              </a>
+              <a
+                href="/action"
+                onClick={handleNavClick}
+                className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
+              >
+                Take Action
+              </a>
             </div>
           </div>
         </div>
