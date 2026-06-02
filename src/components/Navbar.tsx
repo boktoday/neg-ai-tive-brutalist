@@ -79,6 +79,9 @@ export default function Navbar() {
           <a href="/legal" className="text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black transition-colors no-underline">
             Legal
           </a>
+          <a href="/about" className="text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black transition-colors no-underline">
+            About
+          </a>
           <a href="/scorecard" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
             Scorecard
           </a>
@@ -131,6 +134,13 @@ export default function Navbar() {
                 className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
               >
                 Legal
+              </a>
+              <a
+                href="/about"
+                onClick={handleNavClick}
+                className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
+              >
+                About
               </a>
               <a
                 href="/scorecard"
