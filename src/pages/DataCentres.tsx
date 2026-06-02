@@ -84,7 +84,7 @@ export default function DataCentres() {
           </div>
           <h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
             AI Data Centres<br />
-            <span className="text-black font-heading">The Hidden Cost</span>
+            <span className="text-black font-heading">The Negative Aspects</span>
           </h1>
           <p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
             Every ChatGPT query, every MidJourney image, every AI-generated email — it all runs on 

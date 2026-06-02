@@ -22,7 +22,7 @@ export default function Hero() {
           </p>
           <span className="text-black/20 mx-2">//</span>
           <p className="text-sm md:text-base font-bold uppercase tracking-[0.3em] text-black/60">
-            The Hidden Cost of AI
+            The Negative Aspects of AI
           </p>
         </div>
 
