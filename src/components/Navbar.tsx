@@ -58,7 +58,21 @@ export default function Navbar() {
                     {brief.label}
                   </a>
                 ))}
-              </div>
+                <a
+                href="/local-ai"
+                onClick={handleNavClick}
+                className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
+              >
+                Local AI Guide
+              </a>
+            </div>
+              <a
+                href="/local-ai"
+                onClick={handleNavClick}
+                className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
+              >
+                Local AI Guide
+              </a>
             </div>
           </div>
 
@@ -70,6 +84,9 @@ export default function Navbar() {
           </a>
           <a href="/action" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
             Act
+          </a>
+          <a href="/local-ai" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
+            Local AI
           </a>
           <a href="/screwed" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
             Quiz
@@ -135,6 +152,13 @@ export default function Navbar() {
                 className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
               >
                 Take Action
+              </a>
+              <a
+                href="/local-ai"
+                onClick={handleNavClick}
+                className="block py-2 text-xs font-bold uppercase tracking-[0.15em] text-black/60 hover:text-black no-underline"
+              >
+                Local AI Guide
               </a>
             </div>
           </div>
