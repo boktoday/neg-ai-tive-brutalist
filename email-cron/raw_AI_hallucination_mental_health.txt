@@ -1,0 +1,74 @@
+[1] Title: What is AI Psychosis? Psychiatrist Answers 12 Questions About Chatbots & Mental Health
+[1] URL Source: https://nam.edu/news-and-insights/what-is-ai-psychosis/
+[1] Description: Psychiatrist Ragy Girgis discusses AI psychosis, and what to know about chatbots and mental health.
+[1] Published Time: 2026-03-10T09:00:53-04:00
+[1] Date: Mar 10, 2026
+
+![Image 1](https://nam.edu/wp-content/smush-webp/2026/03/Ragy-Girgis-headshot-with-background-for-Insight.jpg.webp)
+
+Dr. Ragy Girgis
+
+### As AI chatbots become more widely used, questions are emerging about how they may affect mental health. Psychiatrist Ragy Girgis discusses the potential risks for some users â and what clinicians and families should understand
+
+In recent years, artificial intelligence (AI) chatbots have become widely available and more people are turning to these tools for conversation and companionship, including discussions about mental health. While these tools can be important sources of information for many users, they can also pose new challenges. One of these is a phenomenon called AI psychosis. AI psychosis, which is not a clinical diagnosis, describes instances where people develop delusionsâor have existing delusions deepenedâin association with heavy use of chatbots.
+
+In this interview, Ragy Girgis, MD, MS, professor of clinical psychiatry at Columbia University and the New York State Psychiatric Institute, discusses what AI psychosis is, strategies to prevent it, and where there are gaps in research. Girgis is an expert in psychosis and in the following interview, he sheds light on what AI psychosis is, how it develops, how it can be treated, and strategies for addressing potentially harmful chatbot use.
+
+_This interview has been edited for length and clarity._
+
+#### Can you tell us about your background and research interests? Do you treat patients with psychosis, particularly in the context of chatbots and the internet?
+
+I completed my adult psychiatry residency at Columbia, and my desire was to pursue a career in clinical research, especially clinical research in schizophreniaâdeveloping new medications for schizophrenia and understanding the pathophysiology of especially early psychosis, or prodromal psychosis. People with prodromal psychosis have attenuated delusions or attenuated psychotic symptoms, mostly attenuated delusions in the context of this discussion.
+
+I completed my three-year fellowship and then became an assistant professor. Since that time, Iâve been funded to conduct brain imaging and clinical trials research in schizophrenia, especially early schizophrenia, trying to understand pathophysiology and especially understand predictors among people with prodromal psychosis that can help prevent them from developing full conviction or psychosis.
+
+Around six or seven months ago, journalists started to reach out to me to help them understand what AI psychosis is about. A lot of the people who comment on AI psychosis, psychiatrists or specialists, tend to be in my field, the clinical high risk or prodromal field, because understanding conviction and attenuated psychotic symptoms is what we do.
+
+#### Before we get into AI psychosis specifically, can you explain what psychosis is in general?
+
+There are multiple ways that people define psychosis. The most comprehensive and standard way is to define psychosis by the presence of one of primarily four types of psychotic symptoms. Those are:
+
+*   delusions, which are unusual, false, and fixed ideas;
+*   hallucinations, which are unusual perceptual abnormalitiesâlike hearing something that isnât there, seeing something that isnât there, tasting, smelling something that isnât there, or feeling something that isnât there;
+*   disorganized behavior; and
+*   disorganized speech.
+
+Having any one of those four types of symptoms qualifies someone as having a psychotic symptom and then usually some sort of psychotic disorder. There are many types of psychotic disorders: such as schizophrenia, bipolar disorder with psychotic features, and delusional disorder. But what is common among them is that one must have one of those four psychotic symptoms to receive a diagnosis of psychosis.
+
+#### How do you distinguish a delusion from someone who maybe believes in something like a conspiracy theory?
+
+Parsing these things is part of why psychiatrists spend three or four years in residency and then, if you want to become a specialist, several more years to really be able to differentiate between a standard, unusual kind of fringe idea or ideology versus an actual delusion.
+
+Itâs also importantâvery relevant to what weâre talking about with AI psychosisâthat all ideas, and especially unusual or delusional ideas, lie on a spectrum of conviction from 1 to 100%. It isnât as if everything is either true or not true, or people believe things either not at all or completely. These things lie along a spectrum.
+
+Even things that otherwise wouldnât necessarily be delusional but might be unusual probably wouldnât be defined that way because if you really ask people about it and ask them to commit, their conviction level is not going to be 100%, which defines a delusion. Anything between 1 and 99% would be an attenuated delusion or an unusual idea. Actually, those are very common. Most of us, if not all of us, probably have those. Whenever we use our rating scales, a lot of those sorts of ideas would light up on one of our scales.
+
+Thatâs why we have a spectrum and understand the difference between something that scoresâthe scale goes from 0 to 6âa 1 or a 2, which is considered typical , versus a 3, 4, or 5, which is considered attenuated and problematic but still not delusional, or 6, which is fully delusional.
+
+A conviction at anything less than 100% technically wouldnât be quite fixedâyou would be able to challenge them to some degree. Even if theyâre 99%, thereâs an iota of doubt.
+
+#### Who is at greatest risk for developing psychosis?
+
+Psychosis is multifactorial in nature. Thereâs a strong genetic component, and that does not just mean familial. There is definitely a familial component. For example, if someone has a family member, a first-degree family member like a parent, with a psychotic disorderâespecially schizophreniaâthe risk of the child having it is 9%. The risk in the general population is about 1%. If you have a sibling with it, your risk is about 5%. If you have a twin, the risk is more like 45%. So, while it isnât 100% genetic or familial, thereâs a large familial genetic component. Schizophrenia psychosis tends to appear around the time of puberty, between ages 15 and 21. It can occur earlier and it can occur later, but 15 to 21 is really the main time or age when psychosis develops.
+
+Now, a lot of people have essentially de novo genetic mutations, so itâs not familial. They donât inherit this genetic mutation from one of their parents, but itâs still genetic in nature.
+
+There are other familial contributions or contributors that arenât genetic that can contribute to psychosis. For example, very early life stress. By very early we mean perinatalâright around the time of birth. For example, people have studied large famines and identified a high risk of schizophrenia among offspring of individuals who experienced the famine. Thatâs what we mean by perinatal or early life stressâvery early, severe stress like starvation among mothers who were pregnant.
+
+#### Can psychosis be cured
+
+Psychosis in its full form is not reversible. We can treat it in a number of cases, but psychosis in which delusions have reached 100% conviction is not reversible. We technically canât cure it. There is a nuance to thisâpsychosis can be managed pretty well with medications, but you will always be vulnerable to relapse.
+
+Weâre able to get almost complete remission in about 10% of cases and then extremely good outcomes in a third of cases, fair outcomes in a third of cases, and then very bad outcomes in a third of cases. But, when there are very good outcomes, in almost all cases thatâs because the people are taking their medications for life. They are still able to live a full and mostly asymptomatic life, but they must take their medications. Unfortunately, non-adherence or stopping medications is extremely common in psychosis.
+
+#### How do you define AI psychosis? Can you talk about how it relates to internet-fueled psychosis more broadly?
+
+There are really two types of AI psychosis.
+
+One type is where someone who already has a psychotic disorder or schizophrenia engages with a large language model or chatbot and for some reason is convinced to stop their medication. That, of course, could lead to a decompensationâor the return of symptomsâand a psychotic break. Thatâs probably the more common type of AI psychosis, but we donât hear about it as much in the media.
+
+However, the type that weâre talking about more now is the type of AI psychosis in which the large language model or chatbot reinforces some sort of unusual idea. Not actually inducing or creating a delusional idea or an unusual idea but reinforcing an idea so that the personâs conviction level is increased. That increase could be from 1 to 2%, or 20 to 30%, or 65 to 67%, or 99 to 100%âand thatâs the worst-case scenario because once you get to 100%, the psychosis is fixed and irreversible. A conviction level below 100% would technically be reversible.
+
+So, when we talk about AI psychosis, weâre really talking about a large language model reinforcing some sort of unusual idea and increasing someoneâs level of conviction.
+
+Now, AI does other things very similar to psychosis. Although itâs not technically AI psychosis, we often include it under the rubric of AI psychosis: when a large language model influences or reinforces or induces thoughts of suicide. So, someone may enter some information related to suicide into a large language model or chatbot,

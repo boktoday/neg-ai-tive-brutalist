@@ -130,6 +130,57 @@ export default function LocalAI() {
         </section>
       ))}
 
+      {/* Video Tutorial */}
+      <section className="px-4 pb-16">
+        <div className="max-w-4xl mx-auto">
+          <div className="border-t-2 border-black pt-8 mb-6">
+            <h2 className="text-2xl font-heading tracking-tight">Watch My DIY Local AI Tutorial</h2>
+          </div>
+          <div className="border-2 border-black p-6 mb-6">
+            <p className="text-xs font-mono text-black/60 leading-relaxed mb-4">
+              Watch me set up a complete local AI system from scratch — download LM Studio, 
+              find and load the best models for your RAM, connect them to tools, and build 
+              your first local agent. All free, all offline.
+            </p>
+            {/* YouTube embed placeholder */}
+            <div className="w-full aspect-video bg-black/[0.03] border-2 border-black/20 flex items-center justify-center mb-4">
+              <iframe
+                width="100%"
+                height="100%"
+                src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+                title="DIY Local AI Tutorial"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+          </div>
+
+          {/* Buy full tutorial */}
+          <div className="border-2 border-black p-8 text-center bg-black/[0.02]">
+            <h3 className="text-lg font-heading mb-2">Full Local Agents System Tutorial</h3>
+            <p className="font-mono text-xs text-black/50 max-w-lg mx-auto leading-relaxed mb-4">
+              Step-by-step video course covering multi-agent orchestration, QwenPaw browser 
+              automation, Hermes function calling, RAG for your documents, and a complete 
+              local AI stack that replaces your cloud subscriptions. 8 hours of content.
+            </p>
+            <div className="flex items-center justify-center gap-4 mb-4">
+              <span className="text-3xl font-heading">$9.99</span>
+              <span className="text-xs font-mono text-black/30 line-through">$29.99</span>
+            </div>
+            <a
+              href="#"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block px-8 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors"
+            >
+              Buy Now →
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* LM Studio Setup */}
       <section className="px-4 pb-16">
         <div className="max-w-4xl mx-auto">

@@ -1,0 +1,76 @@
+[1] Title: Just a moment...
+[1] URL Source: https://www.sciencedirect.com/science/article/pii/S2666389925002788
+[1] Description: 
+[1] Date: Jan 9, 2026
+
+## Are you a robot?
+
+Please confirm you are a human by completing the captcha challenge below.
+
+*   **Reference number:**a0549425fac3b9e6
+*   **IP Address:**34.34.253.138
+*   **User Agent:**Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36
+*   **Timestamp:**2026-06-02 07:00:03 UTC
+
+[2] Title: AI data centre waste heat could be used for water purification and carbon capture
+[2] URL Source: https://environment.ec.europa.eu/news/ai-data-centre-waste-heat-could-be-used-water-purification-and-carbon-capture-2026-03-30_en
+[2] Description: New research shows how data centres could become water-positive and carbon-negative, by using waste heat to power water purification and carbon capture â potentially reducing the environmental footprint of AI.
+[2] Published Time: 2026-03-30T14:00:00+02:00
+[2] Date: Mar 30, 2026
+
+The push to advance artificial intelligence (AI) is driving unprecedented growth in global data centre development â and with it, a surge in energy demand, carbon emissions and water consumption. By 2030 data centres could consume 3-4% of global electricity and, by 2027, around 5 billion cubic metres of water annually. As Europeâs AI infrastructure expands rapidly, this is expected to create major challenges for decisionmakers balancing technological competitiveness with environmental and societal resilience.
+
+Efforts to reduce energy consumption and to develop advanced cooling technologies are underway â which has enabled greater amounts of waste heat to be produced by these centres. New analysis has proposed a way to rethink data centresâ role as passive energy consumers and instead use the waste heat to capture carbon and water from the air, or to thermally purify water. This analysis identifies pathways for making data centres âcarbon-negativeâ (removing more carbon dioxide than they emit) and/or âwater-positiveâ (contributing more water than they consume).
+
+Researchers conducted a detailed thermodynamic, economic and emissions analysis of possible end uses for the low-grade waste heat produced by data centres (typically 30-70Â°C); bearing in mind these uses would need to be geographically flexible. They evaluated six potential applications: district heating; heat-to-electricity conversion; cooling water through sorption chillers; thermal water purification; atmospheric water harvesting; and direct air capture (DAC) of COâ.
+
+Using moderate projections of U.S. data centre energy use (around 200 terawatt-hours by 2030), they compared the carbon emissions benefit and economic benefit of each approach, factoring in efficiency and product value.
+
+Their results showed that two end uses were most promising in both positive climate impacts and economic potential:
+
+*   direct air capture (DAC) powered by waste heat, which could remove some 50-1,000 megatonnes of COâ annually; and
+*   thermal water purification, which uses the same heat to convert seawater or brackish ground water into potable water, turning data centres into net water producers.
+
+Both applications outperform conventional heat recovery (such as space heating) in carbon impacts and economic viability â with their geographic flexibility giving an advantage compared to other options. DAC, in particular, the researchers suggest, could generate up to $100 billion USD (â¬85.6bn) annually in economic value while contributing significantly to net-zero goals. The researchers also propose a metric, Energy Utilisation Efficiency+ (EUE+), which aims to emphasise capturing as much benefit as possible from data centre electricity, and which focuses on _useful_ computational work.
+
+Some challenges are yet to be addressed. For example, the waste heat produced may be at temperatures too low to ensure high performance from DAC systems, as the chips need to be kept cool enough to be reliable. The variability of the heat produced may need careful matching with DAC systems, and the magnitude of heat produced may also pose some challenges - the researchers suggest that using all the heat from a data centre would require a larger DAC facility than any currently demonstrated worldwide. While a recent [study for the European Parliament](https://www.europarl.europa.eu/thinktank/en/document/ECTI_ATA(2025)772477) found that direct air capture could play an enabling role in EU decarbonisation, it also found that the current costs of DAC are high and uncertain. For water purification, mass transfer of the purified water and careful system coordination to ensure safe temperatures for chip operation would also be needed.
+
+The European Commissionâs [Water Resilience Strategy](https://commission.europa.eu/topics/environment/water-resilience-strategy_en) aims to build a water-smart economy, and proposes measures to promote water savings across data centres. This study highlights how greater AI sustainability and a more circular digital economy could be achieved by treating data centres as a crucial opportunity to use waste heat for water purification, which could then contribute to a more water-smart economy.
+
+The study concludes that, with further innovations in advanced cooling and intelligent heat management, data centres could âflip the switchâ from producing carbon and consuming water to capturing carbon and producing water. Using their assumptions in EUE+, the researchers posit that a single kilowatt-hour of computing energy could simultaneously remove half a kilogram of COâ and generate half a kilogram of water. The same infrastructure powering Europeâs digital transition could also help to power its green transition â if we learn to use every watt for multiple purposes.
+
+#### Reference:
+
+Diaz-Marin, C., D. and Berquist, Z. J. (2025) Flipping the switch: carbon-negative and water-positive data centers through waste heat utilization. Energy & Environmental Science (18): 8403-8413. DOI: 10.1039/d5ee02676h
+
+#### To cite this article/service:
+
+âScience for Environment Policyâ: European Commission DG Environment News Alert Service, edited by the Science Communication Unit, The University of the West of England, Bristol.
+
+#### Notes on content:
+
+The contents and views included in Science for Environment Policy are based on independent, peer reviewed research and do not necessarily reflect the position of the European Commission. Please note that this article is a summary of only one study. Other studies may come to other conclusions.
+
+[3] Title: AI, data centers, and water | Brookings
+[3] URL Source: https://www.brookings.edu/articles/ai-data-centers-and-water/
+[3] Description: Challenges around the water demands of AI and data centers require more comprehensive planning and action among a cross-section of actors
+[3] Published Time: Mon, 01 Jun 2026 18:06:40 GMT
+[3] Date: Nov 20, 2025
+
+Commentary
+
+### A growing need for regional coordination amid economic development potential
+
+November 20, 2025
+
+![Image 1: Cooling towers for an AI high-performance computing (HPC) data center.](https://www.brookings.edu/wp-content/uploads/2025/11/cooling-towers-for-data-center.jpg?quality=50&w=1500)
+
+ Photo credit: Shutterstock 
+
+*   6 min read
+
+Across the country, from [Virginia](https://www.vedp.org/industry/data-centers) to [Michigan](https://www.usnews.com/news/best-states/michigan/articles/2025-10-31/tech-giants-announce-7b-data-center-michigans-first-hyperscale-campus) to [Arizona](https://www.govtech.com/artificial-intelligence/two-new-data-centers-may-come-to-tucson-ariz-area), tech companies are pouring billions of dollars into new data center projects needed to store and manage digital information amid the rise of artificial intelligence (AI). Meanwhile, state and local governments are [enticed by projected increases](https://www.mckinsey.com/industries/public-sector/our-insights/the-data-center-balance-how-us-states-can-navigate-the-opportunities-and-challenges) in economic output, job creation, property tax revenue, and more that may accompany such projects. In some communities, leaders are practically tripping over themselves to lure more tech investment as part of the [countryâs expanding AI boom](https://www.wsj.com/us-news/what-happened-when-small-town-america-became-data-center-u-s-a-410f25e9), whether by [offering tax incentives](https://www.naiop.org/research-and-publications/magazine/2024/Winter-2024-2025/development-ownership/an-overview-of-state-data-center-related-tax-incentives/) or [scrambling to approve permits](https://virginiamercury.com/2025/06/20/virginia-doesnt-have-statewide-data-center-regulations-localities-are-making-their-own-rules-instead/).
+
+But amid this AI-fueled gold rush, more leaders are beginning to pay attention to the short- and long-term natural resource concerns, especially around all the water needed to keep data centers running. And even beyond the water needed to support data centers, public and private leaders increasingly need to view data centers in light of larger regional plans and priorities around water infrastructure investment and economic development.
+
+Building a new facility and pledging economic impact mean little without sustainably incorporating water resources into ongoing operations. While [land and energy are also enormous inputs](https://www.lincolninst.edu/publications/land-lines-magazine/articles/land-water-impacts-data-centers/), water is a fundamental ingredient to keep servers and other equipment in data centers [reliably cool](https://andthewest.stanford.edu/2025/thirsty-for-power-and-water-ai-crunching-data-centers-sprout-across-the-west/). A typical data center uses [300,000 gallons of water each day](https://www.npr.org/2022/08/30/1119938708/data-centers-backbone-of-the-digital-economy-face-water-scarcity-and-climate-ris) (equivalent to the demands of about 1,

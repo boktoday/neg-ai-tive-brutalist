@@ -1,0 +1,55 @@
+[1] Title: AI Will Reshape More Jobs Than It Replaces
+[1] URL Source: https://www.bcg.com/publications/2026/ai-will-reshape-more-jobs-than-it-replaces
+[1] Description: Task automation doesnât equal job loss. Most roles will remainâbut will change substantially.
+[1] Published Time: 2026-04-03
+[1] Date: Apr 3, 2026
+
+Over the next two to three years, 50% to 55% of jobs in the US will be reshaped by [AI](https://www.bcg.com/capabilities/artificial-intelligence). For many employees, this will mean that they retain the same or a similar role but face radically new expectations for how they work and what they produce. For company leaders, it will require a clear vision for how the transformation is managed, including a scaled, strategic approach to upskilling and reskilling and the restructuring of career ladders.
+
+This shift is already happeningâ[and will pick up speed as AI adoption spreads](https://www.bcg.com/publications/2025/ai-is-outpacing-your-workforce-strategy-are-you-ready). Our analysis, based on microeconomic modeling, identified a significant swath of the labor force for which AI will meaningfully augment current roles. Moreover, when the productivity gains from AI use trigger increased end product demand and the potential for augmentation is high, we believe there will be a need for more and, in some cases, new human roles. (See Exhibit 1.) While job augmentation and new-job creation will happen rapidly, full substitution of jobs by AI will be slower. Five years from nowâor perhaps further in the futureâ10% to 15% of jobs in the US could be eliminated.1 1 This number assumes 165 million US jobs filling 1,500 roles.  This level of potential job loss is considerable and creates an important call to action for business leaders.
+
+![Image 1: Two Critical Factors in AI's Impact Are Labor Substitution and Demand Expandability](https://web-assets.bcg.com/dims4/default/667f63c/2147483647/strip/true/crop/3600x2088+0+0/resize/768x445!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fa0%2Fd5%2Fb38564fe43b3bbdc234a0f514fa0%2Fai-will-reshape-more-jobs-than-it-replaces-ex01.png)
+
+Critically, our analysis is not intended to be an unemployment forecast. It does not account for macroeconomic factors such as [geopolitics](https://www.bcg.com/capabilities/international-business/center-for-geopolitics)or inflation, nor does it contemplate the impact of new AI breakthroughs beyond the capabilities of todayâs frontier models. Moreover, our model canât solve for powerful and influential unknowns, such as the future impact of AI on the accessibility of jobs and the speed with which the [technology](https://www.bcg.com/capabilities/digital-technology-data/overview) is adopted. (See âMethodology: Translating Automation Potential into Labor Market Outcomesâ for more on our approach.)
+
+That said, the analysis provides clear guidance for [CEOs](https://www.bcg.com/executives/ceo-agenda) on how to act in the face of this workforce shift. They are making decisions today that affect their people and the viability of their business, and they need a nuanced view of AIâs impact. Those who cut their workforce beyond AIâs ability to replace it will see productivity drop, institutional knowledge disappear, and critical talent walk away. Those who fail to dramatically rethink work will see their competitors grow faster and more profitably.
+
+Monthly Newsletter Subscription
+
+### Tech + Us: Harness the power of technology and AI
+
+## Task Automation Doesnât Have to Mean Job Loss
+
+To build our model, we calculated the number of jobs involving tasks that are at least 40% automatable. This represents the average level of automation for all US-based occupations and the threshold after which role and organization redesign becomes a stronger business case. The 43% of jobs that exceed this threshold formed the focus of our analysis. The other 57% are jobs that depend heavily on the physical presence of human workers, on hands-on work, or on sustained human interaction, all of which limit the potential for automation and thus are less likely to be disrupted by AI. (See Exhibit 2.)
+
+![Image 2: Agentic AI May Drive High Levels of Task Automations in 43 percent of Jobs](https://web-assets.bcg.com/dims4/default/0a2fd43/2147483647/strip/true/crop/3600x1998+0+0/resize/768x426!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F18%2F0a%2F8fc0d6b5400e9aa9b4c7b6b69a20%2Fai-will-reshape-more-jobs-than-it-replaces-ex02.png)
+
+**Substitution Versus Augmentation.**To illustrate the difference between substitution and augmentation, consider call center representatives and software engineers, two roles that are already deploying agentic AI at scale.
+
+A call center representative is typically responsible for resolving a defined set of customer inquiries within established workflows. Much of the work involves structured interactions such as account lookups, policy explanations, and scripted troubleshooting. When AI systems can reliably handle these repeatable inquiries end to end, fewer representatives are required. In this setting, the workflow can often be clearly bifurcated, with AI handling first-line interactions and humans focusing on escalations and exceptions.
+
+In some cases, representatives can transition into higher-value roles focused on relationship building and proactive risk mitigation. But overall employment in the call center rep role will decline as the most structured tasks are absorbed by the system.
+
+A software engineer, by contrast, produces a very different output. While coding includes routine elements, the core value of the role lies in system design, architectural judgment, tradeoffs between performance and cost, and the translation of business needs into technical solutions. AI can dramatically accelerate code generation and testing, but given todayâs capabilities, it cannot replace the system-level judgment required to own the outcome end to endâmeaning the work cannot be cleanly divided between system and engineer. Instead, software development becomes an ongoing interaction in which engineers define objectives, refine outputs, validate results, and integrate components into broader systems.
+
+AI supports and accelerates these steps but does not replace the need for human judgment and accountability. As a result, AI helps engineers do their jobs more effectively rather than replacing them, making these roles less likely to experience direct displacement and shifting engineersâ work toward system-level thinking, orchestration, and product and design tasks, rather than repetitive coding tasks.
+
+**Low Versus High Demand Expandability.**When AI lowers the cost of delivering a business outcome or end product, the question is whether demand for the output expands or remains bounded. If lower costs unlock unmet demand, increase accessibility, or accelerate consumption, total output may rise and employment may remain stable or even grow despite significant automation at the task level. If demand for the outcome is fixed, productivity gains are more likely to translate into fewer required workers.
+
+This dynamic is not new. Economists have long observed that efficiency improvements can increase total consumption rather than reduce it, a phenomenon often referred to as Jevons Paradox. When the cost of a resource falls, usage can rise. The same logic applies to labor: whether productivity reduces employment depends on how demand for the output responds.
+
+Software engineering illustrates expandable demand. Organizations across industries continue to face persistent unmet need for digital products, automation, and new features. As AI reduces the cost and time required to build software, organizations often build more. Output expands and overall job volume may remain stable or grow, even as the productivity of individual engineers rises, because humans continue to play a meaningful role. The continued growth of software engineering headcount in the years following the introduction of ChatGPT in 2022 illustrates this phenomenon. (See Exhibit 3.)
+
+![Image 3: Software Engineering Headcount Has Risen Steadily in the Past Three Years](https://web-assets.bcg.com/dims4/default/74c8dbc/2147483647/strip/true/crop/3600x1979+0+0/resize/768x422!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2Fe5%2F62%2F133fc5da4b2ea0669118c02f754f%2Fai-will-reshape-more-jobs-than-it-replaces-ex03.png)
+
+Call center representatives illustrate bounded demand. The volume of inbound interactions is largely determined by the size of the customer base and the frequency of service needs. When AI reduces the cost of handling routine inquiries, the number of interactions does not expand proportionally. In this context, productivity gains are more likely to reduce the number of representatives required.
+
+## The Majority of Current Jobs Will Stay but Evolve
+
+By analyzing roles against the factors above, we can identify where they belong in BCG Henderson Instituteâs proprietary AI Labor Disruption Segments, which comprise six categories. (See Exhibit 4.)
+
+![Image 4: In the US, Most Jobs Will Remain in Some Form in the Coming Years](https://web-assets.bcg.com/dims4/default/b63eb39/2147483647/strip/true/crop/3600x2058+0+0/resize/768x439!/format/webp/quality/90/?url=http%3A%2F%2Fboston-consulting-group-brightspot.s3.amazonaws.com%2F44%2F43%2Fa79893394a67ad0504ba217462bd%2Fai-will-reshape-more-jobs-than-it-replaces-ex04.png)
+
+**Amplified Roles.** When AI augments human capabilities and demand expands, employment may remain stable or grow. Humans remain central to value creation, and wage inflation may develop as higher productivity increases competition for skilled talent. This type of role represents 5% of current jobs.
+
+Software engineering falls under this category. (For a âwhat ifâ scenario, see âWhat Would It Take for Software

@@ -1,0 +1,87 @@
+[1] Title: AI ROI in 2026: Why Enterprise AI Fails & Works | Terminal X
+[1] URL Source: https://www.terminal-x.ai/research/ai-roi-in-2026-why-most-enterprise-ai-fails-and-what-actually-works
+[1] Description: Why 95% of AI pilots fail to deliver ROI and how leading companies prove measurable impact through infrastructure, measurement, and strategy.
+[1] Published Time: 2026-04-22T15:30:00.000Z
+[1] Date: Apr 22, 2026
+
+Hyperscalers are on track to spend $675 billion on AI infrastructure in 2026, up 63% from the prior year. Virtually every major enterprise in America is buying AI. The question almost none of them can answer is whether itâs working.
+
+The data is stark. MIT found that 95% of AI pilots deliver zero measurable P&L impact. S&P Global found that 42% of companies abandoned most of their AI projects in 2025. IBM put the number of initiatives delivering expected ROI at 25%. Morgan Stanley found that only 21% of S&P 500 companies could cite a measurable AI benefit at all. The gap between AI spending and AI proof is the central tension of the current cycle.
+
+The companies pulling ahead arenât buying better models. They built three layers underneath the technology before deploying it: measurement that proves whether AI tasks are working, infrastructure that connects those tasks into automated workflows, and strategy that keeps the whole system learning. The layers are nested and sequential. Most companies never built the first one.
+
+The market is already pricing the difference. Companies that score as dual leaders on measurement and infrastructure returned 41.38% over twelve months versus the S&P 500âs 29.40%, a spread of nearly 1,200 basis points. Companies with only one layer trail the benchmark. Citi identified a 30 basis point credit spread penalty for companies spending on AI without evidence of return. The gap is showing up in both equity and debt.
+
+This piece synthesizes twelve original Terminal X research reports analyzing earnings transcripts, 10-K filings, and analyst Q&A across five sectors to map the full picture: where the measurement gaps are, what infrastructure closes them, and which companies are compounding their advantage while the rest retrofit.
+
+**In this article:**
+
+*   **1. The $675 Billion Question**
+
+_Why does most enterprise AI spending produce zero measurable ROI?_
+
+*   **2. The Measurement Layer**
+
+_What does it actually mean to measure AI ROI?_
+
+*   **3. The Hardest Proof**
+
+_Why is financial services AI ROI the hardest to prove, and why is âreplace our laborâ the wrong starting goal?_
+
+*   **4. The Infrastructure Layer**
+
+_What infrastructure do you need before AI can automate anything, and how does it determine time to value?_
+
+*   **5. The Delivery Models**
+
+_Who is selling enterprise AI, and which delivery model actually helps close the ROI gap?_
+
+*   **6. The Strategy Layer**
+
+_What separates companies whose AI gets smarter from those running the same playbook?_
+
+*   **7. The Market Is Already Pricing This**
+
+_Is the stock market already pricing the AI measurement gap?_
+
+*   **8. Three Layers, One Window**
+
+_How should investors and operators respond to the AI ROI gap?_
+
+_Why does most enterprise AI spending produce zero measurable ROI?_
+
+Every major enterprise in America is buying AI, but how many of them can tell you whether itâs working? The gap between spending and proof is the central tension of the current AI cycle, and closing it requires something most companies skipped entirely: a measurement layer designed into the system before the technology was deployed.
+
+What separates the companies pulling ahead is the foundation they built underneath the technology. Measurement that proves whether AI tasks are working, infrastructure that connects those tasks into automated workflows, and strategy that keeps the whole system learning. Three layers, each enabling the next, each a precondition for the one above it. The pattern maps to a broader framework that banking advisory analysts have described as task-level AI, automation-level AI, and decisioning-level AI. Most companies never built the first layer, and the layers above it collapsed as a result.
+
+MITâs 2025 study on AI implementation found that 95% of pilots deliver zero measurable P&L impact. The reason is less about the technology than the process: roughly 80% of the work required to move from pilot to production is data engineering, governance, workflow integration, and measurement infrastructure. Most pilots launch without predefined success criteria, which means there is no way to declare success even if the technology performs exactly as designed.
+
+The early era of enterprise AI adoption was built on usage metrics: how many employees were on the platform, how many hours they logged, which teams had access. Those numbers were easy to collect and satisfying to report. They were also irrelevant to the question that matters, which is whether the AI produced better outcomes than what it replaced.
+
+S&P Global found that 42% of companies abandoned most of their AI projects in 2025, more than double the prior year. IBMâs CEO study put the number of initiatives delivering expected ROI at 25%, with 56% of CEOs reporting zero significant financial benefit. By Q4 2025, Morgan Stanley found that only 21% of S&P 500 companies could cite a measurable AI benefit at all.
+
+Investors noticed before most boards did. Citi identified a 30 basis point credit spread penalty for companies classified as AI âadoptersâ versus âenablers,â meaning the debt market is already charging a premium for spending without evidence of return. The difference between measuring activity and measuring proof is now priced into the cost of capital.
+
+![Image 1](https://www.terminal-x.ai/_next/image?url=%2Fapi%2Fmedia%2Ffile%2Froi%25201%2520-%25201.png&w=3840&q=80)
+
+Cross-industry AI ROI data: 1.7x average for leaders, 10% median, 14% average reported by Chief AI Officers, 30% of executives who can quantify ROI report returns under 5%. Sources: BCG, IBM, Capgemini.
+
+Hyperscalers are on track to spend $675 billion on AI infrastructure in 2026, up 63% from the prior year, with cumulative investment approaching $3 to $4 trillion by the end of the decade. That capital built the data centers and trained the models. What it has not built, in most cases, is any reliable way to know whether those tools are working in the broader corporate economy.
+
+The finance industry illustrates the gap most clearly, in part because of unique challenges in measurement in this space which will be addressed later in this article. Bank Directorâs 2025 survey of 141 directors at banks under $100 billion found that 82% donât measure ROI on any technology investment, not just AI. S&P Globalâs banking survey revealed that 91% of boards approved AI programs while only 26% had the capability to execute them.
+
+For this article, Terminal X ran a twelve-report analysis using its AI agent to study earnings transcripts, investor presentations, 10-K filings, and analyst Q&A across five sectors: Financial Services, Defense/Aerospace, Healthcare, Manufacturing/Energy, and Enterprise Technology. The methodology scored companies on the distance between their AI rhetoric and their concrete financial KPIs. The measurement gap in banking turned out to be the same gap in defense, healthcare, manufacturing, and enterprise tech. The structure is universal.
+
+The companies pulling ahead didnât buy better models, they built the foundation to prove what those models produce. And the market is already pricing the difference.
+
+_What does it actually mean to measure AI ROI?_
+
+Most companies fail at the first layer because they treat measurement as a reporting exercise rather than a design requirement. The failure happens in three predictable stages, and even the companies that appear to be leading are mostly measuring theater.
+
+**The first stage is not measuring at all.**That 82% figure from Bank Director isn't an outlier. Across sectors, proofs of concept launch without predefined KPIs and produce activity but not evidence. IIF and EY's 2025 survey found that 96% of financial institutions cite noisy, untimely, or inaccurate data as their primary AI challenge. When the data environment can't support basic measurement, everything built on top of it is speculation.
+
+**The second stage is measuring the wrong thing.**Task-level metrics like hours saved, FTE equivalents avoided, and tokens processed sound rigorous but never connect to the income statement. The Terminal X reports generated a stress-test on the productivity claims that major banks made in recent earnings transcripts by tracing them to actual headcount and compensation data in SEC filings. The results were consistent.
+
+JPMorgan Chase (JPM) claimed roughly 10% developer productivity savings. Actual 2025 compensation expense grew approximately 6%, and headcount rose to 318,512. Bank of America (BAC) claimed similar gains and cited 2,000 FTEs avoided while compensation expense climbed $2.9 billion. Morgan Stanley (MS) reported around 20% productivity improvement while comp expense grew 12%. BNY Mellon's (BK) $550 million in AI savings was offset by $500 million in new AI investment. Every bank in the sample told a story about efficiency on the earnings call. The 10-K told a different one.
+
+The "we didn't add headcount" defense doesn't hold up under scrutiny. Most enterprises don't actually reduce headcount after deploying AI. They absorb natural attrition without backfilling, redeploy people to adjacent roles, or simply grow into the capacity without hiring as fast as they otherwise would have. That makes "FTEs avoided" a modeled counterfactual, not a realized saving. It never hits the income statement as a line item, it can't be audited against actual payroll data, and it relies on assumptions about what hiring would have looked like in a world that didn't happen. It's a reasonable internal planning metric, but it's not proof of

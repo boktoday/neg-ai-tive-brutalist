@@ -1,0 +1,105 @@
+[1] Title: Just a moment...
+[1] URL Source: https://www.congress.gov/bill/119th-congress/house-bill/1734/text
+[1] Description: 
+
+![Image 1: Icon for www.congress.gov](https://www.congress.gov/favicon.ico)
+
+## www.congress.gov
+
+## Performing security verification
+
+This website uses a security service to protect against malicious bots. This page is displayed while the website verifies you are not a bot.
+
+[2] Title: Deepfakes-as-a-Service Meets State Laws: Governing Synthetic ...
+[2] URL Source: https://www.joneswalker.com/en/insights/blogs/ai-law-blog/deepfakes-as-a-service-meets-state-laws-governing-synthetic-media-in-a-fragmente.html?id=102m20g
+[2] Description: Deepfake production is increasingly being offered âas a service,â powered by autonomous AI systems capable of executing multi-step fraud ...
+[2] Date: Jan 15, 2026
+
+[3] Title: Deepfake Legislation Tracker: Federal & State Laws
+[3] URL Source: https://stackcyber.com/posts/ai-deepfake-laws
+[3] Description: Deepfakes are illegal in most U.S. states. This tracker covers the federal TAKE IT DOWN Act, election disclosure laws, and non-consensual imagery protections across 47 states, updated for 2026.
+[3] Published Time: 2026-05-14
+[3] Date: May 14, 2026
+
+## Last Updated: May 13, 2026
+
+Deepfake legislation has expanded rapidly across the United States, with 46 states having enacted laws targeting AI-generated synthetic media as of spring 2026. The regulatory landscape addresses two primary concerns: election manipulation through deceptive political content and non-consensual intimate imagery (NCII).
+
+The federal [TAKE IT DOWN Act](https://www.congress.gov/bill/119th-congress/senate-bill/146), signed into law in May 2025, provides the first nationwide framework for addressing intimate deepfakes, with platform compliance requirements now in effect as of May 19, 2026. States continue to lead on election-related restrictions, with 30 states now having enacted those protections ahead of the 2026 midterms.
+
+This tracker provides an overview of deepfake legislation at both federal and state levels, organized by category and compliance requirements.
+
+**Learn more about [deepfake detection](https://stackcyber.com/posts/deepfake-detection) on our blog.**
+
+## Federal Law: TAKE IT DOWN Act
+
+President Trump signed the TAKE IT DOWN Act (Tools to Address Known Exploitation by Immobilizing Technological Deepfakes on Websites and Networks Act) on May 19, 2025, following near-unanimous congressional support (409-2 in the House, unanimous in the Senate). The law represents the first major federal response to AI-generated intimate imagery.
+
+## Provisions
+
+**Criminal Prohibition:** The law makes it a federal crime to knowingly publish or threaten to publish non-consensual intimate imagery using an interactive computer service, regardless of whether the content is authentic or AI-generated. Penalties include up to two years imprisonment for adult victims and up to three years for minors. The first conviction under the law came in April 2026, when an Ohio man was convicted for using AI to create and distribute NCII targeting adults and children in his community.
+
+**Platform Requirements:** Covered platforms were required to implement a notice-and-takedown process by May 19, 2026. Upon receiving a valid takedown request, platforms must remove the content within 48 hours and make reasonable efforts to remove known copies. A "covered platform" includes any website, online service, or mobile application that provides a forum for user-generated content or regularly deals with intimate imagery as part of its business.
+
+**Enforcement:** The Federal Trade Commission oversees platform compliance. Violations are treated as unfair or deceptive trade practices under the FTC Act, with civil penalties of up to $53,088 per violation. In advance of the May 2026 deadline, FTC Chairman Andrew Ferguson sent formal warning letters to more than a dozen major platforms, including Meta, Apple, Microsoft, TikTok, Reddit, Snapchat, and X, signaling the agency's intent to actively investigate and enforce the law.
+
+**Consent Clarification:** The law explicitly states that prior consent to create an image or share it with another person does not constitute consent for publication.
+
+## First Amendment Concerns
+
+Several civil liberties groups, including the Electronic Frontier Foundation and the Center for Democracy & Technology, have raised concerns about the law's vague language and potential for abuse. Critics note the takedown mechanism could be exploited by bad-faith actors to remove legitimate content, similar to problems observed with [Digital Millennium Copyright Act](https://www.copyright.gov/dmca/) (DMCA) enforcement. The law requires takedown requesters to act in "good faith" but provides limited mechanisms to challenge improper requests. Enacted in 1998, the DMCA provides a framework for copyright holders to protect their works from unauthorized use online.
+
+## Election Deepfakes by State
+
+As of May 2026, 30 states have enacted laws specifically addressing deepfakes in political communications, up from 28 at the start of the year. Most laws focus on disclosure requirements rather than outright bans, requiring political advertisements containing AI-generated content to include clear disclaimers. Typical requirements include statements such as "This ad was generated or substantially altered using artificial intelligence."
+
+California's [AB 2839](https://pellerin.asmdc.org/press-releases/20240918-governor-signs-ab-2839-law-enacting-protections-against-deceptive-election), enacted in September 2024, faced immediate legal challenges. A federal judge struck down portions of the law in August 2025, finding that key provisions conflicted with Section 230 of the Communications Decency Act and were likely unconstitutional under the First Amendment. Minnesota's similar law has also been challenged by X (formerly Twitter), with early rulings suggesting courts remain skeptical of sweeping prohibitions on political deepfakes.
+
+## States With Election Deepfake Laws
+
+| State | Law | Enacted | Key Requirements |
+| --- | --- | --- | --- |
+| Alabama | HB 172 | May 2024 | Prohibits deceptive political synthetic media during campaign periods |
+| Arizona | HB 2394, SB 1359 | May 2024 | Disclosure requirements for AI-generated election content |
+| California | AB 2355, AB 2839 | Sept. 2024 | Disclaimer requirements; portions struck down Aug. 2025 |
+| Colorado | HB 1147 | May 2024 | Disclosure requirements for synthetic media in campaigns |
+| Delaware | HB 316 | Oct. 2024 | Labeling requirements for AI political content |
+| Florida | HB 919 | April 2024 | Disclosure requirements for political deepfakes |
+| Hawaii | SB 2687 | July 2024 | Broad enforcement standing including local prosecutors |
+| Idaho | HB 664 | March 2024 | Disclosure requirements for AI election communications |
+| Indiana | HB 1133 | March 2024 | Transparency requirements for synthetic media |
+| Kentucky | SB 4 | March 2025 | Disclosure and civil/criminal penalties |
+| Maryland | 2026 law | 2026 | Disclosure requirements; 30th state to enact election deepfake protections |
+| Michigan | HB 5144 | Nov. 2023 | Early adopter with disclosure requirements |
+| Minnesota | HF 1370, HF 4772 | May 2023/2024 | Prohibits misleading deepfakes; under legal challenge |
+| Mississippi | SB 2577 | April 2024 | Disclosure requirements for election deepfakes |
+| Montana | SB 25 | 2025 | Injunction, civil fines ($500), criminal referral for repeat offenders |
+| New Mexico | HB 182 | 2024 | Disclosure requirements |
+| South Dakota | 2025 law | 2025 | Disclosure requirements for 2026 midterms |
+| Texas | SB 751 | 2023 | Early adopter; prohibits deceptive political deepfakes |
+| Utah | SB 131 | 2024 | Disclosure requirements |
+| Washington | SB 5152 | 2023 | Early adopter; disclosure requirements |
+| Wisconsin | 2024 law | 2024 | Disclosure requirements |
+
+_Note: This table includes major enacted laws. Additional states have pending legislation or laws addressing related issues. Visit [Public Citizen's tracker](https://www.citizen.org/article/tracker-legislation-on-deepfakes-in-elections/) for real-time updates._
+
+## Non-Consensual Intimate Imagery (NCII)
+
+As of early 2026, 46 states have enacted laws addressing sexually explicit deepfakes. All 50 states and the District of Columbia have some form of NCII protection, though many older laws were written before AI-generated content became prevalent and may not explicitly cover synthetic media.
+
+The federal TAKE IT DOWN Act now provides a nationwide baseline, but state laws often provide additional remedies including civil causes of action that allow victims to sue for damages.
+
+| State | Law | Criminal/Civil | Key Features |
+| --- | --- | --- | --- |
+| Alabama | HB 161 | Criminal | Clarifies AI-generated content falls within privacy-harm framework |
+| California | SB 926, AB 1831 | Both | Civil remedies and criminal penalties; specific AI provisions |
+| Georgia | SB 9 | Both | Passed March 2025; comprehensive deepfake protections |
+| New Jersey | April 2025 law | Both | Third-degree crime; up to $30,000 fine; civil damages |
+| New York | A02249 | Civil | Enhanced publicity rights; registration requirements |
+| Oklahoma | HB 1364 | Criminal | Strengthened penalties for synthetic intimate content |
+| Oregon | HB 2299 | Criminal | Unlawful dissemination of synthetic intimate imagery |
+| Pennsylvania | Act 35 (SB 649) | Criminal | Effective Sept. 2025; misdemeanor to felony; satire carve-out |
+| Tennessee | ELVIS Act | Both | Voice/likeness protections; applies to AI replication |
+| Washington | HB 1205 | Criminal | Effective July 2025; "forged digital likeness" prohibition |
+
+_Note: This table highlights select state laws with explicit AI/deepfake provisions. Most states have general NCII laws that may also apply. Visit [Public Citizen's intimate deepfakes tracker](https://www.citizen.org/article/tracker-intimate-deepfakes-state-
