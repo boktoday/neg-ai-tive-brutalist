@@ -75,7 +75,7 @@ export default function Merch() {
                 </div>
                 <span className="text-sm font-bold">{product.price}</span>
               </div>
-              <a href={`https://www.printful.com/sync-product/${product.printfulId}`} target="_blank" rel="noopener noreferrer"
+              <a href={`https://www.printful.com/products/${product.printfulId}`} target="_blank" rel="noopener noreferrer"
                 className="mt-auto w-full py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] text-center hover:bg-gray-900 transition-colors block">
                 Buy Now →
               </a>
