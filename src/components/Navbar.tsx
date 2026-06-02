@@ -91,6 +91,9 @@ export default function Navbar() {
           <a href="/local-ai" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
             Local AI
           </a>
+          <a href="/sentiment" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
+            Sentiment
+          </a>
           <a href="/screwed" className="text-xs font-bold uppercase tracking-[0.15em] bg-black text-white px-3 py-1.5 hover:bg-gray-900 transition-colors no-underline">
             Quiz
           </a>

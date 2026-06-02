@@ -17,6 +17,7 @@ import HowScrewed from './pages/HowScrewed.tsx';
 import Action from './pages/Action.tsx';
 import LocalAI from './pages/LocalAI.tsx';
 import About from './pages/About.tsx';
+import Sentiment from './pages/Sentiment.tsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -39,6 +40,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/action" element={<Action />} />
         <Route path="/local-ai" element={<LocalAI />} />
         <Route path="/about" element={<About />} />
+        <Route path="/sentiment" element={<Sentiment />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>
