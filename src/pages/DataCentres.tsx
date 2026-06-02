@@ -70,23 +70,17 @@ const sources = [
 
 export default function DataCentres() {
   return (
-    <div
-      className="min-h-screen bg-white text-black"
-      style={{
-        backgroundImage: 'url(/designs/anime-bg/datacentres.png)',
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundBlendMode: 'overlay',
-        backgroundColor: 'rgba(255,255,255,0.94)',
-      }}
-    >
+    <div className="min-h-screen bg-white text-black">
       <Navbar />
       {/* Nav */}
       
 
-      {/* Hero */}
-      <section className="pt-32 pb-16 px-4">
-        <div className="max-w-4xl mx-auto">
+      {/* Hero with anime bg */}
+      <section className="relative pt-32 pb-16 px-4 overflow-hidden">
+        <div className="absolute inset-0 pointer-events-none">
+          <img src="/designs/anime-bg/datacentres.png" alt="" className="w-full h-full object-cover opacity-[0.08]" style={{ objectPosition: '50% 30%' }} />
+        </div>
+        <div className="max-w-4xl mx-auto relative z-10">
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
             <Server className="w-4 h-4 text-red-400" />
             <span className="text-black/60">Issue Brief</span>
