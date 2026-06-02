@@ -70,7 +70,16 @@ const sources = [
 
 export default function DataCentres() {
   return (
-    <div className="min-h-screen bg-white text-black">
+    <div
+      className="min-h-screen bg-white text-black"
+      style={{
+        backgroundImage: 'url(/designs/anime-bg/datacentres.png)',
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundBlendMode: 'overlay',
+        backgroundColor: 'rgba(255,255,255,0.94)',
+      }}
+    >
       <Navbar />
       {/* Nav */}
       
