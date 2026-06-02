@@ -78,7 +78,7 @@ export default function DataCentres() {
       {/* Hero with anime bg */}
       <section className="relative pt-32 pb-16 px-4 overflow-hidden">
         <div className="absolute inset-0 pointer-events-none">
-          <img src="/designs/anime-bg/datacentres.png" alt="" className="w-full h-full object-cover opacity-50" style={{ objectPosition: '50% 30%' }} />
+          <img src="/designs/anime-bg/datacentres.png" alt="" className="w-full h-full object-cover opacity-70" style={{ objectPosition: '50% 30%' }} />
         </div>
         <div className="max-w-4xl mx-auto relative z-10">
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
