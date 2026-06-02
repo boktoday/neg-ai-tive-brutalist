@@ -81,11 +81,7 @@ export default function Copyright() {
       <Navbar />
       
 
-            {/* Hero with anime bg */}
-      <section className="relative pt-32 pb-16 px-4 overflow-hidden">
-        <div className="absolute inset-0 pointer-events-none">
-          <img src="/designs/anime-bg/copyright.png" alt="" className="w-full h-full object-cover opacity-70" style={{ objectPosition: '50% 30%' }} />
-        </div>
+      <section className="pt-32 pb-16 px-4">
         <div className="max-w-4xl mx-auto">
           <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-[0.2em] text-black/60 mb-6">
             <Palette className="w-4 h-4 text-red-400" />
