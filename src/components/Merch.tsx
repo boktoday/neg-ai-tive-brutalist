@@ -1,20 +1,21 @@
 import { ShoppingBag } from 'lucide-react';
 
-const MOCKUP_BASE = "/designs/mockups";
+const MOCKUP_BASE = "/designs/rebrand";
+const STORE_BASE = "https://www.printful.com/sync-product";
 
 const products = [
-  { name: "Neg-AI-tive", type: "Classic T-Shirt", price: "$29.99+", mockup: "neg-ai-tive-tshirt.png", printfulId: 436110827 },
-  { name: "My Job Was Automated", type: "Coffee Mug", price: "$24.99+", mockup: "job-automated-mug.png", printfulId: 436110925 },
-  { name: "ChatGPT Took My Job", type: "Laptop Sticker", price: "$4.99", mockup: "chatgpt-took-job-tshirt.png", printfulId: null },
-  { name: "Prompt Engineer Survivor", type: "Premium Hoodie", price: "$59.99+", mockup: "prompt-survivor-hoodie.png", printfulId: 436110843 },
-  { name: "AI Made This Design", type: "Ironic T-Shirt", price: "$29.99+", mockup: "ai-made-design-tshirt.png", printfulId: 436110836 },
-  { name: "Still Human (For Now)", type: "Trucker Hat", price: "$19.99", mockup: "hat-still-human.png", printfulId: null },
-  { name: "Actual Intelligence", type: "Premium T-Shirt", price: "$34.99+", mockup: "actual-intelligence-tshirt.png", printfulId: 436110834 },
-  { name: "Scammed by Deepfake", type: "Classic T-Shirt", price: "$29.99+", mockup: "scammed-deepfake-tshirt.png", printfulId: 436110831 },
-  { name: "Chatbot Stole My Child", type: "Coffee Mug", price: "$24.99+", mockup: "chatbot-stole-child-mug.png", printfulId: 436110929 },
-  { name: "I Have AI Psychosis", type: "Classic T-Shirt", price: "$29.99+", mockup: "ai-psychosis-tshirt.png", printfulId: 436110829 },
-  { name: "AI Data Center Control Grid", type: "Premium Hoodie", price: "$59.99+", mockup: "data-center-hoodie.png", printfulId: 436110845 },
-  { name: "AI Algorithmic Angst", type: "Coffee Mug", price: "$24.99+", mockup: "algorithmic-angst-mug.png", printfulId: 436110937 },
+  { name: "NEG-AI-TIVE", type: "T-Shirt", price: "$29.99+", mockup: "neg-ai-tive-tshirt-wb.png", printfulId: 436243284 },
+  { name: "I GOT NEG-AI-TIVE", type: "T-Shirt", price: "$29.99+", mockup: "i-got-neg-tshirt-wb.png", printfulId: 436243313 },
+  { name: "CHATGPT TOOK MY JOB", type: "T-Shirt", price: "$29.99+", mockup: "chatgpt-job-tshirt-wb.png", printfulId: 436243340 },
+  { name: "I HAVE AI PSYCHOSIS", type: "T-Shirt", price: "$29.99+", mockup: "ai-psychosis-tshirt-wb.png", printfulId: 436243367 },
+  { name: "SCAMMED BY DEEPFAKE", type: "T-Shirt", price: "$29.99+", mockup: "deepfake-tshirt-wb.png", printfulId: 436243389 },
+  { name: "ACTUAL INTELLIGENCE", type: "T-Shirt", price: "$34.99+", mockup: "actual-intel-tshirt-wb.png", printfulId: 436243684 },
+  { name: "MY JOB WAS AUTOMATED", type: "T-Shirt", price: "$29.99+", mockup: "job-auto-tshirt-wb.png", printfulId: 436243687 },
+  { name: "STILL HUMAN", type: "T-Shirt", price: "$29.99+", mockup: "still-human-tshirt-wb.png", printfulId: 436243696 },
+  { name: "AI DATA CENTER GRID", type: "T-Shirt", price: "$29.99+", mockup: "data-center-tshirt-wb.png", printfulId: 436243702 },
+  { name: "AI ALGORITHMIC ANGST", type: "T-Shirt", price: "$29.99+", mockup: "algorithm-tshirt-wb.png", printfulId: 436243709 },
+  { name: "AI MADE THIS DESIGN", type: "T-Shirt", price: "$29.99+", mockup: "ai-made-tshirt-wb.png", printfulId: 436243723 },
+  { name: "PROMPT ENGINEER SURVIVOR", type: "Hoodie", price: "$59.99+", mockup: "prompt-hoodie-wb.png", printfulId: 436243759 },
 ];
 
 export default function Merch() {
