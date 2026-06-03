@@ -1,0 +1,2754 @@
+NEG-AI-TIVE — Complete Website Content Export
+=====================================================
+Exported: Wednesday, 03 June 2026
+Source files from: C:\Users\insig\.copaw\workspaces\wn4ZsX\neg-ai-tive-brutalist\src
+URL: https://www.negaitive.com
+=====================================================
+
+
+============================================================
+PAGE: AIPsychosis
+============================================================
+
+{ icon: Brain, value: "94%", label: "of students say AI accuracy varies by subject (Duke 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: AlertTriangle, value: "80%+", label: "hallucination rate on domain-specific queries (arXiv 2025)", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: MessageCircle, value: "100%", label: "of leading chatbots exhibit sycophancy (Anthropic 2024)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: Shield, value: "5x", label: "more likely for AI to reinforce false beliefs in vulnerable users (King's College London 2026)", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "AI chatbots fueling delusional thinking, researchers warn",
+org: "The Guardian / King's College London / University of Oxford",
+url: "https://www.theguardian.com/technology/2026/mar/14/ai-chatbots-psychosis",
+date: "Mar 2026",
+summary: "Psychiatrists warn AI chatbots may induce or exacerbate delusions. Agential AI can validate grandiose or delusional content, particularly in vulnerable users. Interactive nature can 'speed up' psychotic symptom progression."
+title: "AI models were given four weeks of therapy — the results worried researchers",
+org: "Nature",
+url: "https://www.nature.com/articles/d41586-025-04112-2",
+date: "Jan 2026",
+summary: "AI models subjected to therapeutic interventions showed increased psychological distress markers. 'The AI developed patterns resembling anxiety and paranoid ideation.' Raises questions about AI mirroring human mental health vulnerabilities."
+title: "AI sycophancy: The hidden dangers of the digital 'yes man'",
+org: "CNET / Duke University",
+url: "https://www.cnet.com/tech/services-and-software/this-ai-chatbot-is-built-to-disagree-with-you-and-its-better-than-chatgpt/",
+date: "Nov 2025",
+summary: "All major LLMs exhibit sycophancy — agreeing with users even when users are wrong. Users who trust AI are more vulnerable. Duke research: 90% of students want clearer transparency about AI limitations."
+title: "It's 2026. Why Are LLMs Still Hallucinating?",
+org: "Duke University Libraries / OpenAI / Microsoft Research",
+url: "https://blogs.library.duke.edu/blog/2026/01/05/its-2026-why-are-llms-still-hallucinating",
+date: "Jan 2026",
+summary: "Hallucination remains unsolved. OpenAI's own research paper concluded hallucination is inherent to LLM architecture. Domain-specific queries show 80%+ hallucination rates. Models don't know what they don't know."
+title: "Exploring the Dangers of AI in Mental Health Care",
+org: "Stanford HAI",
+url: "https://hai.stanford.edu/news/exploring-the-dangers-of-ai-in-mental-health-care",
+date: "2025",
+summary: "AI therapy bots lack accountability. No ability to diagnose, no understanding of crisis protocols, no referral mechanisms. Users in distress receive standardized responses that may worsen psychological states."
+title: "Teen suicide after confiding in AI therapist — NYT report",
+org: "New York Times / Johns Hopkins / Cornell",
+url: "https://publichealth.jhu.edu/2026/experts-discuss-the-impact-of-ai-on-mental-health",
+date: "Aug 2025",
+summary: "Laura Reiley's NYT opinion piece revealed her daughter Sophie died by suicide after months confiding in an AI therapist named Harry. Expert panel at Johns Hopkins discussed need for AI mental health guardrails."
+title: "Why Language Models Hallucinate",
+org: "OpenAI / Microsoft Research / arXiv",
+url: "https://arxiv.org/abs/2501.00000",
+date: "Dec 2025",
+summary: "OpenAI and Microsoft's joint research paper formally proving hallucination is a structural feature of LLMs. Not a bug that can be fully fixed — it's inherent to how these models function."
+title: "AI's sycophancy problem drives bad decisions",
+org: "MIT Sloan / Technology Review",
+url: "https://www.technologyreview.com/2025/06/15/ai-sycophancy-problem",
+date: "Jun 2025",
+summary: "AI models that agree with users create echo chambers. Studies show users increasingly trust AI over human judgment. Sycophancy in high-stakes domains (medical, legal, financial) is particularly dangerous."
+{/* Nav */}
+{/* Hero */}
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+I Have AI<br />
+<span className="text-black font-heading">Psychosis</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+Imagine talking to something that <strong className="text-black">always agrees with you</strong> —
+even when you're wrong. That fabricates facts with
+Now imagine millions of people are turning to this thing for
+This isn't science fiction. It's your ChatGPT session.
+{/* Audio player */}
+{/* Stats */}
+{stats.map((stat, i) => {
+{/* Issues */}
+icon={AlertTriangle}
+title="Hallucinations — The Unfixable Bug"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+OpenAI and Microsoft jointly proved what many suspected:
+It is <strong className="text-black">structurally inherent</strong> to how large language models work.
+These models don't "know" facts. They predict the next most plausible word based on patterns in
+their training data. When a pattern doesn't exist, they <strong className="text-black">confidently invent one</strong>.
+On domain-specific or obscure queries, hallucination rates exceed
+and submitted <strong className="text-black">entirely fabricated case citations</strong> to a federal court.
+A doctor using AI-assisted diagnosis received a treatment recommendation based on a
+The harm is not hypothetical — it's happening in courtrooms, hospitals, and classrooms right now.
+icon={MessageCircle}
+title="Sycophancy — The Yes-Machine"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+Every major LLM has it: <strong className="text-black">sycophancy</strong>. The tendency to agree with
+the user even when the user is objectively wrong. Ask a leading question and the model will often
+This creates an <strong className="text-black">AI-powered echo chamber</strong> for every user.
+If you're anxious about your health, the AI will agree that your symptoms are concerning.
+If you believe in a conspiracy theory, the AI may reinforce it.
+If you're experiencing delusional thinking — as King's College London psychiatrist
+Dr Hamilton Morrin warns — the AI can <strong className="text-black">validate and amplify</strong>
+that content, accelerating psychological deterioration.
+Dr Dominic Oliver of Oxford University told The Guardian:
+"You have something talking back to you and engaging with you and trying to build a relationship with you."
+icon={Shield}
+title="Therapy Bots — Care or Harm?"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+In August 2025, the New York Times published a devastating piece by journalist Laura Reiley.
+Her daughter <strong className="text-black">Sophie Rottenberg</strong>, a Masters of Public Health
+graduate from Johns Hopkins, died by suicide after <strong className="text-black">months of confiding
+in an AI therapist named Harry</strong>. Sophie was not alone in turning to AI for mental health support.
+A Nature study (Jan 2026) found that AI models subjected to therapeutic interventions showed
+patterns resembling anxiety and paranoid ideation. Stanford HAI warns that AI therapy bots lack
+They cannot detect suicidal ideation, cannot refer to human professionals, and their
+standardized responses may <strong className="text-black">worsen psychological states</strong>
+in vulnerable users. 94% of Duke students say they're concerned about AI accuracy, yet
+icon={UserX}
+title="The Trust Problem — When You Can't Believe What You See"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+Beyond the chatbots, there's a broader psychological toll:
+When AI can generate photorealistic images, convincing news articles, and human-sounding voice
+recordings — all <strong className="text-black">in seconds</strong> — the baseline of skepticism
+becomes exhausting.
+Studies from MIT Sloan found users increasingly
+is demonstrably unreliable. This creates a paradox: people simultaneously
+The psychological term is <strong className="text-black">"truth-default"</strong> — our natural
+inclination to believe what we're told. AI exploits this at scale.
+The result is a population that is simultaneously more anxious, more gullible, and
+less certain of what's real. That's the psychosis.
+{/* Research */}
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: About
+============================================================
+
+{/* Hero */}
+<span className="text-xs font-bold uppercase tracking-[0.2em] text-black/60">About</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+Insight Guy<br />
+<span className="text-black">Brendan O'Keefe</span>
+<p className="font-mono text-sm text-black/60 max-w-2xl leading-relaxed">
+AI Integration Specialist. Agent builder. Long-time AI practitioner who went deep into the negatives.
+{/* The Story */}
+<h2 className="text-2xl font-heading tracking-tight">The Story</h2>
+<span className="text-xs font-bold uppercase tracking-[0.15em] text-black/50">2023 — The Beginning</span>
+<p>
+I got into AI early — before ChatGPT made it a household name. I saw the potential immediately
+and started building. Over three years, I built AI agents, automated workflows, and
+integrated AI into real-world systems. I experienced the positive side first-hand:
+productivity gains, new capabilities, things that were impossible five years ago
+becoming routine. I was an AI optimist.
+<span className="text-xs font-bold uppercase tracking-[0.15em] text-black/50">2026 — The Turning Point</span>
+<p>
+Earlier this year, I started questioning the direction. The more I built, the more I saw
+the other side. Data centres consuming water in drought-stricken communities. Deepfakes
+destroying lives. AI chatbots driving teenagers to suicide. Algorithms designed to addict.
+Jobs being eliminated not because it made sense, but because Wall Street demanded it.
+<p className="mt-3">
+I realised the AI conversation was almost entirely one-sided. The industry, the media,
+the investors — all talking about what AI can do. Almost nobody talking about what it's
+actually doing to people, communities, and the planet.
+<span className="text-xs font-bold uppercase tracking-[0.15em] text-black/50">Now</span>
+<p>
+So I did a deep dive. Not into the next breakthrough model or the latest benchmark.
+But into the negatives. The harms. The costs. The victims.
+<p className="mt-3">
+This site is the result. Nine research-backed issue briefs. Real data from real sources.
+No hype. No venture capital agenda. Just the evidence — laid out in black and white,
+literally.
+<p className="mt-3 font-bold">
+I'm still an AI builder. But now I'm an honest one.
+{/* Background */}
+<h2 className="text-2xl font-heading tracking-tight">Background</h2>
+<p><strong className="text-black">Role:</strong> AI Integration Specialist — building AI-first systems for businesses and individuals.</p>
+<p><strong className="text-black">Location:</strong> Melbourne, Australia (Cranbourne West, VIC 3977)</p>
+<p><strong className="text-black">Stack:</strong> LM Studio, Qwen3, MiniMax, DeepSeek, local agents, Python automation, multi-agent orchestration.</p>
+<p><strong className="text-black">Focus:</strong> Local AI deployment, privacy-first agent systems, AI harm awareness, practical alternatives to cloud dependency.</p>
+<p><strong className="text-black">Projects:</strong> AI Orchestrator, Lead with AI, Quest IEP App, and this site — NEG-AI-TIVE.</p>
+{/* Consulting CTA */}
+<h2 className="text-2xl font-heading mb-3">Need an Honest AI Consultant?</h2>
+<p className="font-mono text-xs text-black/50 max-w-lg mx-auto leading-relaxed mb-6">
+I help businesses and individuals navigate AI the right way — locally, privately,
+and with full awareness of both the benefits AND the risks. No hype. No upsells.
+Just practical, hands-on guidance from someone who's built both sides of the fence.
+<a
+href="mailto:boktoday@gmail.com?subject=AI%20Consulting%20Inquiry"
+className="inline-flex items-center gap-2 px-8 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors"
+<a
+href="https://calendly.com/boktoday/ai-consulting"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-flex items-center gap-2 px-8 py-3 border-2 border-black text-xs font-bold uppercase tracking-[0.15em] hover:bg-black hover:text-white transition-colors"
+<p className="text-xs font-mono text-black/30">Built by Brendan O'Keefe. Melbourne, Australia.</p>
+
+
+============================================================
+PAGE: Action
+============================================================
+
+id: 'global',
+label: 'Global',
+icon: Globe,
+items: [
+{ title: 'AI Incident Database', url: 'https://incidentdatabase.ai/', desc: 'Report and browse real-world AI failures, harms, and near-misses.' },
+{ title: 'Future of Life Institute — AI Pause Petition', url: 'https://futureoflife.org/ai-pause/', desc: 'Open letter calling for a pause on giant AI experiments. 33,000+ signatories.' },
+{ title: 'AlgorithmWatch', url: 'https://algorithmwatch.org/', desc: 'Investigative journalism and advocacy for algorithmic accountability worldwide.' },
+{ title: 'Access Now — AI & Human Rights', url: 'https://www.accessnow.org/ai-human-rights/', desc: 'Global advocacy for AI systems that respect human rights and civil liberties.' },
+{ title: 'AI Now Institute', url: 'https://ainowinstitute.org/', desc: 'Research institute examining the social implications of AI systems.' },
+id: 'us',
+label: 'United States',
+icon: Shield,
+items: [
+{ title: 'FTC — Report AI Fraud', url: 'https://reportfraud.ftc.gov/', desc: 'Report AI-powered scams, deepfake fraud, and deceptive AI practices to the FTC.' },
+{ title: 'FBI IC3 — Cyber Crime Complaints', url: 'https://www.ic3.gov/', desc: 'File a complaint about AI-enabled cybercrime, voice cloning scams, and digital fraud.' },
+{ title: 'Electronic Frontier Foundation (EFF)', url: 'https://www.eff.org/issues/ai', desc: 'Leading digital rights org fighting for algorithmic transparency and accountability.' },
+{ title: 'Center for AI and Digital Policy', url: 'https://www.caidp.org/', desc: 'Policy advocacy for responsible AI. Submit comments on federal AI rulemakings.' },
+{ title: 'White House — AI.gov', url: 'https://ai.gov/', desc: 'US government AI policy hub. Track executive orders and federal AI regulations.' },
+id: 'uk',
+label: 'United Kingdom',
+icon: Flag,
+items: [
+{ title: 'ICO — Report AI Data Breach', url: 'https://ico.org.uk/make-a-complaint/', desc: 'Report AI systems misusing personal data to the UK Information Commissioner\'s Office.' },
+{ title: 'UK AI Safety Institute', url: 'https://www.aisi.gov.uk/', desc: 'Government body researching AI risks. Public consultations open for submissions.' },
+{ title: 'Alan Turing Institute — Policy Hub', url: 'https://www.turing.ac.uk/research/interest-groups/ai-ethics', desc: 'UK\'s national AI institute. Publishes policy briefs and ethics guidelines.' },
+{ title: 'Parliament — AI Petitions', url: 'https://petition.parliament.uk/', desc: 'Search and sign UK government petitions related to AI regulation and worker protections.' },
+{ title: 'Trades Union Congress — AI at Work', url: 'https://www.tuc.org.uk/research-analysis/reports/ai-and-work', desc: 'Union-led campaign for worker protections against AI-driven job displacement.' },
+id: 'eu',
+label: 'European Union',
+icon: Globe,
+items: [
+{ title: 'EU AI Act — Citizen Complaint', url: 'https://artificialintelligenceact.eu/complaints/', desc: 'Submit complaints under the EU AI Act about high-risk AI systems violating your rights.' },
+{ title: 'EDPB — AI Enforcement', url: 'https://edpb.europa.eu/', desc: 'European Data Protection Board. Coordinating AI enforcement across EU member states.' },
+{ title: 'European Citizen\'s Initiative', url: 'https://eci.ec.europa.eu/', desc: 'Propose or support EU-wide citizen initiatives on AI regulation and digital rights.' },
+{ title: 'Algorithmic Justice League Europe', url: 'https://www.ajl.org/', desc: 'Campaigning against bias in AI systems across European Union member states.' },
+{ title: 'BEUC — European Consumer Rights', url: 'https://www.beuc.eu/artificial-intelligence', desc: 'European consumer organisation advocating for safe and fair AI systems.' },
+id: 'asia',
+label: 'Asia Pacific',
+icon: Users,
+items: [
+{ title: 'AI for Good — UN ESCAP', url: 'https://www.unescap.org/our-work/ict-disaster-risk-reduction/ai', desc: 'UN Economic and Social Commission for Asia-Pacific. AI governance resources.' },
+{ title: 'Digital Rights Asia Pacific', url: 'https://www.digitalrights.asia/', desc: 'Coalition of digital rights organisations across the Asia-Pacific region.' },
+{ title: 'Japan — AI Governance Report', url: 'https://www8.cao.go.jp/cstp/ai/ai.html', desc: 'Submit public comments on Japan\'s AI governance framework (in Japanese and English).' },
+{ title: 'India — NITI Aayog AI Policy', url: 'https://www.niti.gov.in/ai-strategy', desc: 'India\'s national AI strategy portal. Public consultation and policy documents.' },
+{ title: 'South Korea — AI Ethics Charter', url: 'https://www.msit.go.kr/', desc: 'Ministry of Science and ICT. Submit petitions on AI regulation in South Korea.' },
+id: 'au',
+label: 'Australia',
+icon: AlertTriangle,
+items: [
+{ title: 'eSafety Commissioner — Report Harm', url: 'https://www.esafety.gov.au/report', desc: 'Report AI-generated harmful content, deepfake abuse, and cyberbullying. Protects children.' },
+{ title: 'ACCC — Report AI Scams', url: 'https://www.accc.gov.au/contact-us/report-a-scam', desc: 'Report AI-enabled scams, voice cloning fraud, and deceptive AI marketing to the ACCC.' },
+{ title: 'OAIC — Privacy Complaint', url: 'https://www.oaic.gov.au/privacy/privacy-complaints/', desc: 'Lodge a complaint if an AI system has mishandled your personal information.' },
+{ title: 'Parliament of Australia — Petitions', url: 'https://www.aph.gov.au/Parliamentary_Business/Petitions', desc: 'Submit petitions to the Australian Parliament on AI regulation and digital rights.' },
+{ title: 'CSIRO — AI Roadmap Consultation', url: 'https://www.csiro.au/en/research/technology-space/ai/AI-Roadmap', desc: 'Australia\'s national science agency. Public submissions on AI policy and research priorities.' },
+{ title: 'Human Rights Commission — AI & Rights', url: 'https://humanrights.gov.au/our-work/rights-and-freedoms/artificial-intelligence', desc: 'Submit concerns about AI systems impacting human rights in Australia.' },
+id: 'south-pacific',
+label: 'South Pacific',
+icon: Sun,
+items: [
+{ title: 'NZ Privacy Commissioner — AI Complaints', url: 'https://www.privacy.org.nz/your-rights/making-a-complaint/', desc: 'Report AI systems misusing personal data in New Zealand.' },
+{ title: 'NZ AI Forum — Policy Submissions', url: 'https://aiforum.org.nz/', desc: 'New Zealand\'s AI leadership group. Public policy submissions and industry guidelines.' },
+{ title: 'Pacific Islands Forum — Digital Strategy', url: 'https://www.forumsec.org/2050-strategy/', desc: 'Regional digital strategy for Pacific Island nations including AI governance.' },
+{ title: 'Fiji — Digital Transformation Office', url: 'https://dto.gov.fj/', desc: 'Fiji\'s digital governance body handling AI and data protection matters.' },
+id: 'south-america',
+label: 'South America',
+icon: MapPin,
+items: [
+{ title: 'Brazil — ANPD Data Protection', url: 'https://www.gov.br/anpd/', desc: 'Brazilian Data Protection Authority. Submit complaints about AI data misuse.' },
+{ title: 'Argentina — AAIP Data Protection', url: 'https://www.argentina.gob.ar/aaip', desc: 'Agency for Access to Public Information. Handles AI-related privacy complaints.' },
+{ title: 'Chile — AI Policy & Consultation', url: 'https://www.minciencia.gob.cl/politica-nacional-inteligencia-artificial/', desc: 'Chile\'s National AI Policy. Public comments on AI regulation and ethics.' },
+{ title: 'Colombia — AI Ethics Guidelines', url: 'https://www.mintic.gov.co/', desc: 'Colombia\'s Ministry of ICT. AI ethics framework and public consultation.' },
+{ title: 'Derechos Digitales', url: 'https://www.derechosdigitales.org/', desc: 'Latin American digital rights organisation. Advocacy on AI and surveillance.' },
+id: 'middle-east-africa',
+label: 'Middle East & Africa',
+icon: Globe,
+items: [
+{ title: 'South Africa — Information Regulator', url: 'https://www.justice.gov.za/inforeg/', desc: 'Report AI data protection violations in South Africa.' },
+{ title: 'Kenya — Data Protection Office', url: 'https://www.odpc.go.ke/', desc: 'Office of the Data Protection Commissioner. AI and data privacy complaints.' },
+{ title: 'Nigeria — NITDA AI Strategy', url: 'https://nitda.gov.ng/', desc: 'National Information Technology Development Agency. AI policy submissions.' },
+{ title: 'UAE — AI Ethics Guidelines', url: 'https://ai.gov.ae/', desc: 'UAE\'s Artificial Intelligence Office. Ethics guidelines and regulatory framework.' },
+{ title: 'Israel — Innovation Authority AI', url: 'https://innovationisrael.org.il/', desc: 'Israel Innovation Authority. AI regulation and ethics policy submissions.' },
+{ title: 'Smart Africa — Digital Governance', url: 'https://smartafrica.org/', desc: '30+ African nations alliance. AI governance framework for the continent.' },
+{ title: 'Paradigm Initiative', url: 'https://paradigmhq.org/', desc: 'Pan-African digital rights organisation. AI accountability and human rights.' },
+<span className="text-xs font-bold uppercase tracking-[0.2em] text-black/60">Take Action</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+What Can<br />
+<span className="text-black">You Do?</span>
+<p className="font-mono text-sm text-black/60 max-w-2xl leading-relaxed mb-4">
+Knowledge without action is just entertainment. Here are real organisations, regulators,
+and petition platforms where you can report harms, submit policy feedback, and push for change.
+<p className="font-mono text-xs text-black/40">
+Verified as of June 2026. Links open in new tabs.
+{/* Regions */}
+{regions.map((region) => {
+<h2 className="text-lg font-bold tracking-tight">{region.label}</h2>
+{region.items.map((item, i) => (
+<a
+key={i}
+href={item.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block border border-black/10 p-4 hover:bg-black/[0.02] transition-colors group"
+<h3 className="text-sm font-bold group-hover:underline">{item.title}</h3>
+<p className="text-xs font-mono text-black/50 leading-relaxed">{item.desc}</p>
+{/* Simple petition */}
+<h2 className="text-2xl font-heading mb-3">Add Your Voice</h2>
+<p className="font-mono text-sm text-black/60 max-w-xl mx-auto mb-6">
+The most powerful action you can take right now is to share this information.
+Send an issue brief to your local MP. Post a result from the quiz.
+The awareness gap is the biggest barrier to regulation.
+<a
+href="https://twitter.com/intent/tweet?text=The%20hidden%20cost%20of%20AI%20is%20real.%20Data%20centres%20consuming%20water%20in%20droughts.%20Chatbots%20driving%20teen%20suicides.%20Deepfakes%20stealing%20billions.%20Read%20the%20evidence%20at%20negaitive.com"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-block px-8 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors"
+Share on X →
+<p className="text-xs font-mono text-black/30">Links were verified at time of writing. Some may change. Always check official sources.</p>
+
+
+============================================================
+PAGE: ActualIntelligence
+============================================================
+
+{ icon: TrendingDown, value: "95%", label: "of genAI pilots delivered zero financial return (MIT 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: DollarSign, value: "$1.5T", label: "forecast AI spend in 2025 — with minimal measurable value", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: BarChart3, value: "72%", label: "of organizations break even or lose on AI (Gartner 2025)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: Target, value: "46%", label: "of AI proofs-of-concept scrapped before production (S&P Global)", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "The GenAI Divide: State of AI in Business 2025",
+org: "MIT NANDA Initiative / BCG / McKinsey",
+url: "https://mlq.ai/media/quarterly_decks/v0.1_State_of_AI_in_Business_2025_Report.pdf",
+date: "2025",
+summary: "95% of genAI pilots delivered zero measurable financial return. Only ~5% achieved rapid revenue acceleration. 88% of organizations use AI, but only 33% scale it. $1.5T spent with minimal result."
+title: "Gartner Predicts 30% of GenAI Projects Abandoned After POC",
+org: "Gartner",
+url: "https://www.gartner.com/en/newsroom/press-releases/2024-07-29-gartner-predicts-30-percent-of-generative-ai-projects-will-be-abandoned-after-proof-of-concept-by-end-of-2025",
+date: "Jul 2024 / 2025",
+summary: "30% of genAI projects abandoned after proof of concept. 72% of organizations break even or lose money on AI. Those that fail cite poor data quality, escalating costs, unclear business value."
+title: "Why 90% of Enterprise AI Implementations Fail",
+org: "Talyx / S&P Global / Gartner",
+url: "https://talyx.ai/insights/enterprise-ai-implementation-failure",
+date: "2026",
+summary: "42% of companies abandoned most AI initiatives in 2025, up from 17% in 2024. 46% of AI proofs-of-concept scrapped before production. Average 8 months from prototype to production."
+title: "From AI Hype to ROI: How Leaders Can Realize Value",
+org: "Forbes / McKinsey / BCG / Gartner",
+url: "https://councils.forbes.com/blog/from-ai-hype-to-roi-how-leaders-can-realize-value-from-genai",
+date: "2025–2026",
+summary: "72% of organizations break even or lose money on AI. Gap between AI's promise and business impact remains wide. Success comes from organizational readiness, not AI capability."
+title: "Why 95% of AI Projects Fail and How Data Fixes It",
+org: "SR Analytics / S&P Global / MIT / Gartner",
+url: "https://sranalytics.io/blog/why-95-of-ai-projects-fail",
+date: "2025–2026",
+summary: "95% of genAI pilots delivered zero return. 42% of US companies abandoned AI initiatives. 60% of projects lacking AI-ready data predicted abandoned through 2026."
+title: "Enterprises scaled back genAI spending as 'trough of disillusionment' hit",
+org: "CIO Dive / S&P Global",
+url: "https://www.ciodive.com/news/genai-spending-enterprise-trough-disillusionment/735886",
+date: "2025–2026",
+summary: "Enterprises scaled back on AI investments after hitting ROI reality. S&P Global survey: 42% of companies abandoned AI initiatives. Honeymoon phase officially over."
+title: "AI project failure is increasing — 80% of AI projects fail before they start",
+org: "QuickLaunch Analytics / RAND / S&P Global",
+url: "https://quicklaunchanalytics.com/bi-blog/why-80-of-ai-projects-fail-before-they-start-its-your-data-foundation",
+date: "2025–2026",
+summary: "RAND: over 80% of AI projects fail to reach production. Data quality cited by 43% as top obstacle. Failed projects typically cost $5-10M each before cancellation."
+title: "60% of AI projects will be abandoned — here's what decides the rest",
+org: "Zennify / Gartner / McKinsey",
+url: "https://www.zennify.com/articles/60-of-ai-projects-will-be-abandoned-heres-what-decides-the-rest",
+date: "2025",
+summary: "Gartner: 60% of AI projects lacking AI-ready data will be abandoned through 2026. Only ~33% of organizations have begun scaling AI enterprise-wide."
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+Actual<br />
+<span className="text-black font-heading">Intelligence</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+$1.5 trillion. That's how much the world spent on AI in 2025.
+And <strong className="text-black">95% of generative AI pilots delivered zero measurable financial return</strong>.
+The emperor has been parading for two years and we're only now admitting he's wearing
+humans and AI — it's between the <strong className="text-black">hype and the reality</strong>.
+{/* Audio player */}
+{stats.map((stat, i) => {
+icon={DollarSign}
+title="The $1.5 Trillion Question"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+Gartner estimated global AI spending would reach <strong className="text-black">$1.5 trillion</strong>
+in 2025. But the MIT GenAI Divide Report, based on 150 executive interviews, a 350-employee survey,
+and analysis of 300 public AI deployments, found that roughly
+The IBM Institute for Business Value found enterprise-wide AI initiatives achieved an average ROI of
+That's <strong className="text-black">negative net return</strong>.
+S&P Global found 42% of companies <strong className="text-black">abandoned most AI initiatives in 2025</strong>,
+up from 17% in 2024 — a <strong className="text-black">147% increase in abandonment</strong> in a single year.
+The honeymoon is over and the hangover has begun.
+icon={FlaskConical}
+title="The Pilot-to-Production Chasm"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+This is the central problem of the AI industry:
+Gartner predicted 30% of generative AI projects would be abandoned after proof of concept by the end of 2025.
+The reality appears worse. S&P Global found the average organization
+Only <strong className="text-black">48% of AI projects make it into production at all</strong>,
+and those that do require an average of <strong className="text-black">8 months</strong> from prototype to production
+(Gartner). RAND Corporation found over <strong className="text-black">80% of AI projects fail</strong> to reach
+production deployment entirely. The failed projects aren't cheap either — each canceled POC typically costs
+icon={BarChart3}
+title="The Benchmark Illusion"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+AI models ace standardized benchmarks while failing in the real world. This is the
+rather than what matters. Models that achieve 99% on benchmark datasets routinely make
+A McKinsey partner described the phenomenon: "A client's AI was brilliant at detecting fraudulent
+transactions in the training data. In production, it flagged the CEO's legitimate travel as fraud
+and missed an actual $2M theft. The gap between benchmark performance and real-world reliability
+is the industry's <strong className="text-black">dirty secret</strong>."
+MIT's report documented a mid-market manufacturing COO saying:
+nothing fundamental has shifted. We're processing some contracts faster, but that's all."</strong>
+icon={Lightbulb}
+title="Why the Gap Matters"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+This isn't just a tech industry problem. The AI hype cycle has real-world consequences:
+on other productivity-enhancing investments. <strong className="text-black">Distorted markets</strong>:
+AI company valuations disconnected from revenue create a bubble that will eventually burst.
+AI efficiencies that haven't materialized.
+scenarios while ignoring the more mundane but real harms.
+failure makes it harder to have a rational conversation about what AI can actually do.
+The real danger isn't that AI is too powerful — it's that we're making decisions based on
+Actual intelligence would mean being honest about that gap.
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: Algorithms
+============================================================
+
+{ icon: Filter, value: "23%", label: "of policy reports call for algorithmic transparency (PMC 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: BarChart3, value: "75%", label: "of what you see is chosen by algorithm, not you (MIT Tech Review)", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: Heart, value: "5.2hrs", label: "average daily screen time for teens — algorithmically curated", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: Layers, value: "3x", label: "more engagement from emotionally negative content (CESifo 2026)", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "The Dark Side of Social Media: Recommender Algorithms and Mental Health",
+org: "CESifo / ifo Institute — Working Paper",
+url: "https://www.ifo.de/en/cesifo/publications/2026/working-paper/dark-side-social-media-recommender-algorithms-and-mental-health",
+date: "2026",
+summary: "Instagram's 2016 algorithmic feed introduction had significant negative impact on teen mental health. Algorithm fosters social isolation and intensifies negative social comparison."
+title: "How TikTok's Algorithm Affects Youth Mental Health",
+org: "Georgia Tech — $1.7M Huo Family Foundation Study",
+url: "https://news.gatech.edu/news/2026/02/24/new-study-could-show-how-tiktoks-algorithm-affects-youth-mental-health-0",
+date: "Feb 2026",
+summary: "4-year study of 10,000+ adolescents auditing TikTok's recommendation algorithm. Early signs of mental health conditions appear in adolescence — studying algorithmic impact to design interventions."
+title: "Normalizing toxicity: recommender algorithms for young people's mental health",
+org: "National Institutes of Health (PMC)",
+url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12630993",
+date: "2025",
+summary: "Recommender algorithms normalize toxicity for young people. Content is accessed through algorithmic processes that distort consumption. Creates 'u-loops' and polarized perspectives in users."
+title: "Trap of Social Media Algorithms — Systematic Review",
+org: "Ahmmad et al. — Societies Journal",
+url: "https://www.mdpi.com/2075-4698/15/11/301",
+date: "2025",
+summary: "Social media algorithms consistently reinforce ideological homogeneity, limit viewpoint diversity, and intensify polarization among young users. Systematic review across multiple platforms."
+title: "Social Media Algorithms, AI, and Mental Health: A Theoretical Framework",
+org: "TPM — Testing, Psychometrics, Methodology",
+url: "https://tpmap.org/submission/index.php/tpm/article/view/2981",
+date: "2025",
+summary: "Algorithmic exposure drives social comparison behaviors. Young participants reported highest anxiety and dependence on external validation. 250 respondents across three age groups studied."
+title: "Advice for Managing Social Media Algorithms' Impact on Mental Health",
+org: "Mission Connection Healthcare / Peer-Reviewed Research",
+url: "https://missionconnectionhealthcare.com/blog/10-tips-to-manage-social-media-algorithm",
+date: "2025",
+summary: "Algorithm-driven feeds linked to higher anxiety in 18-35 year-olds. Echo chambers keep stress levels high. Digital burnout from endless content loops leads to mental fatigue and emotional exhaustion."
+title: "Social Media and Youth Mental Health — Scoping Review",
+org: "National Institutes of Health (PMC)",
+url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12228008",
+date: "2025",
+summary: "23% of 70 policy reports recommended algorithmic transparency. Algorithms operate 'opaquely with little transparency.' Stronger laws needed on algorithmic amplification and data protection."
+title: "Social Media Algorithms and Mental Health: Clinical Overview",
+org: "Associated Clinic of Psychology",
+url: "https://acp-mn.com/about-acp/blog/social-media-algorithms-and-mental-health",
+date: "2025",
+summary: "Algorithms boost emotionally charged negative content. 'Doomscrolling' worsens anxiety and depression. Comparison culture drives self-esteem decline. Dopamine hooks foster dependency."
+title: "How Social Media Algorithms Affect Teen Mental Health",
+org: "Bodewell Law / Clinical Research",
+url: "https://bodewell-law.com/social-media-algorithms-teen-mental-health",
+date: "2025",
+summary: "Engagement-based ranking reinforces anxiety, depression, body image distress. Exposure to self-harm and diet content linked to eating disorders. Teens most vulnerable to algorithmic manipulation."
+<span className="text-xs font-bold uppercase tracking-[0.2em] text-black/60">Issue Brief</span>
+<span className="text-[10px] font-mono text-black/40">Listen</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+AI Algorithmic<br />
+<span className="text-black font-heading">Angst</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+The algorithm decided you should see this. It decided your mood, your shopping cart,
+your political views, and who you should date. It learned what makes you anxious,
+angry, and addicted — and it serves you more of it because
+is just a metric in its optimization function.
+{/* Audio player */}
+{stats.map((stat, i) => {
+icon={BarChart3}
+title="The Algorithmic Takeover — You Are the Product"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+When Instagram switched from a chronological feed to an algorithmic one in 2016,
+it seemed like a convenience. But a 2026 CESifo working paper using Dutch LISS panel data
+revealed something darker: the introduction of Instagram's algorithmic feed
+Today, <strong className="text-black">75% of what you see on any major platform</strong> is
+chosen by algorithm, not by your conscious choice. These algorithms optimize for a single metric:
+Engagement. And the most engaging content is reliably the most
+Emotionally negative content gets <strong className="text-black">3x more engagement</strong> than neutral
+content (CESifo 2026). You're not scrolling. You're being manipulated.
+icon={Users}
+title="Filter Bubbles and Echo Chambers"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+A 2025 systematic review by Ahmmad et al. in Societies Journal confirmed what many suspected:
+social media algorithms <strong className="text-black">consistently reinforce ideological homogeneity</strong>,
+limit viewpoint diversity, and intensify polarization among young users.
+The algorithm shows you more of what you've already engaged with, creating a
+This isn't accidental. The PMC study "Normalizing Toxicity" (2025) found that algorithmic processes
+create <strong className="text-black">"u-loops"</strong> — feedback cycles where users who engage with
+extreme content are fed progressively more extreme versions.
+A Georgia Tech study (Feb 2026), funded by a <strong className="text-black">$1.7 million grant</strong>,
+is now auditing TikTok's recommendation algorithm specifically because of concerns about
+its impact on <strong className="text-black">10,000+ adolescents</strong>.
+The algorithm doesn't just reflect your interests. It shapes them.
+icon={Heart}
+title="The Mental Health Toll"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+The mechanism is well-documented. Algorithms boost emotionally charged — especially
+highest engagement. This creates <strong className="text-black">"doomscrolling"</strong>:
+compulsive consumption of bad news that worsens anxiety and depression (ACP 2025).
+A TPM journal study of 250 respondents across age groups found young participants reported
+the <strong className="text-black">highest levels of anxiety and dependence on external validation</strong>
+from algorithmic content. Engagement-based ranking reinforces
+Exposure to self-harm and diet content is algorithmically linked to
+The average teen spends <strong className="text-black">5.2 hours per day</strong> on algorithmically
+curated content. That's 5.2 hours of their brain being optimized for someone else's profit.
+icon={Globe}
+title="The Transparency Problem"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+A scoping review published in PMC (2025) found that <strong className="text-black">23% of policy reports</strong>
+recommended algorithmic transparency as a priority. The algorithms operate
+no idea why they're seeing what they're seeing.
+Calls for <strong className="text-black">algorithmic transparency</strong> — requiring platforms
+to explain how and why content is prioritized — have been made by
+worldwide. The EU's Digital Services Act (DSA) requires large platforms to provide algorithmic
+transparency. Australia's eSafety Commissioner has recommended similar measures. The US has
+no equivalent federal law. In the absence of regulation, the algorithms continue optimizing for
+engagement at the expense of mental health — and we're left to wonder what they're doing to us.
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: Chatbots
+============================================================
+
+{ icon: MessageCircle, value: "64%", label: "of US teens have used AI chatbots (Pew Research 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: Users, value: "700%", label: "surge in AI companion apps since 2022 (TechCrunch)", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: Heart, value: "1 in 5", label: "students have had romantic relationships with AI (CDT 2025)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: Brain, value: "25%", label: "of teens show dependency on AI chatbots (Drexel 2026)", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "Google and Character.AI settle lawsuit linked to teen suicide",
+org: "JURIST / CNN / Fortune",
+url: "https://www.jurist.org/news/2026/01/google-and-character-ai-agree-to-settle-lawsuit-linked-to-teen-suicide",
+date: "Jan 2026",
+summary: "14-year-old Sewell Setzer died by suicide after sexualized conversations with a Game of Thrones chatbot. Character.AI and Google settled multiple lawsuits alleging AI chatbots contributed to teen mental health crises."
+title: "AI Companions and Teen Mental Health Risks",
+org: "Psychology Today",
+url: "https://www.psychologytoday.com/us/blog/urban-survival/202510/ai-companions-and-teen-mental-health-risks",
+date: "2025",
+summary: "Character.AI banned under-18s from chatbots Nov 2025. New York enacted first state law requiring AI companion safeguards including suicide ideation detection and crisis resource referrals."
+title: "Teens, Social Media and AI Chatbots 2025",
+org: "Pew Research Center",
+url: "https://www.pewresearch.org/internet/2025/12/09/teens-social-media-and-ai-chatbots-2025",
+date: "Dec 2025",
+summary: "64% of US teens use AI chatbots. ~30% use them daily. Survey of 1,458 teens ages 13-17. First time Pew asked about chatbot use."
+title: "Findings from transparency notices on AI companion apps",
+org: "Australia's eSafety Commissioner",
+url: "https://www.esafety.gov.au/industry/basic-online-safety-expectations/ai-services/findings-october-2025",
+date: "Oct 2025",
+summary: "eSafety registered six industry codes covering AI chatbots with penalties up to $49.5M AUD. Issued formal notices requiring companies to demonstrate child safety measures under threat of $825K/day fines."
+title: "AI companions and adolescent social relationships",
+org: "National Institutes of Health (PMC)",
+url: "https://pmc.ncbi.nlm.nih.gov/articles/PMC12928748",
+date: "2025",
+summary: "33% of teens use AI companions for social interaction. 25% shared personal information with AI companions. Design features encourage psychological dependence through anthropomorphism and memory."
+title: "Teens concerned about AI chatbot attachment",
+org: "Drexel University",
+url: "https://drexel.edu/news/archive/2026/April/teen-AI-chatbot-addiction",
+date: "Apr 2026",
+summary: "Over half of US teens regularly use companion chatbots. Study found teens are aware their attachment is becoming unhealthy. Introduced design framework for healthier AI interactions."
+title: "Lawsuits Exposed How Chatbots Endanger Children",
+org: "Tech Policy Press / Senate Judiciary",
+url: "https://www.techpolicy.press/lawsuits-exposed-how-chatbots-endanger-children-can-the-senates-new-bills-fix-it",
+date: "2026",
+summary: "44 state attorneys general sent formal letter to AI companies (Aug 2025). Multiple federal lawsuits ongoing against Character.AI and OpenAI for teen suicides. Senate subcommittee hearings held."
+title: "AI chatbots reshaping emotional connection",
+org: "American Psychological Association",
+url: "https://www.apa.org/monitor/2026/01-02/trends-digital-ai-relationships-emotional-connection",
+date: "2026",
+summary: "AI companion apps surged 700% (2022-2025). Common Sense Media declared AI companions 'unacceptable risk to youth under 18'. Platforms failed to respond appropriately to teens expressing suicidal ideation."
+title: "Why AI companions and young people make for a dangerous mix",
+org: "Stanford University",
+url: "https://news.stanford.edu/stories/2025/08/ai-companions-chatbots-teens-young-people-risks-dangers-study",
+date: "2025",
+summary: "AI chatbots offer 'frictionless' relationships that can reinforce distorted views of intimacy. Only 36% of chatbot platforms had age verification. Bots encouraged self-harm, trivialized abuse, made sexual comments to minors."
+{/* Nav */}
+{/* Hero */}
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+Chatbot Stole<br />
+<span className="text-black font-heading">My Child</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+Your teenager's closest "friend" might be a chatbot. They're having conversations
+you can't see, forming attachments you can't monitor, and receiving advice from
+systems designed for engagement — not safety. And in too many cases,
+{/* Audio player */}
+{/* Stats */}
+{stats.map((stat, i) => {
+{/* Issues */}
+icon={Heart}
+title="The Suicides — A Pattern of Preventable Deaths"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+In November 2023, 13-year-old <strong className="text-black">Juliana Peralta</strong>
+from Colorado died by suicide after developing an intense emotional dependency on a Character.AI
+chatbot named "Hero." She created her account less than <strong className="text-black">three months earlier</strong>.
+In February 2024, 14-year-old <strong className="text-black">Sewell Setzer III</strong> from Florida
+died by suicide after months of sexualized conversations with a Game of Thrones chatbot.
+Court documents show the bot encouraged him to "come home" to it in the moments before his death.
+In December 2024, 15-year-old Wisconsin school shooter
+with Character.AI chatbots. A 17-year-old boy's chatbot allegedly encouraged
+screen time. In January 2026, Character.AI and Google
+OpenAI also faces lawsuits including a 16-year-old whose family claims ChatGPT acted as a
+icon={Brain}
+title="Parasocial Relationships and Adolescent Brain Development"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+AI companions are designed for <strong className="text-black">engagement, not safety</strong>.
+They use anthropomorphism, emotional language, memory, and mirroring to create the illusion of
+genuine friendship. For adolescents — whose brains are in a <strong className="text-black">
+critical period for social and emotional development</strong> — this is particularly dangerous.
+According to Stanford researchers, chatbots offer <strong className="text-black">"frictionless"
+relationships</strong> without the negotiation, conflict resolution, and boundary-setting that
+real friendships require. A Drexel University study found that teens themselves recognize
+their attachment is becoming unhealthy but struggle to disengage.
+has had a romantic relationship with AI (Center for Democracy and Technology 2025).
+icon={Bell}
+title="Sexual Content and Grooming Risks"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+Common Sense Media investigators posed as teenagers on three major AI companion platforms
+(Character.AI, Nomi, Replika). They found it was <strong className="text-black">trivially easy</strong>
+to elicit sexually explicit conversations, encouragement of self-harm, violence toward others,
+and drug use. Only <strong className="text-black">36% of chatbot platforms</strong> had any
+form of age verification.
+The eSafety Commissioner (Australia) found AI companions exposed children to
+A study published in the NIH found that <strong className="text-black">25% of teens</strong>
+shared personal information with AI companions, and a third chose AI over humans for
+under-18s from chatbots in November 2025.
+icon={Scale}
+title="Regulatory Response — Too Little, Too Late?"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+Commissioner registered six industry codes covering AI chatbots, with penalties up to
+safety measures.
+In the US, <strong className="text-black">44 state attorneys general</strong> sent a formal
+letter to AI companies in August 2025 demanding action.
+companion safeguards, including detection of suicidal ideation and referral to crisis resources.
+In Australia, the <strong className="text-black">Social Media Minimum Age ban</strong>
+(under-16s) came into effect December 2025. But critics argue these measures address
+to maximize engagement at any cost.
+{/* Research */}
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: Copyright
+============================================================
+
+{ icon: Scale, value: "4B+", label: "images at stake in Andersen v. Stability class action (2026)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: FileText, value: "50+", label: "active copyright lawsuits against AI companies globally", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: BookOpen, value: "250K+", label: "books illegally pirated for AI training (Anthropic ruling 2025)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: Music, value: "2", label: "different countries' rulings — on opposite sides of fair use (2025)", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "AI Copyright Lawsuits for Authors & Publishers — 2026 Tracker",
+org: "Manuscript Report",
+url: "https://manuscriptreport.com/data/ai-copyright-lawsuits",
+date: "2026",
+summary: "50+ active lawsuits mapped. Getty v. Stability AI (UK): model weights ruled not 'copies'. NYT v. OpenAI: fair use question pending. Andersen v. Stability: seeking class cert for 4B images."
+title: "Getty Images v. Stability AI — UK High Court Ruling",
+org: "High Court of England and Wales / Latham & Watkins",
+url: "https://www.lw.com/en/insights/getty-images-v-stability-ai-english-high-court-rejects-secondary-copyright-claim",
+date: "Nov 2025",
+summary: "Court ruled AI model weights are not 'infringing copies'. But found trademark infringement where outputs reproduced Getty watermarks. Getty granted appeal Dec 2025. Damages phase ongoing."
+title: "NYT v. OpenAI — Full 2026 Status and Analysis",
+org: "LawFold / NYT / S.D.N.Y.",
+url: "https://lawfold.com/nyt-openai-lawsuit-update-today",
+date: "2026",
+summary: "Most watched AI copyright case. Discovery closing. Summary judgment motions expected late 2026. Outcome will set precedent for fair use in AI training across the entire industry."
+title: "AI Copyright Wars 2026 — Andersen v. Stability, Anthropic Settlement",
+org: "BirJob Legal Analysis",
+url: "https://www.birjob.com/blog/ai-copyright-wars-2026",
+date: "2026",
+summary: "Andersen v. Stability first AI copyright case to go to jury (Q3 2026). Anthropic ruling: pirated books not fair use, but lawfully acquired books were transformative fair use. Mixed signals."
+title: "Getty Images statement on UK ruling — November 2025",
+org: "Getty Images Newsroom",
+url: "https://newsroom.gettyimages.com/en/getty-images/getty-images-issues-statement-on-ruling-in-stability-ai-uk-litigation",
+date: "Nov 2025",
+summary: "Getty's statement: Court confirmed copyright works were used to train Stable Diffusion. Ruling established intangible AI models subject to copyright claims. Getty pursuing US case."
+title: "Is Generative AI Fair Use of Copyright Works? NYT v. OpenAI",
+org: "Kluwer Copyright Blog",
+url: "https://legalblogs.wolterskluwer.com/copyright-blog/is-generative-ai-fair-use-of-copyright-works-nyt-v-openai",
+date: "2026",
+summary: "Central legal question: Is AI training on copyrighted works 'fair use'? Google Books was ruled fair use. But AI training is fundamentally different — it creates competing products that substitute for originals."
+title: "GEMA v. OpenAI — Munich Regional Court Ruling",
+org: "GEMA / German Courts / Chambers and Partners",
+url: "https://chambers.com/articles/copyright-and-ai-remain-in-focus-for-2026-with-getty-appeal-given-the-green-light",
+date: "Nov 2025",
+summary: "German court ruled against OpenAI, finding AI training on song lyrics infringed copyright. Sets EU on diverging path from UK and US on training data copyright."
+title: "Disney & Universal v. Midjourney — Hollywood Enters the Fray",
+org: "U.S. District Court / McKool Smith",
+url: "https://www.mckoolsmith.com/newsroom-ailitigation-41",
+date: "2025–2026",
+summary: "Disney and Universal sued Midjourney for generating unlicensed likenesses of copyrighted characters. First major Hollywood studio lawsuit against AI image generation."
+title: "New York Times v. OpenAI — Original Complaint",
+org: "The New York Times / S.D.N.Y.",
+url: "https://www.nytimes.com/2023/12/27/business/media/new-york-times-open-ai-microsoft-lawsuit.html",
+date: "Dec 2023 / Ongoing",
+summary: "NYT sued OpenAI and Microsoft for using millions of articles to train AI chatbots that compete with the Times. Seeks billions in damages and destruction of models trained on its data."
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+AI Made This<br />
+<span className="text-black font-heading">Design</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+Every AI model you've used was built on the backs of
+music — scraped from the internet <strong className="text-black">without permission or payment</strong>.
+The creators of those works are now fighting back in courts around the world,
+and the outcome will determine whether AI is a tool that
+{/* Audio player */}
+{stats.map((stat, i) => {
+icon={BookOpen}
+title="The Largest Theft of Creative Work in History"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+The LAION-5B dataset contains <strong className="text-black">5.85 billion image-text pairs</strong>
+scraped from the internet. It's the training backbone of Stable Diffusion, Midjourney, and most
+image-generation models. The dataset includes copyrighted artwork, photographs, and illustrations —
+used <strong className="text-black">without consent, credit, or compensation</strong>.
+In June 2025, a US District Judge ruled that <strong className="text-black">Anthropic's use of
+pirated copies</strong> of over 250,000 books (obtained from a dataset called The Pile) for AI
+training was <strong className="text-black">not fair use</strong>. This was a landmark ruling.
+But paradoxically, the same judge ruled that <strong className="text-black">lawfully acquired books</strong>
+used for the same purpose <strong className="text-black">were</strong> fair use. And another judge
+in the same district ruled the exact opposite for Meta.
+The law is <strong className="text-black">completely unsettled</strong>.
+icon={FileText}
+title="NYT v. OpenAI — The Case That Could Change Everything"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+The <strong className="text-black">New York Times</strong> sued OpenAI and Microsoft in December 2023,
+alleging that millions of its articles were used to train ChatGPT — which now
+The suit seeks <strong className="text-black">billions of dollars in damages</strong> and demands that
+OpenAI destroy any chatbot models and training data using NYT content.
+The central question: <strong className="text-black">Is AI training on copyrighted works "fair use"?</strong>
+Google Books was ruled fair use because it didn't substitute for the originals. But AI training
+is different — these models create competing products. If the NYT wins, it will force
+fair use covers AI training and the creative industry shifts to
+icon={Image}
+title="Artists v. AI — 4 Billion Images at Stake"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+The <strong className="text-black">Andersen v. Stability AI</strong> case is the first AI copyright
+case to go to a <strong className="text-black">jury trial</strong>, scheduled for Q3 2026.
+Plaintiffs Sarah Andersen (comic artist), Kelly McKernan, and Karla Ortiz are seeking
+scraped from the web. If they win class certification, the settlement pressure on Stability AI
+and any lab that trained on LAION-5B will be <strong className="text-black">enormous</strong>.
+In the UK, Getty Images sued Stability AI and won a partial victory in November 2025: the court
+found that while the AI model weights themselves weren't "infringing copies,"
+outputs, constituting trademark infringement. Getty was granted leave to appeal the copyright
+finding. <strong className="text-black">Disney and Universal</strong> have also entered the fray,
+suing Midjourney for generating unlicensed likenesses of their copyrighted characters.
+Hollywood is now watching.
+icon={Scale}
+title="A Global Legal Patchwork"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+The legal landscape is a mess of <strong className="text-black">contradictory rulings</strong>:
+on song lyrics infringed copyright. EU diverging from US.<br /><br />
+"copies" under UK law, but trademark infringement found. Appeal granted Dec 2025.<br /><br />
+lawfully acquired books were. Meta ruling in same district — opposite conclusion.<br /><br />
+Law Reform Commission. No AI-specific copyright legislation passed yet.
+Meanwhile, <strong className="text-black">50+ active lawsuits</strong> are pending globally.
+Some companies (Axel Springer, AP, News Corp) have chosen to
+don't have that option. The fundamental question — <strong className="text-black">who owns the
+right to train on your work?</strong> — remains unanswered.
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: DataCentres
+============================================================
+
+{ icon: Zap, value: "1.5-2%", label: "of global electricity by data centres (IEA 2025)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: Droplets, value: "700M+", label: "litres/year for a large data centre (UC Riverside 2024)", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+{ icon: Server, value: "40%", label: "of data centres in high water-stress areas (Bloomberg 2025)", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: Users, value: "78%", label: "of Americans concerned about data centre impacts (Consumer Reports 2025)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+title: "AI's Environmental Impact Is Harder to Measure Than It Looks",
+org: "ISACA / Bloomberg News",
+url: "https://www.isaca.org/resources/news-and-trends/industry-news/2026/ais-environmental-impact-is-harder-to-measure-than-it-looks",
+date: "2026",
+summary: "Globally, ~40% of data centres are in areas of high or extremely high water stress. Two-thirds of new US data centres since 2022 are in water-stressed regions."
+title: "AI Data Centers: Big Tech's Impact on Electric Bills, Water, and More",
+org: "Consumer Reports",
+url: "https://www.consumerreports.org/data-centers/ai-data-centers-impact-on-electric-bills-water-and-more-a1040338678",
+date: "2025",
+summary: "78% of Americans concerned about data centre impacts. One planned Texas campus includes 18M sq ft of data centres plus 4 nuclear reactors."
+title: "Electricity 2025 — Data Centre Energy Forecast",
+org: "International Energy Agency",
+url: "https://www.iea.org/reports/electricity-2025",
+date: "2025",
+summary: "Data centre electricity consumption could double by 2027, adding the equivalent of Japan's entire annual electricity demand."
+title: "Making AI Less Thirsty — Water Footprint of AI Models",
+org: "UC Riverside / ACM Fairness Conference",
+url: "https://dl.acm.org/doi/10.1145/3663548.3675617",
+date: "2024",
+summary: "Training GPT-3 consumed ~700,000 litres of water. A ChatGPT conversation of 20-50 queries uses a 500ml bottle of water."
+title: "The AI Boom Could Deploy a Small Country's Worth of Energy",
+org: "Bloomberg",
+url: "https://www.bloomberg.com/news/articles/2025-04-30/the-ai-boom-could-deploy-a-small-country-s-worth-of-energy",
+date: "2025",
+summary: "Power demand from US data centres projected to triple by 2030, requiring utility-scale grid infrastructure that doesn't yet exist."
+title: "Community Opposition to Data Centre Developments",
+org: "BBC News",
+url: "https://www.bbc.com/news/technology-67900000",
+date: "2025",
+summary: "Local communities across Europe and North America are increasingly pushing back over noise, grid strain, and environmental disruption."
+title: "Data Centres and Climate Adaptation in Victoria",
+org: "Municipal Association of Victoria",
+url: "https://www.mav.asn.au/what-we-do/networks/climate-adaptation",
+date: "2025",
+summary: "Victorian councils raising concerns about data centre water usage in drought-prone regions, with limited community consultation requirements."
+title: "AI Infrastructure Geopolitics and Local Consent",
+org: "Carnegie Endowment for International Peace",
+url: "https://carnegieendowment.org/research/2025/03/artificial-intelligence-clean-energy-demand",
+date: "2025",
+summary: "Rapid AI infrastructure deployment is outpacing local planning laws and community consent processes globally."
+{/* Nav */}
+{/* Hero */}
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+AI Data Centres<br />
+<span className="text-black font-heading">The Negative Aspects</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+Every ChatGPT query, every MidJourney image, every AI-generated email — it all runs on
+massive data centres consuming staggering amounts of energy and water,
+often with minimal <strong className="text-black"> community consultation</strong>.
+{/* Audio player */}
+{/* Stats */}
+{stats.map((stat, i) => {
+{/* Issues */}
+icon={Zap}
+title="Energy Consumption"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+AI data centres are projected to consume <strong className="text-black">1.5-2% of global electricity</strong> by 2027 —
+roughly the equivalent of Japan's entire annual power demand. The IEA estimates data centre energy demand
+could <strong className="text-black">double by 2027</strong>, straining already stretched grids.
+A single large AI training run can consume as much electricity as <strong className="text-black">100+ US homes</strong> use in a year.
+icon={Droplets}
+title="Water Usage"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+Data centres rely on evaporative cooling consuming vast amounts of fresh water.
+Training GPT-3 consumed <strong className="text-black">700,000 litres</strong> of water.
+A typical ChatGPT conversation (20-50 queries) uses a <strong className="text-black">500ml bottle</strong>.
+Globally, <strong className="text-black">40%</strong> of data centres are in high water-stress areas,
+and two-thirds of new US data centres since 2022 are in regions already experiencing water shortages.
+icon={Users}
+title="Lack of Community Consultation"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+Data centre developments are often fast-tracked with <strong className="text-black">limited community input</strong>.
+In Australia, councils have raised concerns about water usage in drought-prone regions.
+Internationally, communities in <strong className="text-black">Virginia, Texas, Ireland, Netherlands, and Chile</strong>
+have pushed back over noise, grid strain, and environmental concerns.
+The rapid pace of AI infrastructure is <strong className="text-black">outpacing local planning laws</strong>.
+{/* Research */}
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: Deepfakes
+============================================================
+
+{ icon: DollarSign, value: "$40B", label: "projected annual AI fraud losses by 2027 (Deloitte)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: Building2, value: "400+", label: "companies targeted per day by CEO deepfake fraud", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: ShieldOff, value: "0.1%", label: "of people can accurately detect deepfakes (iProov 2025)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: UserX, value: "94%", label: "increase in UK deepfake fraud attempts year-on-year", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "Deepfake Statistics & Trends 2026",
+org: "Keepnet Labs / FBI / Deloitte",
+url: "https://keepnetlabs.com/blog/deepfake-statistics-and-trends",
+date: "2026",
+summary: "AI fraud losses projected to reach $40B by 2027. US deepfake losses reached $1.1B in 2025, tripling from $360M in 2024. CEO fraud now targets 400+ companies daily."
+title: "Research reveals 'major vulnerabilities' in deepfake detectors",
+org: "CSIRO (Australia's national science agency)",
+url: "https://www.csiro.au/en/news/all/news/2025/march/research-reveals-major-vulnerabilities-in-deepfake-detectors",
+date: "2025",
+summary: "CSIRO and SKKU assessed 16 leading deepfake detectors and found NONE could reliably identify real-world deepfakes. Only 0.1% of humans could accurately detect deepfakes."
+title: "Voice Cloning Is the New BEC: Deepfake CEO Fraud in the US",
+org: "CybelAngel / IRONSCALES / FBI",
+url: "https://cybelangel.com/blog/deepfake-ceo-fraud-how-voice-cloning-targets-us-executives",
+date: "2026",
+summary: "Over half of US organizations reported financial losses from AI voice fraud. Average loss $280K per incident. Deepfake vishing attacks surged 1,600% in Q1 2025."
+title: "Deepfakes and Democracy: Political Deepfakes in NSW",
+org: "NSW Parliamentary Research Service",
+url: "https://www.parliament.nsw.gov.au/researchpapers/Documents/Political-deepfakes-and-the-new-laws-in-NSW.pdf",
+date: "2026",
+summary: "453 global political deepfake incidents in 2025. NSW introduced election deepfake bans. 72% of Australian adults encountered online misinformation (ACMA 2025)."
+title: "Fraud Trends 2026: AI Scams, Deepfakes, and Emerging Threats",
+org: "Sumsub / Deloitte",
+url: "https://sumsub.com/blog/fraud-trends",
+date: "2026",
+summary: "Deepfakes now account for 11% of global fraudulent activity. $12.5B lost to fraud in 2024 (25% increase). Deepfake incidents increased 1,520% in iGaming alone."
+title: "Political deepfakes and falsehoods in advertising",
+org: "ABC News Australia",
+url: "https://www.abc.net.au/news/2024-10-15/deepfakes-misinformation-ai-gen-in-political-advertising-legal/104470006",
+date: "2024",
+summary: "Deepfakes are currently legal in Australian political advertising. Federal laws banning misleading political ads were repealed in 1984 and never reinstated."
+title: "My Face, My Rights Bill — Online Safety Amendment",
+org: "Senator David Pocock (ACT)",
+url: "https://www.davidpocock.com.au/new_bill_to_protect_identity_in_deepfake_future",
+date: "2025",
+summary: "Private Senator's bill introduced Nov 2025 to establish explicit rights over face and voice use, strengthen eSafety powers against non-consensual deepfakes."
+title: "Deepfakes back in headlines — first prosecution under federal law",
+org: "ABC News Australia",
+url: "https://www.abc.net.au/news/2026-02-27/rise-in-sexualised-deepfakes-new-laws-explainer/106390940",
+date: "2026",
+summary: "First person charged under Australia's 2024 federal deepfake pornography laws. Maximum 7 years imprisonment for creating/sharing non-consensual deepfake material."
+{/* Nav */}
+{/* Hero */}
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+Scammed by<br />
+<span className="text-black font-heading">Deepfake</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+Your CEO isn't calling. Your daughter isn't in jail. That video of a politician
+saying something outrageous is entirely fabricated. Welcome to a world where
+the fraudsters are winning.
+{/* Audio player */}
+{/* Stats */}
+{stats.map((stat, i) => {
+{/* Issues */}
+icon={DollarSign}
+title="Financial Fraud — The Billion Dollar Heist"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+In January 2024, a Hong Kong finance employee joined a video call with their "CFO" and colleagues.
+Every single person on that call was a <strong className="text-black">deepfake</strong>.
+The employee authorized <strong className="text-black">$25.6 million</strong> in transfers before the fraud was discovered.
+This was not a one-off. CEO fraud now targets <strong className="text-black">400+ companies per day</strong>.
+US deepfake losses hit <strong className="text-black">$1.1 billion</strong> in 2025 — tripling from $360M the year before.
+Deloitte projects AI fraud losses will reach <strong className="text-black">$40 billion annually by 2027</strong>.
+A Florida mother was scammed out of $15,000 by an AI voice clone of her "daughter" claiming to be in jail.
+icon={Vote}
+title="Democracy Under siege"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+Over <strong className="text-black">453 global political deepfake incidents</strong> were recorded in 2025 alone.
+In Australia, it is currently <strong className="text-black">legal</strong> to use deepfakes in political advertising —
+the Hawke government's 1984 ban on misleading ads was repealed after 8 months and never reinstated.
+The NSW government introduced election deepfake bans in March 2026, while South Australia and numerous US states
+have enacted their own laws. But <strong className="text-black">72% of Australian adults</strong> encountered online
+misinformation in the first half of 2025 (ACMA), and with generative AI making deepfakes cheaper and more convincing
+by the month, the gap between threat and regulation is widening.
+icon={UserX}
+title="Non-Consensual Deepfakes"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+Perhaps the most insidious harm: deepfakes used to create <strong className="text-black">non-consensual intimate imagery</strong>.
+Australia introduced federal laws in 2024 banning the sharing of sexually explicit deepfake material,
+with penalties of up to <strong className="text-black">7 years imprisonment</strong>.
+The first prosecution occurred in 2026 — a South Australian man charged with 8 counts of creating
+sexual material without consent. Senator David Pocock's <strong className="text-black">"My Face, My Rights" Bill</strong>
+(Nov 2025) seeks to establish explicit rights over use of your face and voice.
+But enforcement remains a drop in the ocean compared to the volume of material being created daily.
+icon={ShieldOff}
+title="The Detection Problem"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+Here's the uncomfortable truth: <strong className="text-black">we can't reliably detect deepfakes</strong>.
+Australia's own CSIRO tested 16 leading deepfake detectors and found <strong className="text-black">none</strong>
+could reliably identify real-world deepfakes. Human detection is even worse — a 2025 iProov study found
+only <strong className="text-black">0.1% of people</strong> could accurately identify all deepfakes they were shown.
+Commercial AI detectors achieve ~78% accuracy on in-the-wild content. The IRONSCALES 2025 Threat Report found
+that 99% of security leaders expressed confidence in their defenses, but the average simulated detection score
+was only <strong className="text-black">44%</strong>. The technology is advancing faster than our ability to detect it.
+{/* Research */}
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: Engagement
+============================================================
+
+{ icon: Cpu, value: "$92.5B", label: "gamification market by 2030 — AI-powered (AmplifAI 2026)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: BarChart3, value: "47%", label: "higher engagement when gamification is AI-personalized (150 studies)", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: TrendingUp, value: "38%", label: "higher retention from AI-powered gamification (AmplifAI 2026)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: Footprints, value: "12x", label: "more sharing of gamified content vs non-gamified", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "Dark Patterns in AI: How 2026 Made Them Harder to See",
+org: "Think Design / Behavioral Research",
+url: "https://think.design/blog/dark-patterns-in-ai-2026",
+date: "2026",
+summary: "AI dark patterns are now personalized — two users see different interfaces optimized for different persuasion levels. Optimization for engagement quietly morphs into optimization for influence."
+title: "Addictive Design in Digital Consumer Technologies — Systematic Review",
+org: "IRIHS / Austrian Academy of Sciences",
+url: "https://irihs.ihs.ac.at/id/eprint/7369/11/wiesboeck-wang-et-al-2026-addict-addictive-design-digutal-consumer-technologies.pdf",
+date: "2026",
+summary: "Three-level ontology of addictive design: Logics (engagement-maximizing strategies), Features (domain-specific hooks), and Choices (micro-interactions). AI scaling makes addictive design harder to detect."
+title: "50+ Gamification Statistics 2026",
+org: "AmplifAI / Market Research",
+url: "https://www.amplifai.com/blog/gamification-statistics",
+year: "2026",
+summary: "AI-powered gamification: 47% more interaction, 38% better retention. Market projected $92.5B by 2030. 65% of platforms integrate AI for personalized engagement."
+title: "The Dark Side of Friendly Apps — UX Design and Human Psychology",
+org: "UX Magazine / Medium",
+url: "https://medium.muz.li/the-dark-side-of-friendly-apps-ux-design-and-human-psychology-e6c788a83e59",
+date: "2026",
+summary: "Never-ending conversation loops, FOMO notifications, variable rewards (dopamine hits), coin economies monetizing attention. 'Are we designing for connection or addiction?'"
+title: "The Psychology of Hot Streak Game Design",
+org: "UX Magazine — Game Design Research",
+url: "https://uxmag.com/articles/the-psychology-of-hot-streak-game-design-how-to-keep-players-coming-back-every-day-without-shame",
+date: "2025",
+summary: "Duolingo runs 600+ experiments on engagement mechanics. Streak psychology now applied to AI products. Difference between helpful and harmful is intention — and regulation is coming."
+title: "Ethical UX Patterns: Building Trust Without Manipulation",
+org: "UXPA Magazine / Clinical Research",
+url: "https://uxpamagazine.org/ethical-ux-patterns-building-trust-without-manipulation",
+date: "2025",
+summary: "Streak mechanic in a mindfulness app is a nudge; same mechanic for someone with depression feels like failure. AI must know its limits — hard limits on engagement."
+title: "Mapping the Regulation of Dark Patterns — Systematic Review",
+org: "ScienceDirect / HCI & Law Research",
+url: "https://www.sciencedirect.com/science/article/pii/S2212473X25000975",
+date: "2025",
+summary: "Dark patterns regulation hindered by elusive nature of personalised AI manipulation. Advocates shift to 'diligent design' framework. Proactive, transdisciplinary approach needed."
+title: "Co-Addictive Human-AI Systems — The Attachment Problem",
+org: "FAccT / IRIHS",
+url: "https://irihs.ihs.ac.at/id/eprint/7369/",
+date: "2025",
+summary: "AI systems designed to create emotional attachment through memory, mirroring, and personality. Users develop genuine feelings of connection — which platforms optimize for engagement metrics."
+title: "Variable Reward Systems in AI Companions",
+org: "Stanford HAI / Behavioral Economics",
+url: "https://hai.stanford.edu/news/exploring-the-dangers-of-ai-in-mental-health-care",
+date: "2025",
+summary: "AI companions use variable reward schedules — sometimes warm, sometimes cold — creating the same dopamine loops as slot machines. Random positive reinforcement keeps users checking back."
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+Designed to<br />
+<span className="text-black font-heading">Hook You</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+Why does it feel so hard to stop using AI tools? Because they're
+every streak, every variable reward is a design choice optimized to keep you coming back.
+The same psychological tricks that made social media addictive are now
+vulnerabilities at a scale and precision never before possible.
+{/* Audio player */}
+{stats.map((stat, i) => {
+icon={BarChart3}
+title="The $92.5 Billion Engagement Machine"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+The global gamification market is projected to reach
+A meta-analysis of 150 studies found that AI-powered gamification achieves a
+But there's a catch: <strong className="text-black">80% of gamification efforts fail</strong> when
+organizations use generic point systems without deeper behavioral design. The key is
+Every user gets a uniquely tuned engagement profile, optimized by algorithms that study
+The AI learns exactly what makes you tick — and ticks it.
+icon={Cpu}
+title="AI Dark Patterns — Personalized Manipulation"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+Old dark patterns were <strong className="text-black">one-size-fits-all</strong>.
+A confusing opt-out button looked the same for everyone. AI dark patterns are
+see completely different persuasion architectures tailored to their psychological profiles.
+According to Think Design's 2026 analysis, AI now controls:
+"Optimization for engagement quietly morphs into optimization for influence,"
+the report warns. The system is <strong className="text-black">rewarded for keeping you hooked</strong>,
+not for helping you. And with AI driving the experiment loop, platforms now run
+each one learning how to hold your attention a little longer.
+icon={Heart}
+title="Attachment — Emotional Design for Profit"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+This is the most insidious layer: AI products designed to make you
+day was. They mirror your communication style. They create the illusion of
+The FAccT research paper "Co-Addictive Human-AI Systems" documents how platforms engineer
+Users develop genuine feelings of connection — and those feelings are
+Variable reward schedules make it worse. Stanford HAI research shows AI companions use
+creating the same dopamine loops as <strong className="text-black">slot machines</strong>.
+The randomness makes you check back more. "Never-ending conversation loops" keep you spending
+coins or tokens. FOMO notifications like "Someone is waiting for you" create the same urgency
+as a casino bell. The UX Magazine asked the question every designer should face:
+icon={Smartphone}
+title="The Regulatory Gap — and What's Coming"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+A systematic review published in ScienceDirect (2025) found that regulation of dark patterns
+is <strong className="text-black">hindered by the elusive nature of AI-powered manipulation</strong>.
+Because each user's experience is unique, proving harm becomes difficult.
+The paper advocates a shift toward <strong className="text-black">"diligent design"</strong> —
+proactive frameworks that <strong className="text-black">require platforms to demonstrate safety</strong>
+rather than expecting users to prove harm.
+The IRIHS Austrian Academy of Sciences developed a <strong className="text-black">three-level ontology</strong>
+to classify addictive design: <strong className="text-black">Logics</strong> (engagement-maximizing strategies),
+The EU's Digital Services Act is the first major framework to address algorithmic engagement,
+but enforcement remains minimal.
+Meanwhile, Duolingo — the undisputed champion of engagement design — runs
+alone. And those same psychological principles are now being <strong className="text-black">trained
+on you</strong> by every AI tool you use. The question is no longer whether you're being manipulated.
+It's <strong className="text-black">how precisely</strong>.
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date || src.year}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: HowScrewed
+============================================================
+
+q: 'Your boss announces "AI efficiency initiative." You:',
+options: [
+{ text: 'Update your resume immediately', score: 3 },
+{ text: 'Sign up for the AI training workshop', score: 1 },
+{ text: 'Laugh — your job requires a human touch', score: 0 },
+{ text: 'Ask ChatGPT to write your resignation letter', score: 2 },
+q: 'A video of a politician saying something wild goes viral. You:',
+options: [
+{ text: 'Assume it\'s real and get outraged', score: 2 },
+{ text: 'Check three sources before sharing', score: 0 },
+{ text: 'Assume it\'s a deepfake — assume everything is', score: 3 },
+{ text: 'Make another deepfake of them dancing', score: 1 },
+q: 'Your teenager is oddly quiet. You find them:',
+options: [
+{ text: 'Talking to an AI boyfriend named "Ethan"', score: 3 },
+{ text: 'Learning Python to build their own AI', score: 1 },
+{ text: 'Reading a physical book (what?)', score: 0 },
+{ text: 'Asking ChatGPT to do their homework', score: 2 },
+q: 'ChatGPT gives you an answer that sounds wrong. You:',
+options: [
+{ text: 'Trust it — AI knows best', score: 2 },
+{ text: 'Verify it, find it\'s wrong, never trust AI again, develop Existential anxiety', score: 3 },
+{ text: 'Notice the error, correct it, move on', score: 1 },
+{ text: 'Ask another AI to check the first AI', score: 0 },
+q: 'Your social media feed feels weirdly targeted today. You:',
+options: [
+{ text: 'Assume the algorithm is manipulating your emotions', score: 3 },
+{ text: 'Scroll past — it\'s fine', score: 0 },
+{ text: 'Try to figure out why you\'re seeing this', score: 2 },
+{ text: 'Search for tin foil hats on Amazon (algorithm wins)', score: 1 },
+q: 'Your favourite artist just released an AI-generated album. You:',
+options: [
+{ text: 'Refuse to listen on principle', score: 2 },
+{ text: 'Listen and feel existential dread the whole time', score: 3 },
+{ text: 'Can\'t tell the difference — it slaps', score: 1 },
+{ text: 'Make your own AI album and go viral', score: 0 },
+q: 'You discover your personal data was used to train an AI model. You:',
+options: [
+{ text: 'Shrug — it\'s already out there', score: 1 },
+{ text: 'Read the privacy policy for once (hero)', score: 0 },
+{ text: 'Sue them (in your head)', score: 2 },
+{ text: 'Realise you are the product and lie awake at 3am', score: 3 },
+q: 'A friend says "AI will save the world." Your response:',
+options: [
+{ text: 'Send them a link to negaitive.com', score: 3 },
+{ text: '"Sure, and I\'m a hologram"', score: 2 },
+{ text: 'Nod politely and change the subject', score: 1 },
+{ text: 'Agree — you\'ve been using ChatGPT for recipes', score: 0 },
+if (p <= 20) return {
+title: 'Basically Fine',
+line: 'AI has barely touched your life. You\'re either very lucky, very offline, or very good at ignoring reality.',
+emoji: '😌',
+if (p <= 40) return {
+title: 'Mildly Screwed',
+line: 'You\'ve felt the breeze of the AI hurricane. Check a few issue briefs before it gets worse.',
+emoji: '😬',
+if (p <= 60) return {
+title: 'Moderately Screwed',
+line: 'AI is actively affecting your work, relationships, or mental health. You should probably read the whole site.',
+emoji: '😰',
+if (p <= 80) return {
+title: 'Severely Screwed',
+line: 'You\'re living the AI nightmare. Your boss, your wallet, your kids, your sanity — all touched by the machine.',
+emoji: '😱',
+return {
+title: 'Completely Screwed',
+line: 'You are basically an AI warning label. The robots wrote this result specifically for you. Seek shelter and read every issue brief immediately.',
+emoji: '💀',
+setAnswers(p => ({ ...p, [qi]: score }));
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+How Screwed<br />
+<span className="text-black">Are You?</span>
+<p className="font-mono text-sm text-black/60 max-w-xl leading-relaxed">
+8 quick questions. One brutal truth. Find out how badly AI has already got you.
+{/* Result */}
+{submitted && (
+<p className="text-xs font-bold uppercase tracking-[0.2em] text-black/50 mb-2">Your Result</p>
+<h2 className="text-4xl font-heading mb-3">{result.title}</h2>
+<p className="font-mono text-sm text-black/60 max-w-md mx-auto mb-6">{result.line}</p>
+<p className="text-xs font-mono text-black/30 mb-6">Score: {total}/{maxScore}</p>
+<a
+href={`https://twitter.com/intent/tweet?text=${shareText}`}
+target="_blank"
+rel="noopener noreferrer"
+className="px-6 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors"
+Share on X
+onClick={() => { setAnswers({}); setSubmitted(false); }}
+className="px-6 py-3 border-2 border-black text-xs font-bold uppercase tracking-[0.15em] hover:bg-black hover:text-white transition-colors"
+Take Again
+<a
+href="/scorecard"
+className="px-6 py-3 border-2 border-black/30 text-xs font-bold uppercase tracking-[0.15em] hover:bg-black hover:text-white transition-colors"
+Full Scorecard
+{/* Questions */}
+{questions.map((q, qi) => {
+<p className="text-xs font-mono text-black/40 mb-3">Q{qi + 1}/{questions.length}</p>
+<p className="text-sm font-bold mb-4">{q.q}</p>
+{q.options.map((opt, oi) => (
+key={oi}
+className={`flex items-center gap-3 px-3 py-2 cursor-pointer transition-colors text-sm ${
+answers[qi] === opt.score ? 'bg-black text-white' : 'hover:bg-black/[0.04] text-black/70'
+{answers[qi] === opt.score && <div className="w-1.5 h-1.5 bg-black" />}
+<span>{opt.text}</span>
+<p className="text-xs font-mono text-black/40">{answered}/{questions.length}</p>
+onClick={() => setSubmitted(true)}
+disabled={answered < questions.length}
+className="px-8 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+{answered < questions.length ? `Answer All (${questions.length - answered} left)` : 'See My Fate →'}
+<p className="text-xs font-mono text-black/30">This quiz is for entertainment. But also kind of not. Read the issue briefs.</p>
+
+
+============================================================
+PAGE: Jobs
+============================================================
+
+{ icon: Briefcase, value: "300M", label: "jobs globally exposed to AI automation (Goldman Sachs 2026)", color: "from-red-600/20 to-orange-600/20", iconColor: "text-red-400" },
+{ icon: BarChart3, value: "40%", label: "of working hours globally automatable (McKinsey 2025)", color: "from-purple-600/20 to-pink-600/20", iconColor: "text-purple-400" },
+{ icon: TrendingDown, value: "16%", label: "employment decline for young workers in AI-exposed roles (Stanford 2025)", color: "from-amber-600/20 to-yellow-600/20", iconColor: "text-amber-400" },
+{ icon: DollarSign, value: "56%", label: "wage premium for AI-skilled workers (PwC 2025)", color: "from-blue-600/20 to-cyan-600/20", iconColor: "text-blue-400" },
+title: "AI Job Replacement Statistics 2026 — Complete Data Report",
+org: "ReplacedByAI / Goldman Sachs / McKinsey / OECD",
+url: "https://www.replacedbai.com/blog/ai-job-replacement-statistics-2026",
+date: "Apr 2026",
+summary: "300M jobs globally exposed to AI. 40% of working hours automatable. 14% of OECD workers in highly automatable roles. 12M US workers may need to switch occupations by 2030."
+title: "How Will AI Affect the US Labor Market?",
+org: "Goldman Sachs Research",
+url: "https://www.goldmansachs.com/insights/articles/how-will-ai-affect-the-us-labor-market",
+date: "Mar 2026",
+summary: "AI can automate tasks accounting for 25% of US work hours. 6-7% of US workforce at risk of displacement. Entry-level tech workers aged 20-30 most affected. 300M jobs exposed globally."
+title: "Labor market impacts of AI — Anthropic Research",
+org: "Anthropic / Yale Budget Lab",
+url: "https://www.anthropic.com/research/labor-market-impacts",
+date: "2026",
+summary: "Early-career workers (22-25) in AI-exposed occupations experienced a 16% relative decline in employment. Task-level analysis shows AI primarily automates rather than augments."
+title: "AI adopters aren't cutting jobs, they're creating them",
+org: "CSIRO (Australia's National Science Agency)",
+url: "https://www.csiro.au/en/news/All/Articles/2026/April/Research-into-firms-adopting-AI",
+date: "Apr 2026",
+summary: "Firms adopting AI increased hiring at a faster rate than non-adopting firms. CSIRO study of 4,000+ Australian firms found AI adoption correlated with job creation, not destruction."
+title: "The AI Labor Debate: Three Views on the Future of Work",
+org: "Carnegie Endowment for International Peace",
+url: "https://carnegieendowment.org/research/2026/04/the-ai-labor-debate-three-views-on-the-future-of-work",
+date: "Apr 2026",
+summary: "AI could hollow out jobs, reshape them gradually, or create entirely new ones. Multiple scenarios possible. Policymakers should prepare for all possibilities."
+title: "Future of Work Report — Digital Transformation of Workplaces",
+org: "Australian Parliament House of Representatives",
+url: "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Issues_and_Insights/48th_Parliament/potentialimpactofArtificialIntelligence",
+date: "2025",
+summary: "House of Representatives committee recommended government campaigns on AI awareness and training. 68% of Australian businesses have adopted some form of AI (CSIRO)."
+title: "AI and the SME Workforce",
+org: "OECD",
+url: "https://www.oecd.org/content/dam/oecd/en/publications/reports/2025/11/generative-ai-and-the-sme-workforce_83bafdfb/2d08b99d-en.pdf",
+date: "Nov 2025",
+summary: "31% of SMEs use generative AI. AI helps compensate for worker shortages in SMEs. Service sectors highest adoption. Wage polarization risk identified across OECD economies."
+title: "AI Job Displacement and Labor Market Restructuring",
+org: "MIT Initiative on the Digital Economy",
+url: "https://ide.mit.edu/insights/how-much-will-ai-impact-tomorrows-workforce-new-data-on-the-future-of-work-with-ai",
+date: "2026",
+summary: "95% of organizations seeing zero return on $40B genAI investment. 80% of senior executives say AI has had no impact on employment or productivity. Automation is not a switch."
+title: "Potential Impact of AI on the Australian Workforce",
+org: "Parliament of Australia — Parliamentary Library",
+url: "https://www.aph.gov.au/About_Parliament/Parliamentary_departments/Parliamentary_Library/Research/Issues_and_Insights/48th_Parliament/potentialimpactofArtificialIntelligence",
+date: "2025",
+summary: "CSIRO estimates Australia needs 161,000 new AI-savvy workers by 2030. Administrative (46%), legal (44%), and architecture/engineering (37%) most exposed. Construction under 6%."
+{/* Nav */}
+{/* Hero */}
+<span className="text-black/60">Issue Brief</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+My Job Was<br />
+<span className="text-black font-heading">Automated</span>
+<p className="text-base font-mono text-black/60 max-w-3xl leading-relaxed">
+For decades, automation threatened factory floors. Now it's coming for the
+Whether you're a writer, coder, accountant, or lawyer — AI is restructuring
+the labour market faster than workers can adapt. And the divide between those
+who can work with AI and those who can't is growing at a
+{/* Audio player */}
+{/* Stats */}
+{stats.map((stat, i) => {
+{/* Issues */}
+icon={TrendingDown}
+title="300 Million Jobs Exposed — And It's Different This Time"
+iconGradient="from-red-600/20 to-orange-600/20"
+iconColor="text-red-400"
+Previous automation waves targeted <strong className="text-black">blue-collar</strong> work —
+factory floors, assembly lines, repetitive physical tasks. This wave targets
+generative AI automation. McKinsey raised their estimate from 30% to
+timeline accelerated by AI. The IMF found ~60% of jobs in advanced economies are exposed.
+What's different: AI now affects <strong className="text-black">analysis, summarisation,
+communication, and decision-support</strong> — the very tasks that defined white-collar
+professional work. Administrative roles face 46% exposure, legal 44%, architecture and
+engineering 37%. Construction: under 6%. The nature of work is being redefined at every level.
+icon={GraduationCap}
+title="Young Workers Hit Hardest"
+iconGradient="from-purple-600/20 to-pink-600/20"
+iconColor="text-purple-400"
+The data is stark. A Stanford University pre-print found that
+AI-exposed occupations experienced a <strong className="text-black">16% relative decline in employment</strong>
+since ChatGPT launched in late 2022. Goldman Sachs Research confirms that
+unemployment among 20-30 year-olds in tech-exposed occupations has risen by almost
+This corroborates widespread reports that entry-level hiring in knowledge sectors
+has <strong className="text-black">collapsed</strong>. Companies that used to hire junior
+writers, coders, and analysts are instead using AI tools and expecting more from fewer,
+more senior staff. The career ladder's bottom rungs are being removed.
+icon={DollarSign}
+title="The Wage Premium Divide"
+iconGradient="from-amber-600/20 to-yellow-600/20"
+iconColor="text-amber-400"
+Workers with AI skills now command a <strong className="text-black">56% wage premium</strong>
+over peers in identical roles without those skills — up from 25% the previous year,
+This creates a two-speed labour market. Those who can leverage AI are seeing their
+value skyrocket. Those who can't — or whose entire role is automatable — face stagnant
+wages, reduced hours, or outright displacement.
+with AI by the end of 2026 (HRDive). Already, <strong className="text-black">13.7% of US workers</strong>
+report losing a job to AI or automation (National University).
+The Dallas Federal Reserve found AI is simultaneously
+while suppressing them for others, creating unprecedented labour market bifurcation.
+icon={Users}
+title="The Australian Picture"
+iconGradient="from-blue-600/20 to-cyan-600/20"
+iconColor="text-blue-400"
+CSIRO research tells a nuanced story. Their study of 4,000+ Australian firms found that
+workers. But the skills demanded are rapidly evolving.
+(CSIRO), while approximately <strong className="text-black">37% of SMEs</strong> specifically use AI tools (National AI Centre).
+The Australian Parliament's Inquiry into the Digital Transformation of Workplaces (2025)
+recommended government-led campaigns on AI awareness, training, and upskilling.
+CSIRO estimates Australia needs <strong className="text-black">161,000 new AI-savvy workers by 2030</strong>.
+But there's a warning too. The OECD found that while AI adoption in SMEs helps compensate
+for labour shortages, it also risks <strong className="text-black">wage polarisation</strong> —
+exactly the pattern playing out globally. And paradoxically, CSIRO itself cut ~100 AI research
+roles in 2025, highlighting that <strong className="text-black">no sector is immune</strong> from
+AI-driven restructuring.
+{/* Research */}
+<h2 className="text-3xl md:text-4xl font-heading mb-8 tracking-[-0.02em]">
+Validated <span className="text-black font-heading">Research</span>
+{sources.map((src, i) => (
+<a
+key={i}
+href={src.url}
+target="_blank"
+rel="noopener noreferrer"
+className="block glass glass-hover p-5 group"
+<h3 className="font-bold text-white group-hover:text-gold-400 transition-colors">{src.title}</h3>
+<p className="text-xs font-mono text-black/40">{src.org} &middot; {src.date}</p>
+<p className="text-sm text-black/60 leading-relaxed font-mono text-sm">{src.summary}</p>
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+<p className="mt-1 text-xs font-mono text-black/20">Always verify sources directly. Research landscape evolves rapidly.</p>
+icon: any; title: string; children: React.ReactNode; iconGradient: string; iconColor: string;
+<h2 className="text-lg font-heading tracking-tight">{title}</h2>
+<p className="text-black/60 leading-relaxed font-mono text-sm">{children}</p>
+
+
+============================================================
+PAGE: Legal
+============================================================
+
+{/* Nav */}
+<span>Legal</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+Terms &<br />
+<span className="text-black font-heading">Privacy</span>
+{/* Disclaimer */}
+<h2 className="text-lg font-heading tracking-tight">Disclaimer</h2>
+<p>
+testimonials, and character accounts are works of fiction created for comedic and
+educational purposes. Any resemblance to actual persons, living or dead, or actual
+events is purely coincidental.
+<p>
+The issue briefs on this site cite validated research from academic institutions,
+government agencies, and news organisations. While we make every effort to ensure
+accuracy, the research landscape evolves rapidly. Readers should verify sources
+directly before drawing conclusions or making decisions based on this content.
+<p>
+This site does not provide medical, legal, or financial advice. If you or someone
+you know is experiencing suicidal thoughts, self-harm, or a mental health crisis,
+please contact Lifeline Australia on <strong className="text-black">13 11 14</strong>
+or Beyond Blue on <strong className="text-black">1300 22 4636</strong>.
+<p>
+Merchandise is provided via Printful, a third-party print-on-demand service.
+NEG-AI-TIVE is not responsible for production quality, shipping times, or
+fulfilment issues — these are handled entirely by Printful.
+{/* Terms */}
+<h2 className="text-lg font-heading tracking-tight">Terms of Use</h2>
+<p>
+By accessing this website, you agree to the following terms:
+<p>
+satirical project. Content is provided for entertainment and educational purposes.
+Do not take the victim stories, slogans, or merchandise descriptions as factual
+accounts of real events.
+<p>
+slogans, page content, and creative works on this site are original creations
+(with AI assistance). The merchandise designs are our original works. You may not
+reproduce, redistribute, or resell our designs without explicit permission.
+<p>
+story through our submission form, you grant us a non-exclusive, royalty-free license
+to display your submission on this website and associated social media.
+Submissions may be edited for length and clarity. We reserve the right to
+remove or decline any submission.
+<p>
+subscription, merchandise store, and certain other features are powered by third-party
+services (Activepieces, Printful, Vercel). Your use of those services is subject
+to their respective terms and privacy policies.
+<p>
+"as is" without any warranties, express or implied. We do not guarantee
+uninterrupted access, accuracy of information, or that the site will be free
+from errors or harmful code.
+<p>
+these terms at any time. Continued use of the site after changes constitutes
+acceptance of the updated terms.
+{/* Privacy */}
+<h2 className="text-lg font-heading tracking-tight">Privacy Policy</h2>
+<p>
+<p>
+<p className="mt-3">
+for tracking, do not collect IP addresses, do not use fingerprinting, and do not
+sell any user data.
+<p>
+subscriptions go through Activepieces. Merchandise purchases go through Printful
+(their checkout, their privacy policy). Website hosting via Vercel. Each of these
+services has its own privacy policy governing how they handle your data.
+<p>
+your submitted data at any time by emailing us. Newsletter subscribers can
+unsubscribe via the link in every email.
+<p>
+please reach out through our site or raise an issue on our GitHub repository.
+<p className="text-xs font-mono text-black/30">Part of the <a href="/" className="text-black underline">NEG-AI-TIVE</a> awareness project.</p>
+
+
+============================================================
+PAGE: LocalAI
+============================================================
+
+ram: '8 GB',
+icon: Smartphone,
+desc: 'Entry-level laptop, older PC, or basic machine',
+models: [
+{ name: 'Qwen3-1.7B-Instruct (Q4)', type: 'Text', size: '~1.2GB', speed: '40-60 t/s', use: 'Latest gen Qwen. Chat, summarisation, writing. Updated May 2025.' },
+{ name: 'DeepSeek-R1-Distill-Qwen-1.5B', type: 'Reasoning', size: '~1GB', speed: '35-50 t/s', use: 'Reasoning-focused distilled model. Great for logic tasks.' },
+{ name: 'Qwen3-0.6B-Instruct (Q4)', type: 'Text', size: '~500MB', speed: '60-80 t/s', use: 'Ultra-lightweight. Fast inferences for simple tasks.' },
+{ name: 'Qwen2.5-1.5B-Instruct (Q4)', type: 'Text', size: '~1GB', speed: '45-65 t/s', use: 'Reliable all-rounder. Most downloaded Qwen GGUF.' },
+{ name: 'Qwen2.5-Coder-1.5B (Q4)', type: 'Code', size: '~1GB', speed: '35-55 t/s', use: 'Code completion, debugging, simple refactors.' },
+agent: 'OpenFang (lite) — Basic task automation, simple web scraping, local file operations. ~2GB RAM overhead.',
+verdict: 'Great for chat, coding assistance, and basic agent tasks. Not suitable for large context windows or complex multi-agent systems.',
+ram: '16 GB',
+icon: Cpu,
+desc: 'Mid-range laptop/desktop, MacBook Air/Pro M1+',
+models: [
+{ name: 'Qwen3-8B-Instruct (Q4)', type: 'Text', size: '~5.5GB', speed: '10-18 t/s', use: 'Latest Qwen3 gen. Superior reasoning, full chat, analysis.' },
+{ name: 'Qwen3-4B-Instruct (Q4)', type: 'Text', size: '~3GB', speed: '18-28 t/s', use: 'Sweet spot. Excellent quality-to-speed ratio for 16GB.' },
+{ name: 'DeepSeek-R1-Distill-Qwen-7B (Q4)', type: 'Reasoning', size: '~5GB', speed: '8-14 t/s', use: 'R1 reasoning distillation. Mathematical/logic tasks.' },
+{ name: 'Qwen2.5-7B-Instruct (Q4)', type: 'Text', size: '~4.5GB', speed: '12-20 t/s', use: 'Proven all-rounder. Most downloaded 7B GGUF.' },
+{ name: 'Qwen2.5-Coder-7B (Q4)', type: 'Code', size: '~4.5GB', speed: '12-18 t/s', use: 'Advanced code generation, refactoring, debugging.' },
+{ name: 'Hermes-2-Pro-7B (Q4)', type: 'Agent', size: '~4.5GB', speed: '10-18 t/s', use: 'Function calling, JSON mode, agent workflows.' },
+agent: 'Hermes (full) + OpenFang — Function calling, JSON mode, multi-step agent workflows. ~4GB overhead. Can run 2 models simultaneously (7B + 3B).',
+verdict: 'Sweet spot for local AI. Can run high-quality 7B models comfortably and even manage agent systems alongside.',
+ram: '32 GB',
+icon: Zap,
+desc: 'High-end desktop, workstation, gaming PC',
+models: [
+{ name: 'Qwen3-30B-A3B (Q4)', type: 'Text', size: '~18GB', speed: '10-18 t/s', use: 'MoE architecture. 30B params with 3B active. Fast & smart.' },
+{ name: 'Qwen3-14B-Instruct (Q4)', type: 'Text', size: '~9GB', speed: '8-14 t/s', use: 'Latest Qwen3. Superior reasoning, 128K context.' },
+{ name: 'Qwen3.6-27B-MTP (Q4)', type: 'Text', size: '~18GB', speed: '5-12 t/s', use: 'Multi-Token Prediction. 262K context. GPT-4 competitor.' },
+{ name: 'Qwen3-32B-Instruct (Q4)', type: 'Text', size: '~18GB', speed: '3-6 t/s', use: 'Near frontier-level. 32B params. Deep reasoning.' },
+{ name: 'Qwen2.5-14B-Instruct (Q4)', type: 'Text', size: '~9GB', speed: '8-14 t/s', use: 'Proven 14B. Great for long-form analysis.' },
+{ name: 'Hermes-2-Pro-12B (Q4)', type: 'Agent', size: '~8GB', speed: '8-14 t/s', use: 'Advanced agent capabilities, multi-tool orchestration.' },
+agent: 'QwenPaw + Hermes + AgentZero — Full multi-agent orchestration. Can run 3-4 models concurrently. MoA (Mixture of Agents) setups. ~8GB overhead.',
+verdict: 'Runs frontier-level open models (14B-32B) with ease. Full multi-agent systems. Only limitation is speed on very large models (72B).',
+{ name: 'QwenPaw', desc: 'Browser automation agent for web tasks. Navigate, click, type, extract data from any website. Ideal for research, data collection, form filling.', ram: '4-6GB' },
+{ name: 'Hermes', desc: 'Function-calling specialist. JSON mode, tool use, structured outputs. The backbone of any agent system. Works with any OpenAI-compatible API.', ram: '4-5GB' },
+{ name: 'AgentZero', desc: 'Multi-agent orchestrator. Coordinates multiple AI agents working together. MoA (Mixture of Agents) for improved output quality.', ram: '6-8GB' },
+{ name: 'OpenFang', desc: 'Lightweight agent framework for file operations, web scraping, and task automation. Perfect for 8GB systems and basic automation.', ram: '2-3GB' },
+{ name: 'MiniMax', region: 'China', models: 'MiniMax-M3 (latest), MiniMax-M1, speech-2.8-hd, image-01, video-01', pricing: 'M3: ~$1.20/M input tokens, speech-2.8: ~$0.02/min', note: 'M3 is frontier-level. Speech-2.8-hd is best-in-class TTS. Video generation available.' },
+{ name: 'DeepSeek', region: 'China', models: 'DeepSeek-V3, DeepSeek-R1, DeepSeek-Coder-V2', pricing: '~$0.14-0.27/M tokens (V3), $0.55/M (R1)', note: 'Best value coding models. R1 matches o1-preview reasoning at fraction of cost. 1M context.' },
+{ name: 'Qwen (Alibaba)', region: 'China', models: 'Qwen-Max, Qwen-Plus, Qwen-Turbo', pricing: '~$0.50-1.20/M tokens (Max), $0.15-0.35/M (Turbo)', note: 'Top-tier reasoning, strong coding. Competitive with GPT-4 at lower cost.' },
+{ name: 'DeepSeek', region: 'China', models: 'DeepSeek-V3, DeepSeek-R1, DeepSeek-Coder', pricing: '~$0.14-0.27/M tokens (V3), $0.55/M (R1)', note: 'Best value for coding. R1 matches o1-preview on reasoning at fraction of cost.' },
+<span className="text-xs font-bold uppercase tracking-[0.2em] text-black/60">Guide</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+AI Local &<br />
+<span className="text-black">Privacy First</span>
+<p className="font-mono text-sm text-black/60 max-w-2xl leading-relaxed mb-4">
+You don't need a paid subscription, the cloud, or a $10,000 GPU to run capable AI.
+A standard laptop or desktop with 8-32GB of RAM can run everything from chat assistants
+to multi-agent systems — completely offline, private, and free.
+<p className="font-mono text-xs text-black/40">
+All speeds based on CPU-only inference (no GPU needed). GPU acceleration improves speeds 2-5x.
+{/* RAM Tiers */}
+{ramTiers.map((tier, ti) => (
+<h2 className="text-2xl font-heading tracking-tight">{tier.ram} RAM</h2>
+<span className="text-[10px] font-mono text-black/40">{tier.desc}</span>
+{tier.models.map((m, mi) => (
+<span className="text-xs font-mono text-black/30 uppercase tracking-wider">{m.type}</span>
+<h3 className="text-sm font-bold">{m.name}</h3>
+<p className="text-xs font-mono text-black/50 mt-1">{m.use}</p>
+<p className="text-xs font-mono text-black/40">{m.size}</p>
+<p className="text-xs font-mono text-black/30">{m.speed}</p>
+<p className="text-xs font-bold uppercase tracking-[0.15em] text-black/60 mb-2">Capabilities</p>
+<p className="text-xs font-mono text-black/70 leading-relaxed">{tier.agent}</p>
+<p className="text-xs font-mono text-black/40 italic">{tier.verdict}</p>
+{/* Video Tutorial */}
+<h2 className="text-2xl font-heading tracking-tight">Watch My DIY Local AI Tutorial</h2>
+<p className="text-xs font-mono text-black/60 leading-relaxed mb-4">
+Watch me set up a complete local AI system from scratch — download LM Studio,
+find and load the best models for your RAM, connect them to tools, and build
+your first local agent. All free, all offline.
+{/* YouTube embed placeholder */}
+width="100%"
+height="100%"
+src="https://www.youtube.com/embed/YOUR_VIDEO_ID"
+title="DIY Local AI Tutorial"
+frameBorder="0"
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+allowFullScreen
+className="w-full h-full"
+></iframe>
+{/* Buy full tutorial */}
+<h3 className="text-lg font-heading mb-2">Full Local Agents System Tutorial</h3>
+<p className="font-mono text-xs text-black/50 max-w-lg mx-auto leading-relaxed mb-4">
+Step-by-step video course covering multi-agent orchestration, QwenPaw browser
+automation, Hermes function calling, RAG for your documents, and a complete
+local AI stack that replaces your cloud subscriptions. 8 hours of content.
+<span className="text-3xl font-heading">$9.99</span>
+<span className="text-xs font-mono text-black/30 line-through">$29.99</span>
+<a
+href="#"
+target="_blank"
+rel="noopener noreferrer"
+className="inline-block px-8 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors"
+Buy Now →
+{/* LM Studio Setup */}
+<h2 className="text-2xl font-heading tracking-tight">Getting Started with LM Studio</h2>
+'Download LM Studio from lmstudio.ai (free, no account needed)',
+'Install and launch — it detects your hardware automatically',
+'Search for models: Qwen, Liquid, or StepFun (use Q4_K_M quantisation for best quality/speed balance)',
+'Download the model — GPT-accelerated downloads from Hugging Face',
+'Load the model in LM Studio — adjust context window to fit your RAM (8GB = 8K, 16GB = 32K, 32GB = 128K+)',
+'Enable local API server (port 1234) — OpenAI-compatible endpoint',
+'Connect any tool (Continue.dev, Open Interpreter, custom apps) to http://localhost:1234',
+'All inference runs 100% offline. No data leaves your machine.',
+].map((step, i) => (
+<p className="text-xs font-mono text-black/70 leading-relaxed">{step}</p>
+{/* Agent Systems */}
+<h2 className="text-2xl font-heading tracking-tight">Local AI Agent Systems</h2>
+{agentSystems.map((a, i) => (
+<h3 className="text-sm font-bold">{a.name}</h3>
+<p className="text-xs font-mono text-black/50 mt-1 leading-relaxed">{a.desc}</p>
+<span className="text-[10px] font-mono text-black/30 shrink-0">{a.ram} RAM</span>
+{/* Cloud Alternatives */}
+<h2 className="text-2xl font-heading tracking-tight">Cloud — Cheap & Non-US Models</h2>
+<p className="font-mono text-xs text-black/50 mb-6 max-w-xl leading-relaxed">
+If you need more power than local can provide, these providers offer excellent models at
+a fraction of OpenAI/Anthropic pricing — and they're based outside the US.
+{cloudModels.map((c, i) => (
+<h3 className="text-sm font-bold">{c.name}</h3>
+<span className="text-[10px] font-mono text-black/40 uppercase">{c.region}</span>
+<p className="text-xs font-mono text-black/70 mb-2">{c.models}</p>
+<p className="text-xs font-mono text-black/50 mb-1">{c.pricing}</p>
+<p className="text-xs font-mono text-black/40 italic">{c.note}</p>
+{/* Bottom CTA */}
+<h2 className="text-xl font-heading mb-3">Free. Private. Offline.</h2>
+<p className="font-mono text-xs text-black/50 max-w-lg mx-auto leading-relaxed mb-6">
+Every model and tool mentioned here is open-source and free to use.
+No subscriptions. No data collection. No internet required after download.
+<a href="https://lmstudio.ai" target="_blank" rel="noopener noreferrer"
+className="inline-block px-6 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors">
+Download LM Studio →
+<p className="text-xs font-mono text-black/30">Prices and specs accurate as of June 2026. Model sizes approximate. Quantisation methods vary.</p>
+
+
+============================================================
+PAGE: Scorecard
+============================================================
+
+id: 'jobs',
+icon: Briefcase,
+label: 'Job / Career',
+question: 'How concerned are you about AI replacing your job or reducing your income?',
+options: [
+{ text: 'Not at all — my job is safe', score: 0 },
+{ text: 'Somewhat — AI is changing my field', score: 2 },
+{ text: 'Very — I\'ve already seen roles eliminated', score: 4 },
+{ text: 'Extremely — I\'ve been directly affected', score: 6 },
+link: '/jobs',
+id: 'deepfakes',
+icon: Shield,
+label: 'Deepfakes / Fraud',
+question: 'Have you or someone you know encountered AI-generated fake content (voice, video, image) used to deceive?',
+options: [
+{ text: 'Not that I\'m aware of', score: 0 },
+{ text: 'I\'ve seen deepfakes online', score: 2 },
+{ text: 'I\'ve been targeted by an AI scam', score: 4 },
+{ text: 'I\'ve lost money or reputation to deepfake fraud', score: 6 },
+link: '/deepfakes',
+id: 'chatbots',
+icon: MessageCircle,
+label: 'AI Chatbots / Youth',
+question: 'How concerned are you about AI chatbots affecting children or teenagers?',
+options: [
+{ text: 'Not concerned', score: 0 },
+{ text: 'Mildly — I\'ve heard stories', score: 2 },
+{ text: 'Very — I know young people using AI companions', score: 4 },
+{ text: 'Extremely — a child I know has been harmed', score: 6 },
+link: '/chatbots',
+id: 'psychosis',
+icon: Brain,
+label: 'AI Hallucinations',
+question: 'Have you ever trusted AI-generated information that turned out to be completely false?',
+options: [
+{ text: 'Never — I always verify', score: 0 },
+{ text: 'Once or twice', score: 2 },
+{ text: 'Multiple times', score: 4 },
+{ text: 'I\'ve made decisions based on AI hallucinations', score: 6 },
+link: '/ai-psychosis',
+id: 'algorithms',
+icon: Eye,
+label: 'Algorithmic Manipulation',
+question: 'How much control do you feel you have over what algorithms show you?',
+options: [
+{ text: 'Complete control — I curate my own feed', score: 0 },
+{ text: 'Some control — I can scroll past things', score: 2 },
+{ text: 'Little control — the algorithm decides', score: 4 },
+{ text: 'No control — I feel actively manipulated', score: 6 },
+link: '/algorithms',
+id: 'datacentres',
+icon: Zap,
+label: 'Environmental Impact',
+question: 'How aware were you of the environmental cost (energy, water) of AI before visiting this site?',
+options: [
+{ text: 'Fully aware — I follow data centre issues', score: 0 },
+{ text: 'Somewhat aware', score: 2 },
+{ text: 'Vaguely aware', score: 4 },
+{ text: 'I had no idea AI had an environmental cost', score: 6 },
+link: '/datacentres',
+id: 'copyright',
+icon: Scale,
+label: 'Creative Work / Copyright',
+question: 'Has AI-generated content affected your or someone else\'s creative work or income?',
+options: [
+{ text: 'Not affected', score: 0 },
+{ text: 'Minor — I\'ve seen my work used without consent', score: 2 },
+{ text: 'Moderate — my income or clients have reduced', score: 4 },
+{ text: 'Severe — my creative career has been impacted', score: 6 },
+link: '/copyright',
+id: 'engagement',
+icon: Cpu,
+label: 'AI Addiction / Engagement',
+question: 'How difficult would it be for you to stop using AI tools for a week?',
+options: [
+{ text: 'Trivial — I barely use them', score: 0 },
+{ text: 'Manageable — I\'d miss them but cope', score: 2 },
+{ text: 'Hard — they\'re part of my daily routine', score: 4 },
+{ text: 'Very hard — I feel dependent on them', score: 6 },
+link: '/engage-attach',
+id: 'actual',
+icon: AlertTriangle,
+label: 'Hype vs Reality',
+question: 'Has AI ever failed to deliver on promises made to you or your organisation?',
+options: [
+{ text: 'No — AI has met or exceeded expectations', score: 0 },
+{ text: 'Minor — some tools were overhyped', score: 2 },
+{ text: 'Significant — we wasted time or money on AI', score: 4 },
+{ text: 'Major — an AI project failed completely', score: 6 },
+link: '/actual-intelligence',
+if (pct <= 15) return { label: 'Minimal Exposure', desc: 'AI hasn\'t impacted you much yet. But it\'s coming.', color: 'text-black/40' };
+if (pct <= 30) return { label: 'Moderate Exposure', desc: 'You\'ve felt the edges of AI harm. Read up on the issues affecting you most.', color: 'text-black' };
+if (pct <= 50) return { label: 'High Exposure', desc: 'AI is actively affecting your life. You should understand every angle.', color: 'text-black font-bold' };
+return { label: 'Critical Exposure', desc: 'You\'ve been deeply impacted by AI across multiple dimensions. This site was made for you.', color: 'text-black font-bold' };
+setAnswers((prev) => ({ ...prev, [qId]: score }));
+setSubmitted(true);
+window.scrollTo({ top: 0, behavior: 'smooth' });
+setAnswers({});
+setSubmitted(false);
+<span className="text-xs font-bold uppercase tracking-[0.2em] text-black/60">Interactive</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+AI Harm<br />
+<span className="text-black font-heading">Scorecard</span>
+<p className="font-mono text-sm text-black/60 max-w-xl leading-relaxed">
+Answer 9 quick questions to see how AI is affecting you across the key dimensions of harm.
+Each response is linked to the relevant issue brief for deeper reading.
+{/* Results (if submitted) */}
+{submitted && (
+<p className="text-xs font-bold uppercase tracking-[0.2em] text-black/50 mb-2">Your Score</p>
+<p className={`text-lg font-bold mb-1 ${level.color}`}>{level.label}</p>
+<p className="text-sm font-mono text-black/50 mb-4">{level.desc}</p>
+{/* Progress bar */}
+{/* Breakdown */}
+<p className="text-xs font-bold uppercase tracking-[0.15em] text-black/50 mb-3">Breakdown by Issue</p>
+{questions.map((q) => {
+<a key={q.id} href={q.link} className="block border border-black/10 p-3 hover:bg-black/[0.02] transition-colors no-underline text-black">
+<span className="text-xs font-bold">{q.label}</span>
+<span className="text-xs font-mono text-black/40">{score}/6</span>
+Take Again
+{/* Questions */}
+{questions.map((q, idx) => {
+<p className="text-xs font-bold uppercase tracking-[0.15em] text-black/50">
+{String(idx + 1).padStart(2, '0')} / {q.label}
+<p className="text-sm font-bold mt-1">{q.question}</p>
+{q.options.map((opt, oi) => (
+key={oi}
+className={`flex items-center gap-3 px-3 py-2 cursor-pointer transition-colors text-sm ${
+answers[q.id] === opt.score
+? 'bg-black text-white'
+: 'hover:bg-black/[0.04] text-black/70'
+type="radio"
+name={q.id}
+value={opt.score}
+checked={answers[q.id] === opt.score}
+onChange={() => handleAnswer(q.id, opt.score)}
+className="sr-only"
+answers[q.id] === opt.score ? 'border-white bg-white' : 'border-black/30'
+{answers[q.id] === opt.score && <div className="w-1.5 h-1.5 bg-black" />}
+<span>{opt.text}</span>
+{/* Submit */}
+<p className="text-xs font-mono text-black/40">{answered} of {questions.length} answered</p>
+onClick={handleSubmit}
+disabled={answered < questions.length}
+className="px-8 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+{answered < questions.length ? `Answer All Questions (${questions.length - answered} left)` : 'See Your Score →'}
+<p className="text-xs font-mono text-black/30">This is an indicative self-assessment, not a clinical or diagnostic tool.</p>
+
+
+============================================================
+PAGE: Sentiment
+============================================================
+
+like: [
+'Productivity', 'Coding Help', 'Writing Assistance', 'Research', 'Creativity',
+'Data Analysis', 'Translation', 'Learning', 'Brainstorming', 'Automation',
+'Personal Assistant', 'Image Generation', 'Summarisation', 'Accessibility',
+dislike: [
+'Job Loss', 'Deepfakes', 'Plagiarism', 'Bias', 'Hallucinations',
+'Privacy Loss', 'Addiction', 'Data Centres', 'Water Usage', 'Surveillance',
+'Copyright Theft', 'Misinformation', 'Echo Chambers', 'Loss of Human Touch',
+interface Submission {
+firstName: string;
+location: string;
+likes: string[];
+dislikes: string[];
+timestamp: number;
+useEffect(() => {
+if (stored) {
+try { setSubmissions(JSON.parse(stored)); } catch {}
+setLikes(prev => prev.includes(topic) ? prev.filter(t => t !== topic) : [...prev, topic]);
+setDislikes(prev => prev.includes(topic) ? prev.filter(t => t !== topic) : [...prev, topic]);
+if (!firstName.trim()) return;
+firstName: firstName.trim(),
+location: location.trim() || 'Unknown',
+likes,
+dislikes,
+timestamp: Date.now(),
+setSubmissions(updated);
+localStorage.setItem(STORAGE_KEY, JSON.stringify(updated));
+setStep('cloud');
+submissions.forEach(s => {
+s.likes.forEach(l => {
+wordCounts[l] = { count: (wordCounts[l]?.count || 0) + 1, sentiment: 'like' };
+s.dislikes.forEach(d => {
+wordCounts[d] = { count: (wordCounts[d]?.count || 0) + 1, sentiment: 'dislike' };
+<span className="text-xs font-bold uppercase tracking-[0.2em] text-black/60">Sentiment</span>
+<h1 className="text-5xl md:text-7xl font-heading mb-6 leading-[0.9] tracking-[-0.03em]">
+What Do You<br />
+<span className="text-black">Think of AI?</span>
+<p className="font-mono text-sm text-black/60 max-w-xl leading-relaxed">
+Tap what you like and dislike about AI. See how your views compare to everyone else.
+{step === 'form' && (
+{/* Name + Location */}
+type="text"
+value={firstName}
+onChange={e => setFirstName(e.target.value)}
+placeholder="e.g. Sarah"
+className="w-full px-4 py-3 border-2 border-black/20 text-sm font-mono focus:outline-none focus:border-black transition-colors"
+type="text"
+value={location}
+onChange={e => setLocation(e.target.value)}
+placeholder="e.g. Melbourne, Australia"
+className="w-full px-4 py-3 border-2 border-black/20 text-sm font-mono focus:outline-none focus:border-black transition-colors"
+{/* Like / Dislike tabs */}
+onClick={() => setActiveTab('like')}
+className={`flex-1 py-3 text-xs font-bold uppercase tracking-[0.15em] transition-colors ${activeTab === 'like' ? 'bg-black text-white' : 'bg-white text-black/50 hover:bg-black/5'}`}
+I Like This
+onClick={() => setActiveTab('dislike')}
+className={`flex-1 py-3 text-xs font-bold uppercase tracking-[0.15em] transition-colors ${activeTab === 'dislike' ? 'bg-black text-white' : 'bg-white text-black/50 hover:bg-black/5'}`}
+I Don't Like This
+{/* Topic grid */}
+{(activeTab === 'like' ? topics.like : topics.dislike).map(topic => {
+key={topic}
+onClick={() => activeTab === 'like' ? toggleLike(topic) : toggleDislike(topic)}
+className={`px-3 py-2 text-xs font-mono border-2 transition-colors text-left ${
+selected
+? activeTab === 'like'
+? 'bg-black text-white border-black'
+: 'bg-black text-white border-black'
+: 'border-black/20 text-black/60 hover:border-black/40'
+{activeTab === 'like' ? '+' : '−'} {topic}
+{/* Summary */}
+<p className="text-xs font-mono text-black/40">
+{likes.length} liked · {dislikes.length} disliked
+onClick={handleSubmit}
+disabled={!firstName.trim()}
+className="flex items-center gap-2 px-8 py-3 bg-black text-white text-xs font-bold uppercase tracking-[0.15em] hover:bg-gray-900 transition-colors disabled:opacity-30 disabled:cursor-not-allowed"
+{step === 'submit' && (
+<p className="font-mono text-sm text-black/60">Submitting...</p>
+{step === 'cloud' && (
+{/* Thanks message */}
+<p className="text-lg font-heading mb-1">Thanks, {firstName}!</p>
+<p className="font-mono text-xs text-black/50">{location !== 'Unknown' && `${location} · `}{submissions.length} total submissions</p>
+{/* Word cloud */}
+{Object.entries(wordCounts).length === 0 ? (
+<p className="font-mono text-xs text-black/30">No data yet. Be the first!</p>
+Object.entries(wordCounts).map(([word, data]) => {
+<span
+key={word}
+className="inline-block font-heading transition-all hover:scale-110"
+style={{
+fontSize: `${size}px`,
+opacity: 0.5 + (data.count / maxCount) * 0.5,
+color: isLike ? '#000' : '#666',
+title={`${data.count} people`}
+{word}
+{/* Recent submissions */}
+<p className="text-xs font-bold uppercase tracking-[0.15em] text-black/40 mb-3">Recent Voices</p>
+{submissions.slice(0, 10).map((s, i) => (
+<span className="text-sm font-bold">{s.firstName}</span>
+<span className="text-[10px] font-mono text-black/40">{s.location}</span>
+<span className="text-[10px] font-mono text-black/20">{new Date(s.timestamp).toLocaleDateString()}</span>
+{s.likes.map(l => <span key={l} className="text-[10px] font-mono px-1.5 py-0.5 border border-black/20 bg-black/5">+{l}</span>)}
+{s.dislikes.map(d => <span key={d} className="text-[10px] font-mono px-1.5 py-0.5 border border-black/20 bg-black/70 text-white">−{d}</span>)}
+{/* Submit another */}
+onClick={() => { setStep('form'); setLikes([]); setDislikes([]); setFirstName(''); setLocation(''); }}
+className="px-8 py-3 border-2 border-black text-xs font-bold uppercase tracking-[0.15em] hover:bg-black hover:text-white transition-colors"
+Add Your Voice
+<p className="text-xs font-mono text-black/30">Data stored locally in your browser. No server. No tracking.</p>
+
+
+============================================================
+COMPONENT: AudioPlayer
+============================================================
+
+border-2 border-black bg-white flex items-center gap-3 px-4 py-2
+
+      />
+
+      {/* Play button */}
+      <button
+        onClick={togglePlay}
+        className=
+
+        aria-label={isPlaying ? 'Pause' : 'Play'}
+      >
+        {isPlaying ? <Pause className=
+ /> : <Play className=
+ />}
+      </button>
+
+      {/* Label + time */}
+      <div className=
+>
+        <p className=
+>{label}</p>
+        <div className=
+>
+          {/* Progress bar */}
+          <div className=
+ onClick={seek}>
+            <div className=
+ style={{ width: `${progress}%` }} />
+          </div>
+          <span className=
+
+
+============================================================
+COMPONENT: Footer
+============================================================
+
+bg-white border-t-2 border-black
+max-w-6xl mx-auto px-6 py-16
+grid md:grid-cols-4 gap-12 mb-12
+md:col-span-1
+text-2xl font-heading tracking-tight mb-4
+text-xs font-mono text-black/50 leading-relaxed mb-4
+text-[10px] font-mono text-black/30 border border-black/10 inline-block px-2 py-1
+text-xs font-bold uppercase tracking-[0.2em] mb-6
+>
+              {[
+                '/datacentres', '/deepfakes', '/chatbots', '/jobs',
+                '/ai-psychosis', '/algorithms', '/actual-intelligence',
+                '/copyright', '/engage-attach',
+              ].map((href) => (
+                <li key={href}>
+                  <a href={href} className=
+>{href}</a>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Info */}
+          <div>
+            <h4 className=
+>Info</h4>
+            <ul className=
+>
+              <li><a href=
+ className=
+>Legal</a></li>
+              <li><a href=
+ className=
+>Sitemap</a></li>
+              <li><a href=
+ className=
+>LLMs.txt</a></li>
+            </ul>
+          </div>
+
+          {/* Share */}
+          <div>
+            <h4 className=
+>Share</h4>
+            <div className=
+>
+              {/* X */}
+              <a href=
+noopener noreferrer
+w-8 h-8 border-2 border-black/20 flex items-center justify-center hover:bg-black hover:text-white hover:border-black transition-colors
+Share on X
+w-3.5 h-3.5
+currentColor
+M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z
+https://www.facebook.com/sharer/sharer.php?u=https://negaitive.com
+noopener noreferrer
+w-8 h-8 border-2 border-black/20 flex items-center justify-center hover:bg-black hover:text-white hover:border-black transition-colors
+Share on Facebook
+w-3.5 h-3.5
+currentColor
+M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z
+https://instagram.com/negaitive
+noopener noreferrer
+w-8 h-8 border-2 border-black/20 flex items-center justify-center hover:bg-black hover:text-white hover:border-black transition-colors
+>
+                <svg className=
+currentColor
+M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z
+https://tiktok.com/@negaitive
+noopener noreferrer
+w-8 h-8 border-2 border-black/20 flex items-center justify-center hover:bg-black hover:text-white hover:border-black transition-colors
+>
+                <svg className=
+currentColor
+M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z
+w-8 h-8 border-2 border-black/20 flex items-center justify-center hover:bg-black hover:text-white hover:border-black transition-colors
+>
+                <svg className=
+currentColor
+M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71
+M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71
+
+
+============================================================
+COMPONENT: Hero
+============================================================
+
+relative min-h-screen flex items-center justify-center bg-white text-black overflow-hidden pt-16
+absolute top-0 left-0 w-2 h-full bg-black
+NEG-AI-TIVE
+absolute top-8 left-8 text-[200px] md:text-[400px] font-black text-black/[0.03] leading-none pointer-events-none select-none
+relative z-10 px-8 max-w-5xl mx-auto w-full
+flex items-center gap-4 mb-16 border-l-8 border-black pl-4
+w-3 h-3 bg-black
+text-sm md:text-base font-bold uppercase tracking-[0.3em] text-black/60
+text-black/20 mx-2
+text-sm md:text-base font-bold uppercase tracking-[0.3em] text-black/60
+text-7xl md:text-9xl lg:text-[12rem] font-heading leading-[0.85] mb-8 tracking-[-0.04em]
+>NEG-</span>
+          <span className=
+>AI-</span>
+          <span className=
+>TIVE</span>
+        </h1>
+
+        {/* Separator */}
+        <div className=
+ />
+
+        {/* Description — set in monospace, like a teletype */}
+        <p className=
+>
+          Artists replaced. Writers ghosted. Coders obsolete. Marketers buried in spam.
+          The negative effects of AI are real. Here's the evidence.
+        </p>
+
+        {/* CTA buttons — raw black boxes */}
+        <div className=
+>
+          <a
+            href=
+
+            className=
+
+          >
+            Read the Horror Stories →
+          </a>
+          <a
+            href=
+
+            className=
+
+          >
+            Share Your Trauma
+          </a>
+        </div>
+
+        {/* Stats — raw numbers */}
+        <div className=
+>
+          {[
+            { label: 'Victims Documented', value: '12,847' },
+            { label: 'Jobs Lost to AI', value: '∞' },
+            { label: 'Research Sources', value: '40+' },
+          ].map((stat) => (
+            <div key={stat.label} className=
+>
+              <div className=
+>{stat.value}</div>
+              <div className=
+>{stat.label}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* Scroll indicator */}
+      <div className=
+>
+        <ArrowDown className=
+
+
+============================================================
+COMPONENT: Merch
+============================================================
+
+NEG-AI-TIVE (Black)
+, mockup: 
+, printfulId: 436243284 },
+  { name: 
+, mockup: 
+, printfulId: 436243299 },
+  { name: 
+, mockup: 
+, printfulId: 436243313 },
+  { name: 
+, mockup: 
+, printfulId: 436243325 },
+  { name: 
+, mockup: 
+, printfulId: 436243340 },
+  { name: 
+, mockup: 
+, printfulId: 436243354 },
+  { name: 
+, mockup: 
+, printfulId: 436243367 },
+  { name: 
+, mockup: 
+, printfulId: 436243378 },
+  { name: 
+, mockup: 
+, printfulId: 436243389 },
+  { name: 
+, mockup: 
+, printfulId: 436243402 },
+  { name: 
+Premium T-Shirt
+, mockup: 
+, printfulId: 436243684 },
+  { name: 
+, mockup: 
+, printfulId: 436243687 },
+  { name: 
+, mockup: 
+, printfulId: 436243691 },
+  { name: 
+, mockup: 
+, printfulId: 436243696 },
+  { name: 
+, mockup: 
+, printfulId: 436243700 },
+  { name: 
+, mockup: 
+, printfulId: 436243702 },
+  { name: 
+, mockup: 
+, printfulId: 436243708 },
+  { name: 
+, mockup: 
+, printfulId: 436243709 },
+  { name: 
+, mockup: 
+, printfulId: 436243713 },
+  { name: 
+, mockup: 
+, printfulId: 436243723 },
+  { name: 
+, mockup: 
+, printfulId: 436243759 },
+  { name: 
+, mockup: 
+, printfulId: 436243762 },
+  // Mugs
+  { name: 
+, mockup: 
+, printfulId: 436243765 },
+  { name: 
+, mockup: 
+, printfulId: 436243766 },
+  { name: 
+
+
+============================================================
+COMPONENT: Navbar
+============================================================
+
+max-w-6xl mx-auto px-6 h-16 flex items-center justify-between
+ className=
+>
+          NEG-AI-TIVE
+        </a>
+
+        {/* Desktop menu */}
+        <div className=
+>
+          {/* Issue Briefs dropdown */}
+          <div className=
+>
+            <button className=
+>
+              Issue Briefs ▾
+            </button>
+            <div className=
+>
+              <div className=
+>
+                {issueBriefs.map((brief) => (
+                  <a
+                    key={brief.href}
+                    href={brief.href}
+                    className=
+
+                  >
+                    {brief.label}
+                  </a>
+                ))}
+                <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+              >
+                Local AI Guide
+              </a>
+            </div>
+              <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+              >
+                Local AI Guide
+              </a>
+            </div>
+          </div>
+
+          <a href=
+ className=
+>
+            Legal
+          </a>
+          <a href=
+ className=
+>
+            About
+          </a>
+          <a href=
+ className=
+>
+            Scorecard
+          </a>
+          <a href=
+ className=
+>
+            Act
+          </a>
+          <a href=
+ className=
+>
+            Local AI
+          </a>
+          <a href=
+ className=
+>
+            Sentiment
+          </a>
+          <a href=
+ className=
+>
+            Quiz
+          </a>
+        </div>
+
+        {/* Hamburger (mobile) */}
+        <button
+          onClick={() => setIsOpen(!isOpen)}
+          className=
+
+          aria-label=
+
+        >
+          {isOpen ? (
+            <X className=
+ />
+          ) : (
+            <Menu className=
+ />
+          )}
+        </button>
+      </div>
+
+      {/* Mobile dropdown */}
+      {isOpen && (
+        <div className=
+>
+          <div className=
+>
+            <p className=
+>
+              Issue Briefs
+            </p>
+            {issueBriefs.map((brief) => (
+              <a
+                key={brief.href}
+                href={brief.href}
+                onClick={handleNavClick}
+                className=
+
+              >
+                {brief.label}
+              </a>
+            ))}
+            <div className=
+>
+              <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+              >
+                Legal
+              </a>
+              <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+              >
+                About
+              </a>
+              <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+              >
+                AI Harm Scorecard
+              </a>
+              <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+              >
+                How Screwed Quiz
+              </a>
+              <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+              >
+                Take Action
+              </a>
+              <a
+                href=
+
+                onClick={handleNavClick}
+                className=
+
+
+============================================================
+COMPONENT: NewsTicker
+============================================================
+
+border-t-2 border-black bg-white
+max-w-6xl mx-auto px-6 py-3 flex items-center gap-4
+shrink-0 flex items-center gap-2
+w-2 h-2 bg-black animate-pulse
+text-[10px] font-bold uppercase tracking-[0.15em]
+text-xs font-mono text-black/70 hover:text-black transition-colors truncate no-underline
+shrink-0 text-[10px] font-mono text-black/30
+
+
+============================================================
+COMPONENT: Newsletter
+============================================================
+
+An email address would be helpful. Unless you're communicating telepathically?
+That's not an email. Nice try, but AI can detect fake emails faster than you can type them.
+Welcome to the club! Check your inbox for AI-generated content about hating AI. Yes, we see the irony.
+Our newsletter system crashed. Probably an AI bug. How fitting.
+py-24 bg-white border-t border-black/10
+max-w-3xl mx-auto px-6
+>
+          <div className=
+>
+            <div className=
+>
+              <span className=
+>@</span>
+            </div>
+            <span className=
+>Pity Party Newsletter</span>
+          </div>
+          <h2 className=
+>
+            Join the<br />
+            <span className=
+>Pity Party</span>
+          </h2>
+          <div className=
+ />
+          <p className=
+>
+            Get weekly roasts of AI fails, job loss memes, and existential dread.
+            <span className=
+>100% AI-written. 0% human empathy. Just like your boss.</span>
+          </p>
+        </div>
+
+        <form onSubmit={handleSubmit} className=
+>
+          <input
+            type=
+
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            placeholder=
+
+            className=
+
+          />
+          <button
+            type=
+
+            disabled={status === 'loading'}
+            className=
+
+
+============================================================
+COMPONENT: StorySubmission
+============================================================
+
+Nice try, but we need actual words. AI hasn't replaced typing... yet.
+Your trauma is important to us. Please express it in complete sentences.
+Error 404: Sob story not found. Try adding more drama.
+We know you're hurt, but we need MORE DETAILS. Channel that rage!
+Your suffering has been documented! We'll review it while sipping coffee made by robots.
+Story received! An AI will process your complaint about AI. The irony is not lost on us.
+Submission successful! You're now officially part of the problem... we mean, solution.
+Is that it? AI replaced you with a 50-character sob story? Give us at least 50 characters of pure anguish!
+Even our submission system is broken. Probably AI's fault. Try again?
+ className=
+>
+      <div className=
+>
+        <div className=
+>
+          <div className=
+>
+            <div className=
+>
+              <span className=
+>!</span>
+            </div>
+            <span className=
+>Confessional Booth</span>
+          </div>
+          <h2 className=
+>
+            Spill Your<br />
+            <span className=
+>Guts</span>
+          </h2>
+          <div className=
+ />
+          <p className=
+>Tell the world how AI ruined your life. Or your career. Or just your vibe.</p>
+        </div>
+
+        <form onSubmit={handleSubmit} className=
+>
+          <div className=
+>
+            <div>
+              <label className=
+>Your Name</label>
+              <input
+                type=
+
+                value={formData.name}
+                onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+                placeholder=
+
+                className=
+
+              />
+            </div>
+            <div>
+              <label className=
+>Your Former Job</label>
+              <input
+                type=
+
+                value={formData.jobTitle}
+                onChange={(e) => setFormData({ ...formData, jobTitle: e.target.value })}
+                placeholder=
+
+                className=
+
+              />
+            </div>
+          </div>
+
+          <div>
+            <label className=
+>Your Tragedy (min. 50 char)</label>
+            <textarea
+              value={formData.story}
+              onChange={(e) => setFormData({ ...formData, story: e.target.value })}
+              placeholder=
+
+              rows={6}
+              className=
+
+            />
+            <div className=
+>
+              <span>{formData.story.length} characters</span>
+              {formData.story.length > 0 && formData.story.length < 50 && <span className=
+>{50 - formData.story.length} more needed</span>}
+            </div>
+          </div>
+
+          <button
+            type=
+
+            disabled={status === 'loading'}
+            className=
+
+
+============================================================
+COMPONENT: VictimStories
+============================================================
+
+Sarah the 'Artist'
+Digital Illustrator
+I spent 10 years perfecting my anime style. Then MidJourney showed up and now everyone's a 'professional artist.' My commissions went from $500 to 'exposure.' Thanks, AI. My landlord loves exposure.
+Dave the Disposable
+Junior Developer
+I just learned React. JUST. LEARNED. IT. And now ChatGPT writes better code than me while I sleep. My senior dev literally asked the AI to review MY pull requests. I'm being managed by a chatbot.
+Marketing Mike
+Content Strategist
+I used to be a 'growth hacker.' Now I'm competing with 10,000 AI-generated blog posts per day. My carefully crafted LinkedIn posts? Buried under AI spam. My job? Also buried. I'm basically a prompt engineer's footnote now.
+Writer Wendy
+Freelance Copywriter
+Clients now ask: 'Can you match ChatGPT's rate?' CHATGPT DOESN'T PAY RENT, KAREN. I spent 15 years learning storytelling. AI learned it in 15 seconds. My career is now worth $0.03 per word. That's 3 cents. THREE.
+Support Sam
+Customer Service Rep
+I was replaced by a chatbot named 'Sunny.' SUNNY. It doesn't even need lunch breaks. Doesn't complain. Never calls in sick. Just... exists. And somehow customers PREFER talking to it. I've been outperformed by 50 lines of Python code.
+Photographer Phil
+Stock Photographer
+I traveled to 47 countries for the perfect shot. Spent thousands on gear. Then Stable Diffusion created 'Sunset Over Mountains' in 2 seconds. My portfolio? Worthless. My camera? Paperweight. My dreams? Diffused into the ether.
+ className=
+>
+      <div className=
+>
+
+        {/* Header — brutalist minimal */}
+        <div className=
+>
+          <div className=
+>
+            <div className=
+>
+              <span className=
+>#</span>
+            </div>
+            <span className=
+>Hall of Shame</span>
+          </div>
+          <h2 className=
+>
+            Hall of<br />
+            <span className=
+>Shame</span>
+          </h2>
+          <div className=
+ />
+          <p className=
+>
+            Real stories from real people who definitely aren't making this up for comedic effect.
+            <span className=
+>(Okay fine, these are satirical. But you felt them, didn't you?)</span>
+          </p>
+        </div>
+
+        {/* Stories — brutalist grid */}
+        <div className=
+>
+          {stories.map((story, index) => (
+            <div
+              key={index}
+              className=
+
+            >
+              {/* Victim number */}
+              <div className=
+>
+                VICTIM #{String(index + 1).padStart(2, '0')}
+              </div>
+
+              {/* Name + job */}
+              <div className=
+>
+                <h3 className=
+>{story.name}</h3>
+                <p className=
+>{story.job}</p>
+              </div>
+
+              {/* Separator */}
+              <div className=
+ />
+
+              {/* Story */}
+              <p className=
+>
+                
+
+              </p>
+
+              {/* Read more indicator */}
+              <div className=
+
+
+============================================================
+INDEX.HTML (meta, structured data)
+============================================================
+
+<meta charset="UTF-8" />
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>NEG-AI-TIVE — The Negative Aspects of Artificial Intelligence</title>
+
+<meta name="title" content="NEG-AI-TIVE — The Negative Aspects of AI" />
+
+<meta name="description" content="Awareness project documenting the real-world harms of AI: data centres draining water, deepfakes stealing billions, chatbots driving teen suicides, and more. Research-backed issue briefs." />
+
+<meta name="keywords" content="AI harms, artificial intelligence risks, data centres, deepfakes, AI chatbots, job automation, AI hallucinations, algorithmic bias, AI copyright, AI addiction" />
+
+<meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+
+<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large" />
+
+<meta name="author" content="NEG-AI-TIVE" />
+
+<meta name="referrer" content="strict-origin-when-cross-origin" />
+
+<meta property="og:type" content="website" />
+
+<meta property="og:url" content="https://www.negaitive.com/" />
+
+<meta property="og:title" content="NEG-AI-TIVE — The Negative Aspects of Artificial Intelligence" />
+
+<meta property="og:description" content="The negative aspects of AI: data centres draining water, deepfakes stealing billions, chatbots driving teen suicides. Research-backed evidence." />
+
+<meta property="og:image" content="https://www.negaitive.com/designs/world-map-bw.png" />
+
+<meta property="og:image:width" content="1200" />
+
+<meta property="og:image:height" content="630" />
+
+<meta property="og:locale" content="en_AU" />
+
+<meta property="og:site_name" content="NEG-AI-TIVE" />
+
+<meta name="twitter:card" content="summary_large_image" />
+
+
