@@ -36,6 +36,8 @@ export default function Sentiment() {
   const [submissions, setSubmissions] = useState<Submission[]>([]);
   const [activeTab, setActiveTab] = useState<'like' | 'dislike'>('like');
   const [submitting, setSubmitting] = useState(false);
+  const [page, setPage] = useState(0);
+  const PER_PAGE = 10;
 
   useEffect(() => {
     const stored = localStorage.getItem(STORAGE_KEY);
@@ -85,6 +87,8 @@ export default function Sentiment() {
 
     setSubmitting(false);
     setStep('cloud');
+    setPage(0);
+    setPage(0);
   };
 
   // Word cloud calculations
@@ -379,11 +383,11 @@ export default function Sentiment() {
               </div>
             </div>
 
-            {/* Recent submissions */}
+            {/* Recent submissions with pagination */}
             <div className="mb-8">
-              <p className="text-xs font-bold uppercase tracking-[0.15em] text-black/40 mb-3">Recent Voices</p>
-              <div className="space-y-2 max-h-[400px] overflow-y-auto">
-                {submissions.slice(0, 20).map((s, i) => (
+              <p className="text-xs font-bold uppercase tracking-[0.15em] text-black/40 mb-3">Voices ({submissions.length})</p>
+              <div className="space-y-2">
+                {submissions.slice(page * PER_PAGE, (page + 1) * PER_PAGE).map((s, i) => (
                   <div key={i} className="border border-black/10 p-3">
                     <div className="flex items-center justify-between mb-1">
                       <div className="flex items-center gap-2">
@@ -394,11 +398,29 @@ export default function Sentiment() {
                     </div>
                     <div className="flex flex-wrap gap-1">
                       {s.likes.map(l => <span key={l} className="text-[10px] font-mono px-1.5 py-0.5 border border-black/20 bg-black/5">+{l}</span>)}
-                      {s.dislikes.map(d => <span key={d} className="text-[10px] font-mono px-1.5 py-0.5 border border-black/20 bg-black/70 text-white">−{d}</span>)}
+                      {s.dislikes.map(d => <span key={d} className="text-[10px] font-mono px-1.5 py-0.5 border border-black/20 bg-black/70 text-white">-{d}</span>)}
                     </div>
                   </div>
                 ))}
               </div>
+              {submissions.length > PER_PAGE && (
+                <div className="flex items-center justify-center gap-3 mt-4">
+                  <button onClick={() => setPage(Math.max(0, page - 1))} disabled={page === 0}
+                    className="px-3 py-1.5 border-2 border-black/20 text-[10px] font-bold uppercase tracking-[0.15em] hover:bg-black hover:text-white transition-colors disabled:opacity-30 disabled:cursor-not-allowed">
+                    Prev
+                  </button>
+                  {Array.from({ length: Math.ceil(submissions.length / PER_PAGE) }, (_, i) => (
+                    <button key={i} onClick={() => setPage(i)}
+                      className={`w-7 h-7 text-[10px] font-bold ${i === page ? 'bg-black text-white' : 'border-2 border-black/20 hover:bg-black/5'} transition-colors`}>
+                      {i + 1}
+                    </button>
+                  ))}
+                  <button onClick={() => setPage(Math.min(Math.ceil(submissions.length / PER_PAGE) - 1, page + 1))} disabled={page >= Math.ceil(submissions.length / PER_PAGE) - 1}
+                    className="px-3 py-1.5 border-2 border-black/20 text-[10px] font-bold uppercase tracking-[0.15em] hover:bg-black hover:text-white transition-colors disabled:opacity-30 disabled:cursor-not-allowed">
+                    Next
+                  </button>
+                </div>
+              )}
             </div>
 
             <div className="text-center">
