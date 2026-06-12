@@ -16,6 +16,7 @@
     { "source": "/action", "destination": "/index.html" },
     { "source": "/local-ai", "destination": "/index.html" },
     { "source": "/about", "destination": "/index.html" },
-    { "source": "/sentiment", "destination": "/index.html" }
+    { "source": "/sentiment", "destination": "/index.html" },
+    { "source": "/pattern-of-life", "destination": "/index.html" }
   ]
 }
