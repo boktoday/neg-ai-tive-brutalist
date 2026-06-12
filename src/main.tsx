@@ -18,6 +18,7 @@ import Action from './pages/Action.tsx';
 import LocalAI from './pages/LocalAI.tsx';
 import About from './pages/About.tsx';
 import Sentiment from './pages/Sentiment.tsx';
+import PatternOfLife from './pages/PatternOfLife.tsx';
 import './index.css';
 
 createRoot(document.getElementById('root')!).render(
@@ -41,6 +42,7 @@ createRoot(document.getElementById('root')!).render(
         <Route path="/local-ai" element={<LocalAI />} />
         <Route path="/about" element={<About />} />
         <Route path="/sentiment" element={<Sentiment />} />
+        <Route path="/pattern-of-life" element={<PatternOfLife />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>

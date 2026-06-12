@@ -11,6 +11,7 @@ const issueBriefs = [
   { label: 'Actual Intelligence', href: '/actual-intelligence' },
   { label: 'AI Made This Design', href: '/copyright' },
   { label: 'Designed to Hook You', href: '/engage-attach' },
+  { label: 'Pattern of Life', href: '/pattern-of-life' },
 ];
 
 export default function Navbar() {
